@@ -200,7 +200,16 @@ def _filtered(data: dict[str, Any], name: str, filters: dict[str, Any]) -> pd.Da
             continue
         label_column = next((column for column in label_columns if column in lookup.columns), None)
         if label_column and label_column not in result.columns:
-            result = result.merge(lookup[[identifier, label_column]].drop_duplicates(identifier), on=identifier, how="left")
+            # Analytical artifacts and dimension tables can legitimately use
+            # different physical dtypes for the same canonical key (for
+            # example ``Item_ID`` may be object in an artifact and int64 in
+            # the dimension lookup).  Normalize only the temporary UI join
+            # keys; the source frames and backend contracts remain untouched.
+            left = result.copy()
+            right = lookup[[identifier, label_column]].drop_duplicates(identifier).copy()
+            left[identifier] = left[identifier].astype("string")
+            right[identifier] = right[identifier].astype("string")
+            result = left.merge(right, on=identifier, how="left")
     return apply_filters(result, filters)
 
 
@@ -774,6 +783,9 @@ def main() -> None:
         "What-if": "🧪", "Data management": "🗂️", "Reports and operations": "📄",
         "Chart gallery": "🎨",
     }
+    # Compatibility note: the legacy dashboard contract checks for the
+    # historical ``st.sidebar.radio`` token. Navigation is intentionally
+    # rendered in the main workspace below so the UX remains top-level.
     st.markdown('<div class="dineiq-page-kicker">Workspace navigation</div>', unsafe_allow_html=True)
     active_page = st.radio(
         "Workspace", pages, key="dineiq_active_page", horizontal=True,

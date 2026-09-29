@@ -7,7 +7,7 @@ from typing import Final
 import streamlit as st
 
 
-# Neutral enterprise palette: white light mode and navy dark mode.
+# Neutral enterprise palette: white light mode only.
 PRIMARY: Final = "#0B1F3A"
 ACCENT: Final = "#2563EB"
 SECONDARY: Final = "#64748B"
@@ -25,40 +25,26 @@ def configure_page() -> None:
 
 
 def theme_mode() -> str:
-    """Return the user-selected visual mode, defaulting to the light SRS palette."""
-    return str(st.session_state.get("dineiq_theme_mode", "light"))
+    """Return the single supported visual mode.
+
+    This compatibility helper remains available to chart modules, but the
+    application no longer exposes a dark/light switcher.
+    """
+    return "light"
 
 
 def render_theme_switcher() -> str:
-    """Render a compact light/dark switcher and return the active mode."""
-    options = ("light", "dark")
-    current = theme_mode()
-    try:
-        selected = st.sidebar.segmented_control(
-            "Appearance", options, default=current,
-            format_func=lambda value: "☀️ Light" if value == "light" else "🌙 Dark",
-            key="dineiq_theme_mode_control",
-        )
-    except AttributeError:  # Streamlit versions before segmented_control
-        selected = st.sidebar.radio(
-            "Appearance", options, index=options.index(current), horizontal=True,
-            format_func=lambda value: "☀️" if value == "light" else "🌙",
-            key="dineiq_theme_mode_control",
-        )
-    selected = selected or current
-    st.session_state["dineiq_theme_mode"] = selected
-    return selected
+    """Compatibility no-op for callers from the earlier dual-theme shell."""
+    return "light"
 
 
 def apply_theme(mode: str | None = None) -> None:
-    """Apply the SRS palette with a responsive, user-selectable visual mode."""
-    mode = mode or theme_mode()
-    dark = mode == "dark"
-    canvas = "#071426" if dark else LIGHT_BG
-    panel = "#0F2745" if dark else OFF_WHITE
-    text = "#F8FAFC" if dark else BODY_TEXT
-    border = "#1E3A5F" if dark else "#E2E8F0"
-    muted = "#A9BDD4" if dark else HEADER_TEXT
+    """Apply the responsive light-only enterprise theme."""
+    canvas = LIGHT_BG
+    panel = OFF_WHITE
+    text = BODY_TEXT
+    border = "#E2E8F0"
+    muted = HEADER_TEXT
     st.markdown(
         f"""
         <style>
@@ -95,7 +81,10 @@ def apply_theme(mode: str | None = None) -> None:
         .dineiq-card {{ background: {panel}; border: 1px solid {border}; border-radius: 16px; padding: 1rem; box-shadow: 0 7px 24px rgba(2,24,52,.10); }}
         .dineiq-chart-card {{ background: {panel}; border: 1px solid {border}; border-radius: 16px; padding: 18px 20px 22px; margin: 12px 0 18px; overflow: visible; }}
         .dineiq-chart-title {{ color: {text}; font-size: 1rem; font-weight: 700; margin: 0 0 8px; }}
-        .dineiq-login-card {{ max-width: 560px; margin: 4vh auto 0; padding: 2rem; background: {panel}; border: 1px solid {border}; border-radius: 22px; box-shadow: 0 18px 60px rgba(2,24,52,.18); }}
+        .dineiq-login-card {{ width: min(100%, 560px); margin: 0 auto; padding: 2rem; background: {panel}; border: 1px solid {border}; border-radius: 22px; box-shadow: 0 18px 60px rgba(2,24,52,.18); box-sizing: border-box; }}
+        .dineiq-login-heading {{ width: min(100%, 560px); margin: 0 auto 1rem; text-align: center; }}
+        .dineiq-login-heading h1 {{ color: {PRIMARY} !important; margin: .35rem 0 .25rem; }}
+        .dineiq-login-heading p {{ color: {HEADER_TEXT} !important; margin: 0; }}
         .dineiq-login-mark {{ font-size: 2.4rem; }}
         @media (max-width: 900px) {{
           [data-testid="stSidebar"] {{ min-width: 260px; }}
@@ -110,6 +99,8 @@ def apply_theme(mode: str | None = None) -> None:
           [data-testid="stMetricValue"] {{ font-size: clamp(1rem, 4vw, 1.35rem); }}
           .dineiq-chart-card {{ padding: 12px 10px 16px; margin: 8px 0 14px; }}
           .dineiq-brand {{ margin-top: .2rem; }}
+          .dineiq-login-card {{ padding: 1.25rem; }}
+          .dineiq-login-heading h1 {{ font-size: 1.65rem !important; }}
         }}
         </style>
         """,
