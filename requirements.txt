@@ -1,0 +1,9 @@
+# Runtime libraries selected from the SRS stack and the uploaded dataset formats.
+# Versions are bounded to retain Python 3.13 compatibility; lock exact versions
+# after the target WSL environment passes the dependency check.
+numpy>=1.26,<3
+pandas>=2.2,<3
+pyarrow>=18,<26
+pyspark==4.1.3
+scikit-learn>=1.7,<2
+streamlit>=1.39,<2

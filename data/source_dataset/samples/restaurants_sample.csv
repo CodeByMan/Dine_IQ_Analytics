@@ -1,0 +1,26 @@
+Location_ID,Restaurant_Name,City,Province,Area,Latitude,Longitude,Opening_Date,Restaurant_Type,Seating_Capacity,Delivery_Radius_KM,Average_Rating,Manager_ID,Status,Volume_Index,Service_Quality
+1,Dastarkhwan Clifton,Karachi,Sindh,Clifton,24.82438,66.9168,2022-01-12,Quick Service,159,9.3,3.62,MGR0001,Active,1.43,0.23
+2,Karachi Grill DHA,Lahore,Punjab,DHA,25.4747,67.69866,2019-08-25,Family Dining,100,6.3,4.7,MGR0002,Active,1.17,0.28
+3,Lahori Zaika F-8,Islamabad,Islamabad Capital Territory,F-8,26.2374,68.33126,2024-01-11,Premium Casual,115,3.6,4.58,MGR0003,Active,1.16,0.23
+4,Chai Junction Bahria Town,Rawalpindi,Punjab,Bahria Town,26.84553,69.1978,2021-12-16,Cafe,164,10.0,3.75,MGR0004,Active,1.02,-0.27
+5,Desi Courtyard D Ground,Faisalabad,Punjab,D Ground,27.63302,69.83447,2019-03-01,Quick Service,142,11.7,3.92,MGR0005,Active,0.95,0.03
+6,Spice Route Gulgasht,Multan,Punjab,Gulgasht,28.39032,70.49088,2020-07-18,Family Dining,103,5.0,4.37,MGR0006,Active,1.0,0.28
+7,Dastarkhwan University Road,Peshawar,Khyber Pakhtunkhwa,University Road,28.9063,71.24345,2020-01-26,Premium Casual,155,10.2,4.0,MGR0007,Active,0.88,0.18
+8,Karachi Grill Satellite Town,Quetta,Balochistan,Satellite Town,29.71789,71.95431,2019-11-08,Cafe,36,10.1,4.36,MGR0008,Active,1.21,0.25
+9,Lahori Zaika Latifabad,Hyderabad,Sindh,Latifabad,30.36237,72.54889,2024-05-08,Quick Service,55,4.0,4.37,MGR0009,Active,1.03,0.1
+10,Chai Junction Satellite Town,Gujranwala,Punjab,Satellite Town,31.07321,67.01302,2021-04-04,Family Dining,115,8.0,3.9,MGR0010,Active,0.67,0.01
+11,Desi Courtyard Cantt,Sialkot,Punjab,Cantt,31.86864,67.6847,2018-10-02,Premium Casual,158,5.1,3.58,MGR0011,Active,0.88,-0.09
+12,Spice Route Model Town A,Bahawalpur,Punjab,Model Town A,24.85524,68.36582,2021-08-11,Cafe,148,9.0,4.03,MGR0012,Active,1.3,-0.18
+13,Dastarkhwan Military Road,Sukkur,Sindh,Military Road,25.47096,69.06946,2020-01-18,Quick Service,139,7.2,3.71,MGR0013,Active,1.05,-0.19
+14,Karachi Grill Mandian,Abbottabad,Khyber Pakhtunkhwa,Mandian,26.23572,69.85323,2023-08-06,Family Dining,90,5.7,4.32,MGR0014,Active,0.94,-0.24
+15,Lahori Zaika Satellite Town,Sargodha,Punjab,Satellite Town,26.79418,70.42022,2022-06-04,Premium Casual,166,9.3,3.85,MGR0015,Active,1.43,0.25
+16,Chai Junction Gulistan-e-Johar,Karachi,Sindh,Gulistan-e-Johar,27.659,71.12531,2020-04-01,Cafe,74,3.9,4.67,MGR0016,Active,1.01,-0.16
+17,Desi Courtyard Bahria Town,Lahore,Punjab,Bahria Town,28.33475,71.91902,2021-05-13,Quick Service,60,10.7,4.49,MGR0017,Active,1.23,0.0
+18,Spice Route F-8,Islamabad,Islamabad Capital Territory,F-8,29.00175,72.72814,2024-01-06,Family Dining,129,3.8,4.04,MGR0018,Active,0.68,0.05
+19,Dastarkhwan Saddar Rawalpindi,Rawalpindi,Punjab,Saddar Rawalpindi,29.76681,67.02855,2020-08-06,Premium Casual,49,8.3,3.72,MGR0019,Active,1.39,0.11
+20,Karachi Grill People’s Colony,Faisalabad,Punjab,People’s Colony,30.28987,67.75081,2022-11-04,Cafe,38,11.6,4.13,MGR0020,Active,1.28,-0.24
+21,Lahori Zaika Cantt,Multan,Punjab,Cantt,31.25974,68.63311,2021-12-25,Quick Service,170,8.1,4.12,MGR0021,Active,0.86,-0.07
+22,Chai Junction Hayatabad,Peshawar,Khyber Pakhtunkhwa,Hayatabad,31.76677,69.05103,2022-11-26,Family Dining,38,10.4,4.67,MGR0022,Active,0.76,0.09
+23,Desi Courtyard Jinnah Road,Quetta,Balochistan,Jinnah Road,24.66603,69.7611,2023-11-15,Premium Casual,75,8.9,4.45,MGR0023,Active,1.26,-0.22
+24,Spice Route Qasimabad,Hyderabad,Sindh,Qasimabad,25.46006,70.4052,2023-03-08,Cafe,40,8.0,3.98,MGR0024,Active,1.31,0.27
+25,Dastarkhwan Satellite Town,Gujranwala,Punjab,Satellite Town,26.12777,71.27453,2020-11-06,Quick Service,77,7.6,3.83,MGR0025,Active,1.4,-0.18

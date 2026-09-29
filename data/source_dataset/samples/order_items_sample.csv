@@ -1,0 +1,26 @@
+Order_Item_ID,Order_ID,Item_ID,Quantity,Unit_Price,Discount_Amount,Line_Total,Item_Cost,Gross_Profit,Special_Request,Preparation_Time,Item_Status,Is_Anomaly,Is_Duplicate
+1,1,113,1,1866.61,0.0,1866.61,950,916.61,No onions,24,Completed,False,False
+2,1,118,2,1901.41,0.0,3802.83,1620,2182.83,,23,Completed,False,False
+3,1,154,2,449.13,0.0,898.25,440,458.25,Sauce on side,25,Completed,False,False
+4,1,13,2,512.54,0.0,1025.07,500,525.07,Extra spicy,29,Completed,False,False
+5,1,116,2,2244.12,0.0,4488.23,2540,1948.23,,40,Completed,False,False
+6,1,152,1,582.38,0.0,582.38,290,292.38,Extra spicy,22,Completed,False,False
+7,1,160,2,637.6,0.0,1275.2,600,675.2,Less spicy,28,Completed,False,False
+8,1,58,1,1041.93,0.0,1041.93,480,561.93,No onions,26,Completed,False,False
+9,2,164,2,404.27,0.0,808.55,300,508.55,,42,Completed,False,False
+10,2,205,3,338.22,0.0,1014.65,450,564.65,Extra spicy,28,Completed,False,False
+11,2,210,2,627.5,0.0,1254.99,680,574.99,Extra spicy,23,Completed,False,False
+12,2,116,2,2460.36,0.0,4920.72,2540,2380.72,,37,Completed,False,False
+13,2,210,3,692.86,0.0,2078.57,1020,1058.57,Sauce on side,32,Completed,False,False
+14,2,147,3,1301.07,0.0,3903.22,2430,1473.22,No onions,36,Completed,False,False
+15,2,8,1,780.66,0.0,780.66,420,360.66,No onions,11,Completed,False,False
+16,2,44,1,111.34,0.0,111.34,30,81.34,Extra spicy,8,Completed,False,False
+17,3,75,2,2807.97,0.0,5615.95,2540,3075.95,,5,Completed,False,False
+18,3,190,3,532.36,0.0,1597.07,840,757.07,Extra spicy,32,Completed,False,False
+19,3,6,1,1766.39,0.0,1766.39,940,826.39,Less spicy,18,Completed,False,False
+20,3,173,1,588.57,0.0,588.57,210,378.57,Less spicy,16,Completed,False,False
+21,4,130,3,1078.87,0.0,3236.6,1290,1946.6,Extra spicy,7,Completed,False,False
+22,4,58,1,1108.47,0.0,1108.47,480,628.47,Sauce on side,29,Completed,False,False
+23,4,160,2,618.61,0.0,1237.22,600,637.22,Less spicy,22,Completed,False,False
+24,4,149,1,718.71,0.0,718.71,360,358.71,Less spicy,17,Completed,False,False
+25,4,131,3,1384.0,0.0,4152.0,1980,2172.0,Less spicy,17,Completed,False,False

@@ -1,0 +1,3 @@
+Order_ID,Customer_ID,Location_ID,Promotion_ID,Channel_ID,Order_Date,Order_Time,Order_DateTime,Order_Status,Payment_Method,Delivery_Type,Subtotal,Discount_Amount,Tax_Amount,Delivery_Fee,Total_Amount,Order_Source,Cancellation_Reason,Is_Anomaly,Is_Duplicate
+2,14581,25,,7,2026-02-12,22:20:00,2026-02-12 22:20:00,Completed,Cash,Dine-in,16220.0,0.0,811.0,0,17031.0,Direct,,False,False
+2,14581,25,,7,2026-02-12,22:20:00,2026-02-12 22:20:00,Completed,Cash,Dine-in,16220.0,0.0,811.0,0,17031.0,Direct,,False,False

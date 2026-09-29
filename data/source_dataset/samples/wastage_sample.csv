@@ -1,0 +1,26 @@
+Wastage_ID,Location_ID,Item_ID,Wastage_Date,Quantity_Wasted,Unit_Cost,Total_Wastage_Cost,Wastage_Reason,Shift,Recorded_By,Preventable_Flag,Is_Anomaly
+1,2,158,2026-07-12,0.41,180,73.8,Wrong Order,Late Night,STAFF0577,True,True
+2,12,168,2025-12-04,0.46,630,289.8,Customer Return,Late Night,STAFF0224,False,False
+3,23,8,2025-05-12,0.43,420,180.6,Spoilage,Evening,STAFF0299,True,False
+4,2,67,2026-07-27,0.22,550,121.0,Spoilage,Lunch,STAFF0191,True,False
+5,1,53,2026-03-20,0.0,1320,0.0,Quality Rejection,Lunch,STAFF0229,False,False
+6,12,190,2025-05-14,0.55,280,154.0,Expired,Dinner,STAFF0206,True,False
+7,2,190,2025-11-07,0.18,280,50.4,Expired,Late Night,STAFF0692,True,False
+8,26,141,2026-04-07,0.18,110,19.8,Overproduction,Lunch,STAFF0220,True,False
+9,8,164,2025-11-20,0.48,150,72.0,Overproduction,Evening,STAFF0270,True,False
+10,21,102,2025-10-16,0.76,1130,858.8,Overproduction,Late Night,STAFF0413,True,False
+11,7,63,2025-01-09,1.01,220,222.2,Customer Return,Breakfast,STAFF0695,False,False
+12,8,23,2026-05-27,0.06,180,10.8,Overproduction,Dinner,STAFF0510,True,False
+13,3,64,2025-09-20,0.29,290,84.1,Expired,Dinner,STAFF0085,True,False
+14,25,174,2026-09-23,0.21,90,18.9,Preparation Error,Breakfast,STAFF0116,True,False
+15,27,102,2026-01-10,0.65,1130,734.5,Expired,Lunch,STAFF0620,True,False
+16,10,85,2025-10-04,0.04,460,18.4,Quality Rejection,Evening,STAFF0213,False,False
+17,27,148,2026-08-26,0.67,290,194.3,Quality Rejection,Lunch,STAFF0174,False,False
+18,22,41,2025-10-06,0.46,60,27.6,Burnt,Evening,STAFF0524,True,False
+19,16,78,2024-11-12,0.07,550,38.5,Overproduction,Late Night,STAFF0030,True,False
+20,21,23,2024-10-26,0.17,180,30.6,Burnt,Lunch,STAFF0026,True,False
+21,25,186,2026-07-15,0.68,50,34.0,Storage Issue,Late Night,STAFF0169,True,False
+22,21,207,2026-05-11,0.02,250,5.0,Overproduction,Late Night,STAFF0109,True,False
+23,5,51,2026-04-13,0.64,1230,787.2,Customer Return,Dinner,STAFF0327,False,False
+24,21,53,2025-07-06,0.4,1320,528.0,Quality Rejection,Dinner,STAFF0511,False,False
+25,23,95,2026-06-23,1.66,700,1162.0,Preparation Error,Lunch,STAFF0490,True,False

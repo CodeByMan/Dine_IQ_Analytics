@@ -1,0 +1,17 @@
+{
+  "purpose": "Isolated validator fixtures; canonical data files are unchanged.",
+  "fixtures": [
+    {
+      "file": "duplicate_orders.csv",
+      "table": "orders",
+      "primary_key": "Order_ID",
+      "expected_duplicate_groups": 1
+    },
+    {
+      "file": "duplicate_order_items.csv",
+      "table": "order_items",
+      "primary_key": "Order_Item_ID",
+      "expected_duplicate_groups": 1
+    }
+  ]
+}

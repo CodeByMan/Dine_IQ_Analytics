@@ -1,0 +1,26 @@
+Rating_ID,Customer_ID,Order_ID,Item_ID,Location_ID,Rating,Review_Text,Review_Date,Sentiment,Is_Verified,Response_Time_Hours,Is_Anomaly,Is_Duplicate
+1,5427,63416,95,18,5,,2025-09-09 23:49:00,Positive,True,57.8,True,False
+2,22060,13728,116,2,5,Biryani was aromatic and rice perfectly cooked.,2025-02-07 00:17:00,Positive,True,20.8,False,False
+3,48787,71632,5,20,4,"Excellent BBQ flavour, though the portion was small.",2026-04-21 08:53:00,Positive,True,15.2,False,False
+4,60293,4761,92,1,5,Great taste and generous portion for the price.,2026-04-14 01:12:00,Positive,True,20.8,False,False
+5,57243,86679,116,5,4,Food was average; value for money could improve.,2026-07-11 20:12:00,Positive,True,16.3,False,False
+6,28623,110001,123,23,4,Food was average; value for money could improve.,2025-11-27 10:22:00,Positive,True,12.9,False,False
+7,14582,81519,70,22,3,"Excellent BBQ flavour, though the portion was small.",2026-07-27 14:22:00,Neutral,True,48.5,False,False
+8,7107,84550,19,5,3,Delivery was late and food arrived cold.,2025-09-05 18:13:00,Neutral,True,10.1,False,False
+9,57162,56146,31,27,5,"Fresh ingredients, good packaging and polite service.",2025-03-07 03:31:00,Positive,True,5.6,False,False
+10,42490,121933,70,12,2,Spice level was higher than expected.,2026-01-18 22:12:00,Negative,True,24.7,False,False
+11,51588,4529,60,12,3,"Fresh ingredients, good packaging and polite service.",2026-06-03 10:25:00,Neutral,True,32.7,False,False
+12,19723,18830,176,25,4,Great taste and generous portion for the price.,2026-03-09 16:46:00,Positive,True,37.8,False,False
+13,17984,89625,130,2,5,Packaging leaked and meal was lukewarm.,2025-12-04 12:07:00,Positive,True,33.6,False,False
+14,43756,44791,107,26,5,Spice level was higher than expected.,2026-06-29 12:47:00,Positive,True,54.2,False,False
+15,25708,105939,207,9,5,Food was average; value for money could improve.,2025-04-11 16:33:00,Positive,True,67.0,False,False
+16,53606,36267,126,19,3,"Excellent BBQ flavour, though the portion was small.",2026-09-02 20:26:00,Neutral,True,70.8,False,False
+17,47036,35645,48,12,4,Order was delayed but staff handled the issue well.,2025-10-03 10:40:00,Positive,True,65.2,False,False
+18,16690,44591,161,23,5,Spice level was higher than expected.,2025-03-16 07:23:00,Positive,True,63.7,False,False
+19,47619,3523,85,15,4,Packaging leaked and meal was lukewarm.,2026-06-10 03:08:00,Positive,True,14.8,False,False
+20,44367,17577,113,13,4,Packaging leaked and meal was lukewarm.,2025-06-14 14:56:00,Positive,True,46.4,False,False
+21,45438,81414,200,20,3,Tea was hot and snack was crisp.,2025-07-19 04:47:00,Neutral,True,37.0,False,False
+22,60514,36183,29,20,4,Great taste and generous portion for the price.,2025-12-20 03:20:00,Positive,True,21.3,False,False
+23,42027,102518,93,18,4,Food was average; value for money could improve.,2026-09-16 02:36:00,Positive,True,50.3,False,False
+24,15478,114829,80,20,4,Spice level was higher than expected.,2026-05-30 21:55:00,Positive,True,58.4,False,False
+25,12852,30784,160,23,5,Tea was hot and snack was crisp.,2026-04-07 20:14:00,Positive,True,23.0,False,False

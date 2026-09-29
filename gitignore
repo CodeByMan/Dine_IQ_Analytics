@@ -1,0 +1,55 @@
+# Python environments
+.venv/
+venv/
+dineiq_analytics_env/
+env/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.pem
+*.key
+
+# Local databases and logs
+*.sqlite
+*.sqlite3
+*.db
+logs/
+*.log
+
+# Generated application outputs
+artifacts/
+reports/generated/
+models/
+*.joblib
+*.pkl
+
+# Temporary data-generation files
+*.tmp
+*.temp
+*.part
+*.iQpRED
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local delivery archives
+*.zip

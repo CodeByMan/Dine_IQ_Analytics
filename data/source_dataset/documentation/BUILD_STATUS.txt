@@ -1,0 +1,21 @@
+DATASET PACKAGE BUILD STATUS
+
+The CSV tables, processed transaction-term CSV, samples, fixtures, dictionary,
+statistics, and chronological splits in this update have been rebuilt and
+validated. The Parquet binaries were carried forward from the uploaded input;
+this execution environment does not have PyArrow, so it could not regenerate
+or read back Parquet after the CSV schema/value changes. The strict validator
+therefore reports the Parquet check as FAIL until it is rebuilt.
+
+Before treating this ZIP as a final dataset submission, run from the extracted
+restaurant_hackathon_dataset directory in the user's Python 3.13 environment
+(where PyArrow 25.0.1 is installed):
+
+  py -3.13 scripts\create_parquet.py
+  py -3.13 scripts\validate_dataset_gate.py
+
+The first command regenerates all 12 canonical Parquet tables and the large
+processed transaction_terms.parquet from their current CSV sources. The second
+command verifies schemas, types, row counts, and values. Repackage the folder
+after both commands report PASS. Do not use the carried-forward Parquet files
+as final evidence before rebuilding them.

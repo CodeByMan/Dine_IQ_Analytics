@@ -1,0 +1,26 @@
+Customer_ID,Customer_Name,Age,Gender,City,Area,Signup_Date,Customer_Segment,Preferred_Channel,Preferred_Cuisine,Loyalty_Tier,Income_Band,Acquisition_Source,Is_Active,Last_Order_Date,Total_Orders,Lifetime_Value,Average_Order_Value,Churn_Status,Synthetic_Contact,Is_Duplicate
+1,Hamza Ahmed,57,Female,Multan,Gulgasht,2025-03-23,Regular Customers,WhatsApp,Pakistani,Standard,Upper-Middle,Delivery Platform,True,2025-04-06,5,87549.94,17509.99,False,cust000001@example.invalid,False
+2,Fatima Malik,18,Prefer not to say,Faisalabad,People’s Colony,2024-10-11,Loyal Customers,Phone,Pakistani,Standard,Lower-Middle,Search,True,2026-04-10,3,61328.83,20442.94,False,cust000002@example.invalid,False
+3,Ayesha Sheikh,19,Prefer not to say,Gujranwala,Satellite Town,2025-10-10,Regular Customers,Restaurant Website,Chinese,Gold,Middle,Walk-In,True,2025-12-10,1,11736.53,11736.53,False,cust000003@example.invalid,False
+4,Hamza Siddiqui,19,Prefer not to say,Peshawar,University Road,2026-01-12,Regular Customers,WhatsApp,Fast Food,Silver,High,Referral,True,2026-05-08,2,54310.12,27155.06,False,cust000004@example.invalid,False
+5,Iqra Khan,45,Female,Gujranwala,Satellite Town,2024-03-14,Churned Customers,WhatsApp,Fast Food,Silver,Lower-Middle,Social Media,False,2025-08-10,2,23453.55,11726.77,True,cust000005@example.invalid,False
+6,Saad Iqbal,32,Prefer not to say,Faisalabad,People’s Colony,2025-09-15,Regular Customers,In-Store,Desi,Standard,High,Delivery Platform,True,2026-03-17,2,54157.45,27078.72,False,cust000006@example.invalid,False
+7,Ali Ahmed,36,Male,Multan,Cantt,2024-04-29,Regular Customers,Restaurant Website,Fast Food,Silver,Middle,Search,True,,0,0.0,0.0,False,cust000007@example.invalid,False
+8,Usman Malik,63,Prefer not to say,Multan,Gulgasht,2024-10-08,Occasional Customers,Restaurant Website,Fast Food,Standard,Lower-Middle,Search,True,2026-07-23,2,38388.09,19194.04,False,cust000008@example.invalid,False
+9,Ayesha Butt,37,Male,Abbottabad,Mandian,2026-05-15,Loyal Customers,Restaurant Website,Fast Food,Silver,,Walk-In,True,2026-07-10,6,68975.08,11495.85,False,cust000009@example.invalid,False
+10,Muhammad Butt,52,Female,Sargodha,Satellite Town,2024-07-16,Regular Customers,Mobile App,Pakistani,Standard,Entry,Delivery Platform,True,2026-03-24,3,38031.19,12677.06,False,cust000010@example.invalid,False
+11,Hassan Mirza,29,Female,Quetta,Jinnah Road,2025-11-06,High-Value Customers,WhatsApp,Pakistani,Gold,Lower-Middle,Walk-In,True,2026-02-17,1,0.0,0.0,False,cust000011@example.invalid,False
+12,Iqra Iqbal,39,Female,Faisalabad,People’s Colony,2025-11-01,Churn-Risk Customers,Mobile App,Fast Food,Silver,Middle,University Offer,True,,0,0.0,0.0,True,cust000012@example.invalid,False
+13,Ayesha Qureshi,47,Male,Rawalpindi,Bahria Town,2024-05-08,Promotion-Driven Customers,Restaurant Website,Desi,Silver,Middle,Walk-In,True,2025-12-29,2,41292.67,20646.33,False,cust000013@example.invalid,False
+14,Saad Raza,46,Male,Rawalpindi,Bahria Town,2026-02-28,Price-Sensitive Customers,WhatsApp,Desi,Gold,Upper-Middle,Search,True,2026-02-28,1,8014.46,8014.46,False,cust000014@example.invalid,False
+15,Muhammad Shah,33,Prefer not to say,Gujranwala,Satellite Town,2025-09-24,Regular Customers,Mobile App,Fast Food,Standard,Upper-Middle,University Offer,True,2025-09-24,1,0.0,0.0,False,cust000015@example.invalid,False
+16,Bilal Mirza,48,Male,Rawalpindi,Saddar Rawalpindi,2023-12-29,New Customers,Food Delivery Platform,Fast Food,Standard,Lower-Middle,Walk-In,True,2026-09-04,4,79451.67,19862.92,False,cust000016@example.invalid,False
+17,Omar Hussain,63,Female,Hyderabad,Qasimabad,2026-02-12,Regular Customers,Restaurant Website,Fast Food,Standard,Lower-Middle,Search,True,,0,0.0,0.0,False,cust000017@example.invalid,False
+18,Fatima Sheikh,19,Male,Rawalpindi,Bahria Town,2025-02-02,Regular Customers,In-Store,Pakistani,Standard,Upper-Middle,Delivery Platform,True,2026-07-22,2,51294.74,25647.37,False,cust000018@example.invalid,False
+19,Hassan Shah,66,Female,Sargodha,Satellite Town,2025-04-13,Occasional Customers,WhatsApp,Pakistani,Standard,Upper-Middle,Search,True,2026-01-30,2,79582.48,39791.24,False,cust000019@example.invalid,False
+20,Sana Khan,41,Male,Lahore,DHA,2024-07-10,Regular Customers,Mobile App,BBQ,Standard,Middle,University Offer,True,2026-03-30,1,7167.45,7167.45,False,cust000020@example.invalid,False
+21,Usman Iqbal,24,Female,Sukkur,Military Road,2024-04-06,Price-Sensitive Customers,Phone,BBQ,Platinum,Lower-Middle,Referral,True,2026-09-21,1,15624.39,15624.39,False,cust000021@example.invalid,False
+22,Hamza Hussain,34,Female,Gujranwala,Satellite Town,2024-01-23,Churn-Risk Customers,Food Delivery Platform,Chinese,Silver,Entry,Walk-In,True,2026-05-23,1,30389.48,30389.48,True,cust000022@example.invalid,False
+23,Zainab Chaudhry,41,Female,Hyderabad,Latifabad,2023-10-07,Occasional Customers,Restaurant Website,Desi,Standard,Upper-Middle,Delivery Platform,True,2025-04-20,2,36647.51,18323.76,False,cust000023@example.invalid,False
+24,Fatima Shah,64,Female,Multan,Gulgasht,2024-04-03,Regular Customers,Phone,Continental,Standard,Lower-Middle,Referral,True,2026-09-10,1,27983.73,27983.73,False,cust000024@example.invalid,False
+25,Ali Mirza,62,Female,Rawalpindi,Bahria Town,2024-05-25,Churned Customers,Restaurant Website,Pakistani,Standard,Entry,Referral,False,,0,0.0,0.0,True,cust000025@example.invalid,False

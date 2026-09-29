@@ -1,0 +1,26 @@
+Order_ID,Customer_ID,Location_ID,Promotion_ID,Channel_ID,Order_Date,Order_Time,Order_DateTime,Order_Status,Payment_Method,Delivery_Type,Subtotal,Discount_Amount,Tax_Amount,Delivery_Fee,Total_Amount,Order_Source,Cancellation_Reason,Is_Anomaly,Is_Duplicate
+1,32693,1,,5,2025-05-08,19:11:00,2025-05-08 19:11:00,Completed,Bank Transfer,Delivery,14980.5,0.0,749.03,80,15809.53,Direct,,True,False
+2,14581,25,,7,2026-02-12,22:20:00,2026-02-12 22:20:00,Completed,Cash,Dine-in,14872.71,0.0,743.64,0,15616.35,Direct,,False,False
+3,43197,1,,1,2025-05-07,22:39:00,2025-05-07 22:39:00,Completed,Card,Dine-in,9567.98,0.0,478.4,0,10046.38,Direct,,False,False
+4,49653,21,,4,2026-07-01,22:31:00,2026-07-01 22:31:00,Completed,JazzCash,Delivery,25962.87,0.0,1298.14,80,27341.01,Third-Party,,False,False
+5,29210,20,,1,2025-05-01,19:00:00,2025-05-01 19:00:00,Completed,Cash,Dine-in,6290.91,0.0,314.55,0,6605.46,Direct,,False,False
+6,43149,6,,3,2025-04-22,20:42:00,2025-04-22 20:42:00,Cancelled,Cash,Delivery,22727.41,0.0,1136.37,120,23983.78,Direct,Customer changed mind,False,False
+7,35492,23,,2,2026-04-22,21:09:00,2026-04-22 21:09:00,Completed,JazzCash,Delivery,1993.89,0.0,99.69,120,2213.58,Direct,,False,False
+8,30730,7,,3,2026-04-25,18:52:00,2026-04-25 18:52:00,Completed,Bank Transfer,Delivery,28358.03,0.0,1417.9,120,29895.93,Direct,,False,False
+9,24562,13,,4,2026-09-01,20:52:00,2026-09-01 20:52:00,Completed,JazzCash,,11425.03,0.0,571.25,120,12116.28,Third-Party,,False,False
+10,61127,15,,4,2025-07-06,00:20:00,2025-07-06 00:20:00,Completed,Card,Delivery,28568.03,0.0,1428.4,120,30116.43,Third-Party,,False,False
+11,5095,9,,4,2026-09-04,22:45:00,2026-09-04 22:45:00,Completed,Card,Delivery,12722.59,0.0,636.13,80,13438.72,Third-Party,,False,False
+12,4172,17,,4,2024-10-19,21:40:00,2024-10-19 21:40:00,Completed,Bank Transfer,Delivery,19749.75,0.0,987.49,80,20817.24,Third-Party,,False,False
+13,47485,15,,4,2025-06-01,13:53:00,2025-06-01 13:53:00,Completed,Easypaisa,Delivery,23318.27,0.0,1165.91,80,24564.18,Third-Party,,False,False
+14,36324,4,,6,2025-11-15,20:08:00,2025-11-15 20:08:00,Completed,Card,Delivery,12743.74,0.0,637.19,0,13380.93,Direct,,False,False
+15,20513,6,,1,2025-05-26,19:48:00,2025-05-26 19:48:00,Completed,Bank Transfer,Dine-in,13824.38,0.0,691.22,0,14515.6,Direct,,False,False
+16,44555,17,,4,2025-12-04,21:25:00,2025-12-04 21:25:00,Completed,Cash,Delivery,23639.81,0.0,1181.99,150,24971.8,Third-Party,,False,False
+17,5729,20,,6,2026-08-01,22:24:00,2026-08-01 22:24:00,Completed,Cash,Delivery,12848.56,0.0,642.43,80,13570.99,Direct,,False,False
+18,11723,5,,2,2026-05-20,17:01:00,2026-05-20 17:01:00,Completed,Cash,Delivery,17951.37,0.0,897.57,150,18998.94,Direct,,False,False
+19,43633,24,,3,2026-07-24,12:22:00,2026-07-24 12:22:00,Completed,Bank Transfer,Delivery,11681.19,0.0,584.06,150,12415.25,Direct,,False,False
+20,50790,9,,1,2025-07-01,21:58:00,2025-07-01 21:58:00,Completed,Card,Dine-in,21210.6,0.0,1060.53,0,22271.13,Direct,,False,False
+21,58090,14,,5,2025-11-07,13:20:00,2025-11-07 13:20:00,Completed,Bank Transfer,Delivery,9916.1,0.0,495.81,80,10491.91,Direct,,False,False
+22,35976,6,,7,2024-11-19,13:09:00,2024-11-19 13:09:00,Completed,Bank Transfer,Dine-in,26177.33,0.0,1308.87,0,27486.2,Direct,,False,False
+23,15679,1,,5,2026-09-13,20:24:00,2026-09-13 20:24:00,Completed,Cash,Delivery,18813.17,0.0,940.66,150,19903.83,Direct,,False,False
+24,16443,25,,4,2026-06-17,22:26:00,2026-06-17 22:26:00,Completed,Card,Delivery,25046.18,0.0,1252.31,0,26298.49,Third-Party,,False,False
+25,48718,24,,3,2025-07-26,19:45:00,2025-07-26 19:45:00,Completed,JazzCash,Delivery,9353.14,0.0,467.66,80,9900.8,Direct,,False,False

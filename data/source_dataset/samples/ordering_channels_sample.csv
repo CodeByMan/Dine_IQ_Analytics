@@ -1,0 +1,9 @@
+Channel_ID,Channel_Name,Description
+1,In-Store,Dine-in or counter
+2,Restaurant Website,Direct web orders
+3,Mobile App,First-party app
+4,Food Delivery Platform,Third-party delivery
+5,Phone,Telephone orders
+6,WhatsApp,WhatsApp orders
+7,Walk-In,Takeaway walk-in
+8,Drive-Thru,Drive-through where available

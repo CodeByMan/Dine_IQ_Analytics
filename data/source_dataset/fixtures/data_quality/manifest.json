@@ -1,0 +1,22 @@
+{
+  "isolated_test_fixtures": true,
+  "canonical_tables_modified_with_test_corruption": false,
+  "case_count": 15,
+  "cases": [
+    "missing_values",
+    "duplicate_orders",
+    "duplicate_order_lines",
+    "invalid_menu_prices",
+    "negative_quantities",
+    "invalid_dates",
+    "invalid_ratings",
+    "missing_customer_ids",
+    "missing_menu_ids",
+    "invalid_restaurant_ids",
+    "impossible_wastage_quantities",
+    "incorrect_discounts",
+    "cancelled_transactions",
+    "inconsistent_units",
+    "invalid_location_references"
+  ]
+}

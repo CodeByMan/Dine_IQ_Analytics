@@ -1,0 +1,7 @@
+# Data generation
+
+Run `python scripts/build_submission.py` to produce the complete dataset from the seeded synthetic generator and dataset-level completion scripts. `generate_dataset.py` creates the raw relational source tables from scratch using seed 42 by default; it does not load a ready-made dataset. `complete_srs_requirements.py` deterministically adds the effective-price and eligible-promotion behavior, explicit price-sensitive cohort, observed item-profile flags, preparation denominator, and isolated quality fixtures. `remediate_dataset.py` creates cleaned samples, processed transaction terms, chronological splits, and duplicate fixtures. `create_parquet.py` writes all raw tables and large processed tables to Snappy Parquet.
+
+Generation uses NumPy/Pandas and remains local. The date window is 24 months ending 2026-09-24. The line-item table is streamed during raw generation. Fixed seed and compatible dependency versions make the generation reproducible. All names, campaign records, amounts, and operational measurements are synthetic and do not describe actual businesses, people, or current price quotes.
+
+Realism elements are represented in code and source data: controlled nulls, isolated duplicate fixtures, flagged invalid transactions/cancellations, effective price changes and a deterministic price-response cohort, seasonal/weekend/peak-hour and location variation, customer segments/lifecycle groups, explicit observed sales/margin profiles, high-wastage item profiles, rating/sales anomalies, and a threshold-promotion case.

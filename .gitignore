@@ -1,0 +1,84 @@
+# Python environments
+.venv/
+venv/
+env/
+dineiq_analytics_env/
+
+# Python caches and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.pem
+*.key
+
+# Generated application outputs
+artifacts/
+reports/
+logs/
+models/
+
+# Trained model files
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.h5
+*.model
+
+# Databases and runtime state
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Generated dataset materializations
+data/source_dataset/data/
+data/source_dataset/parquet/
+data/source_dataset/processed_data/
+data/source_dataset/splits/
+data/source_dataset/samples/cleaned/
+
+# Generated dataset temporary files
+*.tmp
+*.temp
+*.part
+*.iQpRED
+*.crc
+
+# Generated analytical files
+*.parquet
+*.feather
+*.arrow
+validation_epoch_*.csv
+test_predictions*.csv
+*_predictions.csv
+*_metrics.json
+*_summary.json
+
+# Generated reports and exports
+*.html
+*.xlsx
+*.zip
+*.tar
+*.gz
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

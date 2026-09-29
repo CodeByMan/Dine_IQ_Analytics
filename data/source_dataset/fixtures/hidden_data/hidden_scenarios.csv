@@ -1,0 +1,11 @@
+Case_ID,Payload_JSON,Expected_Handling
+missing_values,"{""Age"": null, ""Customer_ID"": null}",retain optional null; flag required-key null
+duplicate_orders,"{""Order_ID"": 1001, ""duplicate_Order_ID"": 1001}",detect duplicate key; keep fixture isolated
+unknown_menu_item,"{""Item_ID"": 999999, ""Order_ID"": -1}",report unknown key; do not crash
+new_restaurant_location,"{""City"": ""Test City"", ""Location_ID"": 999999}",accept schema-valid new entity and report unseen location
+price_change,"{""Effective_From"": ""2026-09-25"", ""Item_ID"": 25, ""Location_ID"": 1, ""New_Price"": 1100, ""Old_Price"": 1000}",validate effective date and recompute price features
+unusual_promotion,"{""Discount_Percentage"": 80, ""Minimum_Order_Value"": 0, ""Promotion_Type"": ""Percentage""}",flag out-of-policy discount for review
+extreme_wastage,"{""Preparation_Quantity"": 50, ""Quantity_Wasted"": 1000}",flag wastage above prepared quantity
+seasonal_change,"{""Demand_Multiplier"": 2.5, ""Month"": 2}",detect distribution shift; do not assume fixed seasonal factor
+unexpected_customer_behavior,"{""Baseline_Orders_Per_Day"": 1, ""Customer_ID"": 1, ""Orders_Per_Day"": 80}",flag behavior outlier without rejecting valid customer ID
+outlier,"{""Baseline_P99"": 50000, ""Order_Total"": 1000000}",flag numeric outlier for review

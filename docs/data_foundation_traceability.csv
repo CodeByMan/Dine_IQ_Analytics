@@ -1,0 +1,12 @@
+Requirement ID,Faithful SRS requirement,Implementation component,Dependencies,Test or verification,Status
+FR-EX-12,Big Data Ingestion via Spark/PySpark,src/dineiq/dataset/ingest.py; src/dineiq/dataset/pipeline.py,Dataset delivery and PySpark/Java environment,test source ingestion for all 12 canonical CSVs; CLI validate-data,VERIFIED
+FR-EX-13,Schema Validation (columns data types relationships),src/dineiq/dataset/schema.py; src/dineiq/dataset/ingest.py; src/dineiq/dataset/integrate.py,FR-EX-12,Schema and FK unit/integration checks; CLI validate-data,VERIFIED
+FR-EX-14,Data Quality Analysis (missing duplicate inconsistent invalid anomalous records),src/dineiq/dataset/quality.py,FR-EX-12; FR-EX-13,15 fixture detectors and generated JSON quality report,VERIFIED
+FR-EX-15,Data Cleaning per documented rules,src/dineiq/dataset/cleaning.py,FR-EX-12; FR-EX-13; FR-EX-14,Small-frame cleaning tests and generated clean Parquet; source-preservation check,VERIFIED
+FR-EX-16,Spark SQL Processing for complex queries/aggregation,src/dineiq/dataset/integrate.py; src/dineiq/dataset/pipeline.py,FR-EX-12; FR-EX-15,Spark SQL location aggregation output and row-count evidence,VERIFIED
+FR-EX-17,Data Partitioning of large datasets,src/dineiq/dataset/pipeline.py,FR-EX-15; FR-EX-16,Order-item Parquet is partitioned by Order_Year; read-back verifies count,VERIFIED
+FR-EX-18,Parquet Storage (at least one processed dataset),src/dineiq/dataset/pipeline.py,FR-EX-12; FR-EX-15,Write and read back processed Parquet outputs with row-count parity,VERIFIED
+FR-EX-19,Feature generation (derived analytical/ML features),src/dineiq/features/engineering.py,FR-EX-12; FR-EX-15; FR-EX-16,22 named feature fields and synthetic Spark test values,VERIFIED
+FR-EX-82,Data Quality Assessment detects the 15 enumerated cases and generates a report,src/dineiq/dataset/quality.py; reports/data_foundation/data_quality_report.json,FR-EX-12; FR-EX-13; FR-EX-14,All 15 isolated quality fixtures must be detected; report lists canonical findings,VERIFIED
+FR-EX-83,Data Integration implements the 10 named join relationships via Spark SQL/PySpark,src/dineiq/dataset/integrate.py,FR-EX-12; FR-EX-13; FR-EX-15,All 10 join outputs execute on test data and full dataset build records their row counts,VERIFIED
+FR-EX-84,EDA identifies the 13 named analyses,src/dineiq/analytics/eda.py,FR-EX-12; FR-EX-15; FR-EX-16; FR-EX-19,13 EDA output tables and synthetic Spark checks; CLI build and Parquet read-back,VERIFIED

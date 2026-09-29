@@ -1,0 +1,11 @@
+Case_ID,Source_Table,Field,Fixture_Condition,Expected_Readiness_Check
+new_location,restaurants,Location_ID,unseen location identifier,"validate schema, unknown-location path, do not silently join to known dimensions"
+new_item,menu_items,Item_ID,unseen item identifier,validate schema and unseen-item handling
+missing_values,orders,Promotion_ID,blank optional promotion reference,distinguish optional null from missing required key
+outlier,order_items,Quantity,extreme positive quantity,flag with documented threshold review; retain source value
+unknown_category,menu_items,Category_ID,unknown category reference,referential-integrity warning
+price_change,pricing_history,New_Price,new effective price interval,check nonoverlapping effective date logic
+unusual_promotion,promotions,Discount_Percentage,discount outside expected range,validate terms and flag for review
+wastage_outlier,wastage,Quantity_Wasted,extreme positive quantity,flag as anomaly candidate; preserve raw value
+seasonal_shift,orders,Order_Date,date-period demand shift,monitor temporal drift without random split
+duplicate_order,orders,Order_ID,duplicate key in isolated fixture,duplicate detector must identify fixture

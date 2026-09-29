@@ -1,0 +1,16 @@
+Issue_Type,Table,Fixture_Record_JSON,Expected_Detector
+missing_values,customers,"{""Age"": null, ""Customer_ID"": 1}",missing_values
+duplicate_orders,orders,"{""Order_ID"": 1, ""duplicate_of"": 1}",duplicate_orders
+duplicate_order_lines,order_items,"{""Order_Item_ID"": 1, ""duplicate_of"": 1}",duplicate_order_lines
+invalid_menu_prices,menu_items,"{""Item_ID"": -900003, ""Selling_Price"": -1}",invalid_menu_prices
+negative_quantities,order_items,"{""Order_Item_ID"": -900004, ""Quantity"": -1}",negative_quantities
+invalid_dates,orders,"{""Order_Date"": ""2026-02-30"", ""Order_ID"": -900005}",invalid_dates
+invalid_ratings,ratings,"{""Rating"": 6, ""Rating_ID"": -900006}",invalid_ratings
+missing_customer_ids,orders,"{""Customer_ID"": null, ""Order_ID"": -900007}",missing_customer_ids
+missing_menu_ids,order_items,"{""Item_ID"": null, ""Order_Item_ID"": -900008}",missing_menu_ids
+invalid_restaurant_ids,orders,"{""Location_ID"": 999999, ""Order_ID"": -900009}",invalid_restaurant_ids
+impossible_wastage_quantities,wastage,"{""Preparation_Quantity"": 20, ""Quantity_Wasted"": 1000, ""Wastage_ID"": -900010}",impossible_wastage_quantities
+incorrect_discounts,order_items,"{""Discount_Amount"": 125, ""Gross_Line_Value"": 100, ""Order_Item_ID"": -900011}",incorrect_discounts
+cancelled_transactions,orders,"{""Order_ID"": -900012, ""Order_Status"": ""Cancelled""}",cancelled_transactions
+inconsistent_units,wastage,"{""Expected_Unit"": ""portion"", ""Quantity_Unit"": ""kg"", ""Wastage_ID"": -900013}",inconsistent_units
+invalid_location_references,inventory,"{""Inventory_ID"": -900014, ""Location_ID"": 999999}",invalid_location_references

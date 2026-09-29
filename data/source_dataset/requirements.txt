@@ -1,0 +1,4 @@
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14.0  # required to produce/verify raw and processed Parquet artifacts
+# Optional for Spark joins: install pyspark>=3.5 and a compatible Java runtime.

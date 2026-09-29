@@ -1,0 +1,30 @@
+# Dataset statistics
+
+| Table | Rows | Unique primary keys | Date minimum | Date maximum |
+|---|---:|---:|---|---|
+| customers | 62,000 | 62,000 | 2023-09-25 | 2026-09-24 |
+| inventory | 34,020 | 34,020 | 2024-09-24 | 2026-09-22 |
+| menu_categories | 18 | 18 | — | — |
+| menu_items | 210 | 210 | 2021-03-07 | 2024-08-25 |
+| order_items | 1,250,000 | 1,250,000 | — | — |
+| ordering_channels | 8 | 8 | — | — |
+| orders | 125,000 | 125,000 | 2024-09-24 | 2026-09-24 |
+| pricing_history | 22,697 | 22,697 | 2024-09-15 | 2026-05-01 |
+| promotions | 40 | 40 | 2024-09-26 | 2026-07-31 |
+| ratings | 120,000 | 120,000 | 2024-09-24 | 2026-09-28 |
+| restaurants | 27 | 27 | 2018-10-02 | 2024-06-09 |
+| wastage | 65,000 | 65,000 | 2024-09-24 | 2026-09-24 |
+
+## Processed artifacts
+
+| Artifact | Rows | Bytes |
+|---|---:|---:|
+| `processed_data/transaction_terms.csv` | 1,137,090 | 141,954,684 |
+
+## Forecast splits
+
+| Split | Rows | Bytes |
+|---|---:|---:|
+| train | 2,897,370 | 61,286,717 |
+| validation | 618,030 | 13,073,081 |
+| test | 629,370 | 13,312,982 |

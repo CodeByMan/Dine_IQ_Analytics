@@ -1,0 +1,3 @@
+# Hidden-data readiness
+
+Isolated, executable fixture cases live under `fixtures/hidden_data/` and `fixtures/data_quality/`; none are appended to canonical tables. The readiness fixture contains missing values, duplicate orders, unknown menu items, new restaurant locations, price changes, unusual promotions, extreme wastage, seasonal changes, unexpected customer behavior, and outliers. Unknown IDs are reported for review rather than crashing a join; nulls are preserved for field-level policy checks; price/promotion terms and numeric ranges are checked explicitly. Run `python scripts/validate_srs_compliance.py` to exercise the deterministic dataset and fixture checks. This is dataset-level validation, not a prediction or hidden-data application implementation.

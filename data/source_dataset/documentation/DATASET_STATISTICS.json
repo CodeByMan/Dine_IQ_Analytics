@@ -1,0 +1,109 @@
+{
+  "tables": [
+    {
+      "table": "customers",
+      "rows": 62000,
+      "unique_primary_keys": 62000,
+      "date_min": "2023-09-25",
+      "date_max": "2026-09-24"
+    },
+    {
+      "table": "inventory",
+      "rows": 34020,
+      "unique_primary_keys": 34020,
+      "date_min": "2024-09-24",
+      "date_max": "2026-09-22"
+    },
+    {
+      "table": "menu_categories",
+      "rows": 18,
+      "unique_primary_keys": 18,
+      "date_min": null,
+      "date_max": null
+    },
+    {
+      "table": "menu_items",
+      "rows": 210,
+      "unique_primary_keys": 210,
+      "date_min": "2021-03-07",
+      "date_max": "2024-08-25"
+    },
+    {
+      "table": "order_items",
+      "rows": 1250000,
+      "unique_primary_keys": 1250000,
+      "date_min": null,
+      "date_max": null
+    },
+    {
+      "table": "ordering_channels",
+      "rows": 8,
+      "unique_primary_keys": 8,
+      "date_min": null,
+      "date_max": null
+    },
+    {
+      "table": "orders",
+      "rows": 125000,
+      "unique_primary_keys": 125000,
+      "date_min": "2024-09-24",
+      "date_max": "2026-09-24"
+    },
+    {
+      "table": "pricing_history",
+      "rows": 22697,
+      "unique_primary_keys": 22697,
+      "date_min": "2024-09-15",
+      "date_max": "2026-05-01"
+    },
+    {
+      "table": "promotions",
+      "rows": 40,
+      "unique_primary_keys": 40,
+      "date_min": "2024-09-26",
+      "date_max": "2026-07-31"
+    },
+    {
+      "table": "ratings",
+      "rows": 120000,
+      "unique_primary_keys": 120000,
+      "date_min": "2024-09-24",
+      "date_max": "2026-09-28"
+    },
+    {
+      "table": "restaurants",
+      "rows": 27,
+      "unique_primary_keys": 27,
+      "date_min": "2018-10-02",
+      "date_max": "2024-06-09"
+    },
+    {
+      "table": "wastage",
+      "rows": 65000,
+      "unique_primary_keys": 65000,
+      "date_min": "2024-09-24",
+      "date_max": "2026-09-24"
+    }
+  ],
+  "processed_artifacts": [
+    {
+      "artifact": "processed_data/transaction_terms.csv",
+      "rows": 1137090,
+      "bytes": 141954684
+    }
+  ],
+  "splits": {
+    "train": {
+      "rows": 2897370,
+      "bytes": 61286717
+    },
+    "validation": {
+      "rows": 618030,
+      "bytes": 13073081
+    },
+    "test": {
+      "rows": 629370,
+      "bytes": 13312982
+    }
+  }
+}

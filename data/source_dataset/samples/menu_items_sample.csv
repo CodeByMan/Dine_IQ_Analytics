@@ -1,0 +1,26 @@
+Item_ID,Item_Name,Category_ID,Cuisine_Type,Description,Size,Selling_Price,Ingredient_Cost,Estimated_Preparation_Time,Calories,Is_Vegetarian,Is_Spicy,Is_Active,Launch_Date,Discontinued_Date,Base_Cost,Popularity_Index,Perishability
+1,Chicken Biryani,3,Pakistani,"Regular serving of Chicken Biryani, prepared fresh to order.",Regular,520,260,22,1029,False,False,True,2023-07-29,,260,1.98,0.196
+2,Beef Biryani,3,Pakistani,"Regular serving of Beef Biryani, prepared fresh to order.",Regular,680,390,18,964,False,False,True,2023-03-31,,390,2.036,0.202
+3,Mutton Biryani,3,Pakistani,"Regular serving of Mutton Biryani, prepared fresh to order.",Regular,980,620,18,254,False,False,True,2023-05-30,,620,0.673,0.117
+4,Chicken Karahi,10,Pakistani,"Regular serving of Chicken Karahi, prepared fresh to order.",Regular,1450,880,8,766,False,True,True,2022-07-02,,880,0.576,0.048
+5,Mutton Karahi,10,Pakistani,"Regular serving of Mutton Karahi, prepared fresh to order.",Regular,2450,1640,27,222,False,True,True,2022-03-15,,1640,1.144,0.131
+6,Chicken Handi,11,Pakistani,"Regular serving of Chicken Handi, prepared fresh to order.",Regular,1550,940,13,990,False,False,True,2023-08-31,,940,0.519,0.153
+7,Chicken Tikka,2,Pakistani,"Regular serving of Chicken Tikka, prepared fresh to order.",Regular,620,340,17,329,False,True,True,2022-09-27,,340,0.345,0.204
+8,Malai Boti,2,Pakistani,"Regular serving of Malai Boti, prepared fresh to order.",Regular,780,420,12,575,False,True,True,2024-03-24,,420,1.362,0.204
+9,Seekh Kebab,2,Pakistani,"Regular serving of Seekh Kebab, prepared fresh to order.",Regular,430,210,24,536,False,True,True,2022-08-09,,210,0.338,0.145
+10,Reshmi Kebab,2,Pakistani,"Regular serving of Reshmi Kebab, prepared fresh to order.",Regular,560,300,23,1057,False,True,True,2022-07-06,,300,1.232,0.094
+11,Beef Burger,4,Burgers,"Regular serving of Beef Burger, prepared fresh to order.",Regular,690,340,18,1161,False,False,True,2022-03-12,,340,0.459,0.08
+12,Zinger Burger,4,Burgers,"Regular serving of Zinger Burger, prepared fresh to order.",Regular,620,310,24,556,False,False,True,2023-12-24,,310,0.28,0.173
+13,Chicken Burger,4,Burgers,"Regular serving of Chicken Burger, prepared fresh to order.",Regular,540,250,29,1192,False,False,True,2022-02-07,,250,0.858,0.154
+14,Chicken Shawarma,16,Pakistani,"Regular serving of Chicken Shawarma, prepared fresh to order.",Regular,390,170,11,404,False,False,True,2023-03-14,,170,0.298,0.049
+15,Beef Shawarma,16,Pakistani,"Regular serving of Beef Shawarma, prepared fresh to order.",Regular,490,240,32,292,False,False,True,2024-04-14,,240,0.838,0.117
+16,Chicken Roll,16,Pakistani,"Regular serving of Chicken Roll, prepared fresh to order.",Regular,360,160,24,532,False,False,True,2022-07-12,,160,1.763,0.212
+17,Chicken Cheese Roll,16,Pakistani,"Regular serving of Chicken Cheese Roll, prepared fresh to order.",Regular,430,200,18,337,False,False,True,2022-09-18,,200,0.635,0.207
+18,BBQ Platter,2,Pakistani,"Regular serving of BBQ Platter, prepared fresh to order.",Regular,2650,1480,18,928,False,True,True,2021-04-24,,1480,1.909,0.173
+19,Chicken Wings,6,Pakistani,"Regular serving of Chicken Wings, prepared fresh to order.",Regular,720,350,32,339,False,False,True,2023-07-23,,350,1.047,0.065
+20,Fried Chicken,6,Pakistani,"Regular serving of Fried Chicken, prepared fresh to order.",Regular,680,390,26,666,False,False,True,2022-02-27,,390,0.804,0.138
+21,Chicken Chow Mein,7,Chinese,"Regular serving of Chicken Chow Mein, prepared fresh to order.",Regular,760,390,34,584,False,False,True,2023-07-14,,390,1.347,0.13
+22,Chicken Manchurian,7,Chinese,"Regular serving of Chicken Manchurian, prepared fresh to order.",Regular,890,470,29,259,False,False,True,2022-11-20,,470,1.069,0.173
+23,Egg Fried Rice,7,Chinese,"Regular serving of Egg Fried Rice, prepared fresh to order.",Regular,420,180,15,318,True,False,True,2021-09-12,,180,1.62,0.086
+24,Chicken Fried Rice,7,Chinese,"Regular serving of Chicken Fried Rice, prepared fresh to order.",Regular,650,300,30,1064,False,False,True,2022-01-13,,300,0.516,0.133
+25,Margherita Pizza,5,Pizza,"Regular serving of Margherita Pizza, prepared fresh to order.",Regular,1090,440,29,778,True,False,True,2023-04-06,,440,0.494,0.205

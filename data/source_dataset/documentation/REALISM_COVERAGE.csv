@@ -1,0 +1,21 @@
+Element,Status,Evidence
+Missing values,PASS,Canonical CSVs contain generated optional nulls.
+Duplicate records,PASS,Duplicate order and order-line records are isolated in fixtures; canonical PKs remain unique.
+Invalid transactions,PASS,Flagged invalid quantity/line cases are retained in canonical order lines.
+Cancelled orders,PASS,Orders has explicit Order_Status and cancelled rows.
+Changing prices,PASS,Multiple effective-dated price rows per item/location.
+Seasonal demand,PASS,"Observed average orders/day: Feb–Mar 182.91, other months 168.71."
+Weekend patterns,PASS,"Observed average orders per Fri–Sun day 19,506, Mon–Thu day 16,620."
+Peak-hour patterns,PASS,"20:00 is the modal order hour (18,720 orders)."
+Multi-location differences,PASS,Orders are distributed across 27 locations with differing counts.
+Promotion periods,PASS,Multiple campaigns have explicit validity intervals.
+High-value customers,PASS,Customer segment generated and represented.
+Churned customers,PASS,Churned customer segment generated and represented.
+New customers,PASS,New customer segment generated and represented.
+Popular but low-margin dishes,PASS,Profile is assigned from upper sales and lower contribution-margin quartiles.
+Profitable but low-selling dishes,PASS,Profile is assigned from upper margin and lower observed-sales quartiles.
+High-wastage dishes,PASS,Profile is assigned from the upper quartile of observed item wastage percentage.
+Rating anomalies,PASS,Ratings include explicitly flagged text/rating contradictions.
+Sales anomalies,PASS,Order lines include explicitly flagged invalid sales cases.
+Price-sensitive items,PASS,Deterministic sensitive cohort has adjusted quantities by effective price period.
+Misleading promotions,PASS,Campaign 14 has a high-basket threshold; isolated fixture demonstrates the profit effect.
