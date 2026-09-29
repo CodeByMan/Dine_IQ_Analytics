@@ -79,32 +79,15 @@ The platform provides:
 - Dual-pipeline comparison dashboard.
 - Shared date, location, category, channel, customer, menu, promotion, rating, inventory, and scenario filters.
 - Twelve downloadable CSV report categories with safe spreadsheet serialization.
+  
+<img width="1009" height="391" alt="image" src="https://github.com/user-attachments/assets/aa42d65c-8c9a-421e-bb81-3e2d90db13d5" />
 
 ---
 
 ## 🧱 System Architecture
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│ Streamlit Application                                      │
-│ Navigation • Dashboards • Filters • Forms • Downloads      │
-└──────────────────────────────┬──────────────────────────────┘
-                               │
-┌──────────────────────────────▼──────────────────────────────┐
-│ Shared Application Services                                 │
-│ Data access • Analytics • Models • Reports • Error handling │
-└──────────────┬───────────────────────┬──────────────────────┘
-               │                       │
-┌──────────────▼──────────────┐  ┌─────▼─────────────────────┐
-│ Spark / Python Pipelines    │  │ SQLite Operations          │
-│ Ingestion • Features • ML   │  │ Auth • RBAC • Audit • Jobs │
-└──────────────┬──────────────┘  └──────────────┬─────────────┘
-               │                                │
-┌──────────────▼──────────────┐  ┌──────────────▼─────────────┐
-│ CSV / Parquet Dataset       │  │ Optional Local HTTP API     │
-│ Raw • processed • splits    │  │ Health • reports • CRUD     │
-└─────────────────────────────┘  └──────────────────────────────┘
-```
+<img width="1090" height="594" alt="image" src="https://github.com/user-attachments/assets/c89fd30e-36d4-4e05-8dd0-e52e44531dfb" />
+
 
 Streamlit is the primary user interface. The optional local API and Streamlit use the same authentication, permission, persistence, analytics, model, and error-handling services.
 
@@ -261,6 +244,8 @@ Reports are generated from the selected filters and use stable, meaningful filen
 - Local environment files, credentials, databases, caches, and generated build files are excluded from version control.
 - AI-assisted development disclosures are maintained in `AI_USAGE.md`.
 
+<img width="1090" height="551" alt="image" src="https://github.com/user-attachments/assets/8790f9f4-3e5e-4775-a884-b558289ab40c" />
+
 ---
 
 ## 📚 Documentation
@@ -279,6 +264,9 @@ Project documentation is available under `docs/`, including:
 - `final_project_report.md`
 - `final_submission_checklist.md`
 
+## 📚 Blog URL
+https://medium.com/@muhammadalinawaz.dev/engineering-dineiq-analytics-building-a-dual-pipeline-big-data-machine-learning-platform-for-a516a0fa70b7
+
 ---
 
 ## 📄 License
@@ -288,5 +276,6 @@ This project is released under the MIT License. See [LICENSE](LICENSE).
 <div align="center">
 
 ### DineIQ Analytics — Restaurant Intelligence Through Data
+
 
 </div>
