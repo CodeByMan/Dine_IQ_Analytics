@@ -50,6 +50,24 @@ workflow.
 - Persist operational data, model versions, predictions, audit events, and
   evaluation evidence in SQLite.
 
+## 🖼️ Screenshots
+
+| Dashboard | Spark versus Python prediction |
+| --- | --- |
+| ![Dashboard](screenshots/dashboard.png) | ![Spark versus Python prediction](screenshots/spark_vs_python_prediction.png) |
+
+| Menu chart | Customer chart |
+| --- | --- |
+| ![Menu chart](screenshots/menu_chart.png) | ![Customer chart](screenshots/customer_chart.png) |
+
+| Forecast chart | Sales by channel |
+| --- | --- |
+| ![Forecast chart](screenshots/forecast_chart.png) | ![Sales by channel](screenshots/order_channel_chart.png) |
+
+| Peak-order heatmap | Sales demand chart |
+| --- | --- |
+| ![Peak-order heatmap](screenshots/peak_order_heatmap.png) | ![Sales demand chart](screenshots/sale_demand_chart.png) |
+
 ## ✨ Main Features
 
 ### 📊 Business Analytics
@@ -86,31 +104,6 @@ workflow.
 - Raw data is kept separate from generated analytical artifacts.
 
 ---
-
-## 🔄 End-to-End Workflow
-
-```text
-Raw CSV tables
-      │
-      ▼
-Schema, quality, relationship, and integrity validation
-      │
-      ▼
-Cleaned tables, chronological splits, and feature engineering
-      │
-      ├──► Parquet data foundation
-      │       ├── Spark SQL joins and analytics
-      │       ├── Descriptive analytics
-      │       ├── Demand planning
-      │       ├── Wastage-risk model
-      │       └── Reports and evidence
-      │
-      └──► SQLite operational store
-              ├── Streamlit dashboard
-              ├── Role and permission workflows
-              ├── Audit records
-              └── API services
-```
 
 ## 📊 Dataset Scope
 
@@ -163,24 +156,6 @@ The dashboard contains the following main pages and workflows:
 | Recommendations | Menu, inventory, customer, promotion, and branch recommendations |
 | Chart Gallery | Reusable charts with data/chart view, image/CSV export, and fullscreen controls |
 | Management | Role-aware operational administration, users, audit, and system views |
-
-## 🖼️ Screenshots
-
-| Dashboard | Spark versus Python prediction |
-| --- | --- |
-| ![Dashboard](screenshots/dashboard.png) | ![Spark versus Python prediction](screenshots/spark_vs_python_prediction.png) |
-
-| Menu chart | Customer chart |
-| --- | --- |
-| ![Menu chart](screenshots/menu_chart.png) | ![Customer chart](screenshots/customer_chart.png) |
-
-| Forecast chart | Sales by channel |
-| --- | --- |
-| ![Forecast chart](screenshots/forecast_chart.png) | ![Sales by channel](screenshots/order_channel_chart.png) |
-
-| Peak-order heatmap | Sales demand chart |
-| --- | --- |
-| ![Peak-order heatmap](screenshots/peak_order_heatmap.png) | ![Sales demand chart](screenshots/sale_demand_chart.png) |
 
 ## 📁 Project Structure
 
