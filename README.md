@@ -35,12 +35,6 @@ performance, customer behavior, inventory, wastage, pricing, promotions,
 branches, anomalies, and operational opportunities from one controlled
 workflow.
 
-## 🔗 GitHub Repository
-
-Clone the complete project from:
-
-[https://github.com/CodeByMan/Dine_IQ_Analytics](https://github.com/CodeByMan/Dine_IQ_Analytics)
-
 ## 🎯 Objectives
 
 - Validate source data, schemas, row volumes, keys, and relationships.
