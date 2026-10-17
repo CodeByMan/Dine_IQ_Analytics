@@ -1,0 +1,187 @@
+{
+  "results": [
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Customers.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Customers.parquet",
+      "passed": true,
+      "csv_rows": 55000,
+      "parquet_rows": 55000,
+      "arrow_schema": "Customer_ID: string\nFirst_Name: string\nLast_Name: string\nGender: string\nAge: int64\nCity: string\nLocality: string\nHome_Restaurant_ID: string\nSignup_Date: string\nEmail: string\nPhone: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1370",
+      "bytes": 1833413,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Inventory.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Inventory.parquet",
+      "passed": true,
+      "csv_rows": 48840,
+      "parquet_rows": 48840,
+      "arrow_schema": "Inventory_ID: string\nRestaurant_ID: string\nItem_ID: string\nMonth: string\nOpening_Stock: double\nReceived_Stock: double\nConsumed_Stock: double\nClosing_Stock: double\nUnit: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1187",
+      "bytes": 579529,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Menu_Categories.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Menu_Categories.parquet",
+      "passed": true,
+      "csv_rows": 12,
+      "parquet_rows": 12,
+      "arrow_schema": "Category_ID: string\nCategory_Name: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 341",
+      "bytes": 2061,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Menu_Item_Availability.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Menu_Item_Availability.parquet",
+      "passed": true,
+      "csv_rows": 4070,
+      "parquet_rows": 4070,
+      "arrow_schema": "Availability_ID: string\nRestaurant_ID: string\nItem_ID: string\nIs_Available: bool\nAvailable_From: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 710",
+      "bytes": 30398,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Menu_Items.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Menu_Items.parquet",
+      "passed": true,
+      "csv_rows": 185,
+      "parquet_rows": 185,
+      "arrow_schema": "Item_ID: string\nItem_Name: string\nCategory_ID: string\nBase_Cost: double\nBase_Price: double\nIntroduced_Date: string\nIs_Active: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 930",
+      "bytes": 10354,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Order_Items.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Order_Items.parquet",
+      "passed": true,
+      "csv_rows": 1105311,
+      "parquet_rows": 1105311,
+      "arrow_schema": "Order_Item_ID: string\nOrder_ID: string\nItem_ID: string\nQuantity: int64\nUnit_Price: double\nDiscount_Percent: double\nLine_Subtotal: double\nLine_Total: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1064",
+      "bytes": 13955196,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Orders.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Orders.parquet",
+      "passed": true,
+      "csv_rows": 256880,
+      "parquet_rows": 256880,
+      "arrow_schema": "Order_ID: string\nCustomer_ID: string\nRestaurant_ID: string\nOrder_DateTime: string\nOrder_Date: string\nChannel: string\nPayment_Method: string\nPromotion_ID: string\nStatus: string\nDelivery_Charge: double\nItem_Count: int64\nSubtotal: double\nTotal_Amount: double\nDiscount_Amount: double\nTax_Amount: double\nGrand_Total: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2048",
+      "bytes": 7681158,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Pricing_History.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Pricing_History.parquet",
+      "passed": true,
+      "csv_rows": 555,
+      "parquet_rows": 555,
+      "arrow_schema": "Pricing_ID: string\nItem_ID: string\nPrice: double\nPrevious_Price: double\nEffective_Date: string\nEnd_Date: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 811",
+      "bytes": 13868,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Promotions.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Promotions.parquet",
+      "passed": true,
+      "csv_rows": 45,
+      "parquet_rows": 45,
+      "arrow_schema": "Promotion_ID: string\nPromotion_Name: string\nDiscount_Percent: int64\nStart_Date: string\nEnd_Date: string\nApplicable_Category_ID: string\nApplicable_Restaurant_ID: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1002",
+      "bytes": 6693,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Ratings.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Ratings.parquet",
+      "passed": true,
+      "csv_rows": 102604,
+      "parquet_rows": 102604,
+      "arrow_schema": "Rating_ID: string\nOrder_ID: string\nCustomer_ID: string\nItem_ID: string\nRestaurant_ID: string\nRating_Value: int64\nRating_Date: string\nComment: string\nReviewer_Name: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1172",
+      "bytes": 2519695,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Restaurants.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Restaurants.parquet",
+      "passed": true,
+      "csv_rows": 22,
+      "parquet_rows": 22,
+      "arrow_schema": "Restaurant_ID: string\nChain_Name: string\nRestaurant_Name: string\nLocality: string\nDistrict: string\nAddress: string\nCity: string\nProvince: string\nCountry: string\nLocation_Type: string\nOpening_Date: string\nSeating_Capacity: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1532",
+      "bytes": 9780,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/Wastage.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/tables/Wastage.parquet",
+      "passed": true,
+      "csv_rows": 54986,
+      "parquet_rows": 54986,
+      "arrow_schema": "Wastage_ID: string\nRestaurant_ID: string\nItem_ID: string\nDate: string\nPrepared_Quantity: double\nWastage_Quantity: double\nUnit: string\nReason: string\nWastage_Cost: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1174",
+      "bytes": 852971,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/splits/train/Order_Items.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/splits/train/Order_Items.parquet",
+      "passed": true,
+      "csv_rows": 736788,
+      "parquet_rows": 736788,
+      "arrow_schema": "Order_Item_ID: string\nOrder_ID: string\nItem_ID: string\nQuantity: int64\nUnit_Price: double\nDiscount_Percent: double\nLine_Subtotal: double\nLine_Total: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1064",
+      "bytes": 9328834,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/splits/train/Orders.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/splits/train/Orders.parquet",
+      "passed": true,
+      "csv_rows": 171658,
+      "parquet_rows": 171658,
+      "arrow_schema": "Order_ID: string\nCustomer_ID: string\nRestaurant_ID: string\nOrder_DateTime: string\nOrder_Date: string\nChannel: string\nPayment_Method: string\nPromotion_ID: string\nStatus: string\nDelivery_Charge: double\nItem_Count: int64\nSubtotal: double\nTotal_Amount: double\nDiscount_Amount: double\nTax_Amount: double\nGrand_Total: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2048",
+      "bytes": 5169489,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/splits/validation/Order_Items.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/splits/validation/Order_Items.parquet",
+      "passed": true,
+      "csv_rows": 158519,
+      "parquet_rows": 158519,
+      "arrow_schema": "Order_Item_ID: string\nOrder_ID: string\nItem_ID: string\nQuantity: int64\nUnit_Price: double\nDiscount_Percent: double\nLine_Subtotal: double\nLine_Total: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1064",
+      "bytes": 2169439,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/splits/validation/Orders.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/splits/validation/Orders.parquet",
+      "passed": true,
+      "csv_rows": 36366,
+      "parquet_rows": 36366,
+      "arrow_schema": "Order_ID: string\nCustomer_ID: string\nRestaurant_ID: string\nOrder_DateTime: string\nOrder_Date: string\nChannel: string\nPayment_Method: string\nPromotion_ID: string\nStatus: string\nDelivery_Charge: double\nItem_Count: int64\nSubtotal: double\nTotal_Amount: double\nDiscount_Amount: double\nTax_Amount: double\nGrand_Total: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2048",
+      "bytes": 1229015,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/splits/test/Order_Items.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/splits/test/Order_Items.parquet",
+      "passed": true,
+      "csv_rows": 210004,
+      "parquet_rows": 210004,
+      "arrow_schema": "Order_Item_ID: string\nOrder_ID: string\nItem_ID: string\nQuantity: int64\nUnit_Price: double\nDiscount_Percent: double\nLine_Subtotal: double\nLine_Total: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1064",
+      "bytes": 2777402,
+      "canonical_value_parity": true
+    },
+    {
+      "csv": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/processed_data/splits/test/Orders.csv",
+      "parquet": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/splits/test/Orders.parquet",
+      "passed": true,
+      "csv_rows": 48856,
+      "parquet_rows": 48856,
+      "arrow_schema": "Order_ID: string\nCustomer_ID: string\nRestaurant_ID: string\nOrder_DateTime: string\nOrder_Date: string\nChannel: string\nPayment_Method: string\nPromotion_ID: string\nStatus: string\nDelivery_Charge: double\nItem_Count: int64\nSubtotal: double\nTotal_Amount: double\nDiscount_Amount: double\nTax_Amount: double\nGrand_Total: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2048",
+      "bytes": 1578132,
+      "canonical_value_parity": true
+    }
+  ],
+  "passed": true,
+  "scope": "Cleaned tables and transaction splits; column types reported, canonical row/value fingerprints checked",
+  "limitation": "Fingerprints are probabilistic parity checks; they do not establish business correctness or Spark consumption"
+}

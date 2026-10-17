@@ -1,0 +1,102 @@
+{
+  "churn_factors": [
+    "increasing_recency",
+    "declining_frequency",
+    "declining_monetary_value",
+    "reduced_category_diversity",
+    "lower_visit_frequency"
+  ],
+  "churn_rows": 55000,
+  "customer_rows": 55000,
+  "location_comparison_rows": 22,
+  "location_source_rows": 22,
+  "output_rows": {
+    "channel_category_preferences": 72,
+    "channel_peak_periods": 96,
+    "channel_summary": 6,
+    "customer_churn_risk": 55000,
+    "location_comparison": 22,
+    "location_menu_performance": 4069,
+    "promotion_trap_detection": 45,
+    "rating_anomalies": 3002,
+    "recommendations": 4969,
+    "sales_anomalies": 220000
+  },
+  "parquet_readback_rows": {
+    "channel_category_preferences": 72,
+    "channel_peak_periods": 96,
+    "channel_summary": 6,
+    "customer_churn_risk": 55000,
+    "location_comparison": 22,
+    "location_menu_performance": 4069,
+    "promotion_trap_detection": 45,
+    "rating_anomalies": 3002,
+    "recommendations": 4969,
+    "sales_anomalies": 220000
+  },
+  "passed": true,
+  "promotion_pattern_flags": [
+    "promotion_sales_up_profit_down",
+    "promotion_customer_up_margin_collapse",
+    "promotion_increased_wastage",
+    "purchases_only_during_discount_window",
+    "sales_shift_from_more_profitable_product"
+  ],
+  "rating_anomaly_types_detected": [
+    "Excessive identical ratings",
+    "High rating volume in a short period",
+    "Rating inconsistent with purchasing pattern",
+    "Sudden rating drop",
+    "Sudden rating spike"
+  ],
+  "rating_anomaly_types_supported": [
+    "Sudden rating spike",
+    "Sudden rating drop",
+    "Excessive identical ratings",
+    "High rating volume in a short period",
+    "Rating inconsistent with purchasing pattern"
+  ],
+  "recommendation_types_generated": [
+    "Bundle frequently purchased items",
+    "Increase stock before predicted peak periods",
+    "Investigate anomalous locations",
+    "Promote high-margin Hidden Opportunities",
+    "Reduce preparation of high-wastage dishes",
+    "Remove or redesign persistent Low Performers",
+    "Review ineffective promotions",
+    "Review pricing of price-sensitive dishes",
+    "Target selected customer segments"
+  ],
+  "recommendations_have_evidence_and_priority": true,
+  "sales_anomaly_types_detected": [
+    "Abnormally high order value",
+    "Duplicate transaction",
+    "Sudden sales drop",
+    "Sudden sales spike",
+    "Unexpected demand",
+    "Unusual discount"
+  ],
+  "sales_anomaly_types_supported": [
+    "Sudden sales spike",
+    "Sudden sales drop",
+    "Abnormally high order value",
+    "Unusual discount",
+    "Unexpected demand",
+    "Duplicate transaction"
+  ],
+  "source_data_modified": false,
+  "srs_requirements": [
+    "\u00a71.6.xxxiv",
+    "\u00a71.6.xxxv",
+    "\u00a71.6.xxxvi",
+    "\u00a71.6.xxxvii",
+    "\u00a71.6.xxxviii",
+    "\u00a71.6.xxxix",
+    "\u00a71.6.xl",
+    "\u00a71.6.xli",
+    "\u00a71.6.xlvii",
+    "\u00a71.6.xlviii",
+    "\u00a71.6.xlix",
+    "\u00a71.6.l"
+  ]
+}

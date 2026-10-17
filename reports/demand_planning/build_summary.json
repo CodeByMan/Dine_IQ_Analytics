@@ -1,0 +1,115 @@
+{
+  "chronological_split_boundaries": {
+    "test_min": "2025-11-01",
+    "train_max": "2025-08-31",
+    "validation_max": "2025-10-31",
+    "validation_min": "2025-09-01"
+  },
+  "chronological_splits": true,
+  "forecast_horizon_days": 30,
+  "forecast_metrics": [
+    "MAE",
+    "MAPE_nonzero_actuals",
+    "R2",
+    "RMSE"
+  ],
+  "output_rows": {
+    "association_rules": 33180,
+    "bundle_recommendations": 925,
+    "forecast_category_daily": 360,
+    "forecast_evaluation": 8,
+    "forecast_item_location_daily": 122100,
+    "forecast_location_daily": 660,
+    "price_sensitivity": 370,
+    "promotion_effectiveness": 45,
+    "wastage_risk_prediction": 4008
+  },
+  "parquet_readback_rows": {
+    "association_rules": 33180,
+    "bundle_recommendations": 925,
+    "forecast_category_daily": 360,
+    "forecast_evaluation": 8,
+    "forecast_item_location_daily": 122100,
+    "forecast_location_daily": 660,
+    "price_sensitivity": 370,
+    "promotion_effectiveness": 45,
+    "wastage_risk_prediction": 4008
+  },
+  "passed": true,
+  "price_sensitivity_classes": [
+    "Highly Price Sensitive",
+    "Low Price Sensitivity",
+    "Moderately Price Sensitive"
+  ],
+  "source_data_modified": false,
+  "srs_requirements": [
+    "\u00a71.6.xxv",
+    "\u00a71.6.xxvi",
+    "\u00a71.6.xxvii",
+    "\u00a71.6.xxviii",
+    "\u00a71.6.xxix",
+    "\u00a71.6.xxx",
+    "\u00a71.6.xxxi",
+    "\u00a71.6.xxxii",
+    "\u00a71.6.xxxiii",
+    "\u00a71.6.xxxiv"
+  ],
+  "wastage_model": {
+    "algorithm": "RandomForestClassifier",
+    "artifact_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/models/wastage_risk/selected_model.joblib",
+    "chronological_boundaries": {
+      "test_min": "2025-10-22",
+      "train_max": "2025-08-29",
+      "validation_max": "2025-10-21",
+      "validation_min": "2025-08-30"
+    },
+    "classification_acceptance": {
+      "accuracy_met": true,
+      "macro_f1_met": true,
+      "minimum_accuracy": 0.85,
+      "minimum_macro_f1": 0.8,
+      "passed": true,
+      "requirement": "\u00a71.7.4",
+      "rule": "test accuracy >= 0.85 OR test macro_f1 >= 0.80",
+      "split": "test"
+    },
+    "features": [
+      "historical_wastage_rate",
+      "historical_quantity_wasted",
+      "historical_preparation_quantity",
+      "historical_wastage_cost",
+      "closing_stock",
+      "reorder_level",
+      "units_sold",
+      "stockout_flag",
+      "item_popularity",
+      "month",
+      "day_of_week"
+    ],
+    "inference_records": 4008,
+    "loaded_persisted_model_for_inference": true,
+    "model_version": "sklearn-randomforest-wastage-risk-v1",
+    "passed": true,
+    "risk_threshold": 0.15913555992141457,
+    "source_data_modified": false,
+    "target": "next observed wastage rate >= training 75th-percentile threshold",
+    "task": "high-wastage-risk classification",
+    "test_metrics": {
+      "accuracy": 0.9088405397961994,
+      "macro_f1": 0.8922989503220293,
+      "records": 7262,
+      "roc_auc": 0.9617454656697073,
+      "split": "test"
+    },
+    "test_records": 7262,
+    "train_records": 33989,
+    "validation_metrics": {
+      "accuracy": 0.8968641114982578,
+      "macro_f1": 0.8685714755322886,
+      "records": 7175,
+      "roc_auc": 0.9505996670559278,
+      "split": "validation"
+    },
+    "validation_records": 7175
+  }
+}

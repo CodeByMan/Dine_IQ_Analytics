@@ -35,8 +35,11 @@ performance, customer behavior, inventory, wastage, pricing, promotions,
 branches, anomalies, and operational opportunities from one controlled
 workflow.
 
-The dataset is synthetic and is used to demonstrate the complete SRS-required
-data, analytics, ML, UI, database, API, testing, and evidence workflow.
+## 🔗 GitHub Repository
+
+Clone the complete project from:
+
+[https://github.com/CodeByMan/Dine_IQ_Analytics](https://github.com/CodeByMan/Dine_IQ_Analytics)
 
 ## 🎯 Objectives
 
@@ -169,17 +172,21 @@ The dashboard contains the following main pages and workflows:
 
 ## 🖼️ Screenshots
 
-| Dashboard | Menu | Customer |
-| --- | --- | --- |
-| ![Dashboard](screenshots/dashboard.png) | ![Menu](screenshots/menu_chart.png) | ![Customer](screenshots/customer_chart.png) |
+| Dashboard | Spark versus Python prediction |
+| --- | --- |
+| ![Dashboard](screenshots/dashboard.png) | ![Spark versus Python prediction](screenshots/spark_vs_python_prediction.png) |
 
-| Forecast | Sales by channel | Peak-order heatmap |
-| --- | --- | --- |
-| ![Forecast](screenshots/forecast_chart.png) | ![Sales by channel](screenshots/order_channel_chart.png) | ![Peak-order heatmap](screenshots/peak_order_heatmap.png) |
+| Menu chart | Customer chart |
+| --- | --- |
+| ![Menu chart](screenshots/menu_chart.png) | ![Customer chart](screenshots/customer_chart.png) |
 
-| Sales demand | Spark versus Python | |
-| --- | --- | --- |
-| ![Sales demand](screenshots/sale_demand_chart.png) | ![Spark versus Python](screenshots/spark_vs_python_prediction.png) | |
+| Forecast chart | Sales by channel |
+| --- | --- |
+| ![Forecast chart](screenshots/forecast_chart.png) | ![Sales by channel](screenshots/order_channel_chart.png) |
+
+| Peak-order heatmap | Sales demand chart |
+| --- | --- |
+| ![Peak-order heatmap](screenshots/peak_order_heatmap.png) | ![Sales demand chart](screenshots/sale_demand_chart.png) |
 
 ## 📁 Project Structure
 
@@ -235,7 +242,7 @@ DineIQ_Analytics/
 ### Clone and create the environment
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/CodeByMan/Dine_IQ_Analytics.git
 cd DineIQ_Analytics
 
 python3 -m venv dineiq_analytics_env
@@ -400,14 +407,19 @@ Temporary folders such as `dataset_validation_*`, `execution_*`, and
 - Add shared rate limiting and centralized authentication for multi-instance
   deployment.
 
+## 🧑‍💻 Author
+
+**Muhammad Ali Nawaz**  
+Data Science / AI Developer
+
+---
+
 ## 📄 License
 
-This project is distributed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-<div align="center">
+---
 
-### ⭐ DineIQ Analytics — Data-driven restaurant intelligence
-
-**Muhammad Ali Nawaz · 2026**
-
-</div>
+<p align="center">
+  <b>⭐ If this project helps you, consider starring the repository!</b>
+</p>

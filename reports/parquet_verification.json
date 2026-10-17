@@ -1,0 +1,62 @@
+{
+  "Customers": {
+    "rows_written": 55000,
+    "rows_read_back": 55000,
+    "ok": true
+  },
+  "Restaurants": {
+    "rows_written": 22,
+    "rows_read_back": 22,
+    "ok": true
+  },
+  "Menu_Categories": {
+    "rows_written": 12,
+    "rows_read_back": 12,
+    "ok": true
+  },
+  "Menu_Items": {
+    "rows_written": 185,
+    "rows_read_back": 185,
+    "ok": true
+  },
+  "Menu_Item_Availability": {
+    "rows_written": 4070,
+    "rows_read_back": 4070,
+    "ok": true
+  },
+  "Pricing_History": {
+    "rows_written": 555,
+    "rows_read_back": 555,
+    "ok": true
+  },
+  "Promotions": {
+    "rows_written": 45,
+    "rows_read_back": 45,
+    "ok": true
+  },
+  "Orders": {
+    "rows_written": 256880,
+    "rows_read_back": 256880,
+    "ok": true
+  },
+  "Order_Items": {
+    "rows_written": 1105311,
+    "rows_read_back": 1105311,
+    "ok": true
+  },
+  "Ratings": {
+    "rows_written": 102604,
+    "rows_read_back": 102604,
+    "ok": true
+  },
+  "Inventory": {
+    "rows_written": 48840,
+    "rows_read_back": 48840,
+    "ok": true
+  },
+  "Wastage": {
+    "rows_written": 54986,
+    "rows_read_back": 54986,
+    "ok": true
+  }
+}

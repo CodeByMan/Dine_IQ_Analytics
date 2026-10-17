@@ -1,0 +1,70 @@
+{
+  "canonical_source_findings": {
+    "cancelled_transactions": 12927,
+    "duplicate_order_lines": 3389,
+    "duplicate_orders": 1300,
+    "impossible_wastage_quantities": 275,
+    "inconsistent_units": 614,
+    "incorrect_discounts": 6778,
+    "invalid_dates": 520,
+    "invalid_location_references": 885,
+    "invalid_menu_prices": 2526,
+    "invalid_ratings": 525,
+    "invalid_restaurant_ids": 780,
+    "missing_customer_ids": 1300,
+    "missing_menu_ids": 7907,
+    "missing_values": 200228,
+    "negative_quantities": 2259
+  },
+  "enumerated_issue_types": [
+    "missing_values",
+    "duplicate_orders",
+    "duplicate_order_lines",
+    "invalid_menu_prices",
+    "negative_quantities",
+    "invalid_dates",
+    "invalid_ratings",
+    "missing_customer_ids",
+    "missing_menu_ids",
+    "invalid_restaurant_ids",
+    "impossible_wastage_quantities",
+    "incorrect_discounts",
+    "cancelled_transactions",
+    "inconsistent_units",
+    "invalid_location_references"
+  ],
+  "isolated_fixture_coverage": {
+    "expected_issue_types": 15,
+    "failed_types": [],
+    "fixture_types_detected": 15,
+    "fixture_types_found": 15,
+    "missing_types": [],
+    "passed": true,
+    "unexpected_types": []
+  },
+  "issue_type_count": 15,
+  "missing_rows_by_table": {
+    "customers": 2750,
+    "inventory": 488,
+    "menu_categories": 0,
+    "menu_item_availability": 0,
+    "menu_items": 0,
+    "order_items": 4518,
+    "orders": 149946,
+    "pricing_history": 366,
+    "promotions": 26,
+    "ratings": 42024,
+    "restaurants": 0,
+    "wastage": 110
+  },
+  "notes": [
+    "The SRS labels the list as 14 cases but enumerates 15; all 15 are checked.",
+    "Impossible wastage is detected when wasted quantity is negative or exceeds preparation quantity; the supplied fixture demonstrates the latter case.",
+    "Noncanonical Unit labels are counted in inventory and wastage. Known labels are standardized by the documented cleaner without physical unit conversion; gram/lb semantics remain a dataset limitation.",
+    "Canonical missingness and anomaly counts are findings, not automatic pipeline failure; raw source files remain unchanged."
+  ],
+  "passed": true,
+  "srs_requirements": [
+    "\u00a71.6.xiv"
+  ]
+}

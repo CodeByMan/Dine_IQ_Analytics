@@ -1,0 +1,14 @@
+{
+  "Customers.csv": "261050a608dc88ff95e96bf81b547290b7af9b53ce09b105165f7eb3d6375ad7",
+  "Restaurants.csv": "9d33a005f6bd6b11b4d965712c9022149a5087d2f8168b087931a2b61382bee8",
+  "Menu_Categories.csv": "6dd44ce5dd3bcff4812ca7c9de4958b9c102fab578ee2071ad96c9ffafa398db",
+  "Menu_Items.csv": "d1fd6ec48a2ead62952d89f5e650948345a665ff49f9e0d4e9872e95d99574f0",
+  "Menu_Item_Availability.csv": "7237d03876207223c4140d9ea416eaf4af89c1938bb6dcd88f0d2428c25ce838",
+  "Pricing_History.csv": "7044bc521e7427a5160cc74913d0b43ae7fe05d76ee9393e9fbf668d1d5b4e4b",
+  "Promotions.csv": "11bb40d28e14b3dd449faf8fed104261946f0f6351e49c209d5d99bcf7475be4",
+  "Orders.csv": "3df1e575692a1c4f95346575617b0873a16ab099ddc2273e14cef0092f955e82",
+  "Order_Items.csv": "e11b11de4ad5a64eb204b06504e6542bd6f4ad4b2c38cdc35b1bf3c0a21c9960",
+  "Ratings.csv": "e4d2286d9f7ffa3732c3978d1ba9d2bce6cdbfff1701f27f403c0854563834d0",
+  "Inventory.csv": "c532fce3bcbb8eaf851bc707903bf572fb1efebe03df1ba3aec3169c1e2bd9a1",
+  "Wastage.csv": "979e8588adb405bb3a54cbdb3b428a4a0721ac2cc99a5373d43c0f9e3ccefa0d"
+}

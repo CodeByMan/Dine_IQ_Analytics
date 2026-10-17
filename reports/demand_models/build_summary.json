@@ -1,0 +1,261 @@
+{
+  "agreement_count": 92226,
+  "agreement_percentage": 37.385988665753224,
+  "agreement_tolerance": "absolute Spark/Python prediction difference <= 10% of max(1, absolute actual demand)",
+  "chronological_boundaries": {
+    "test": {
+      "max": "2025-12-31",
+      "min": "2025-11-01"
+    },
+    "train": {
+      "max": "2025-08-31",
+      "min": "2025-01-01"
+    },
+    "validation": {
+      "max": "2025-10-31",
+      "min": "2025-09-01"
+    }
+  },
+  "comparison_artifact": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/demand_models/dual_pipeline_comparison",
+  "comparison_parquet_readback_records": 246686,
+  "comparison_records": 246686,
+  "disagreement_count": 154460,
+  "maximum_absolute_prediction_difference": 22.360435964477194,
+  "mean_absolute_prediction_difference": 0.5040441466827826,
+  "nfr_ex_04_forecast_baseline_improvement_verified": true,
+  "passed": true,
+  "python_best_epoch": 1,
+  "python_model_file": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/models/demand_models/python/selected_model.joblib",
+  "python_model_version": "sklearn-sgdregressor-demand-v2",
+  "python_rmse_improvement_over_seasonal_naive_pct": 11.676960899676045,
+  "python_selected_model": "SGDRegressor",
+  "python_test_metrics": {
+    "improves_baseline_rmse": true,
+    "mae": 1.177948984467959,
+    "mape_nonzero_actuals": 63.0474787957849,
+    "model": "SGDRegressor",
+    "r2": 0.26096809902309015,
+    "records": 246686,
+    "rmse": 2.4687293714225045,
+    "seasonal_naive_metrics": {
+      "mae": 1.4233803296498382,
+      "mape_nonzero_actuals": 98.936877350118,
+      "model": "Seasonal naive lag 7",
+      "r2": 0.05263970926262196,
+      "records": 246686,
+      "rmse": 2.7951137059701217,
+      "split": "test"
+    },
+    "split": "test"
+  },
+  "python_validation_metrics": [
+    {
+      "epoch": 1,
+      "improves_baseline_rmse": true,
+      "mae": 0.9625122906785221,
+      "mape_nonzero_actuals": 63.251908442414894,
+      "model": "SGDRegressor",
+      "r2": 0.28901944397994317,
+      "records": 240438,
+      "rmse": 1.824334142021076,
+      "seasonal_naive_metrics": {
+        "mae": 1.2364767632404197,
+        "mape_nonzero_actuals": 98.22777952465616,
+        "model": "Seasonal naive lag 7",
+        "r2": -0.16299236977508635,
+        "records": 240438,
+        "rmse": 2.3332644104787033,
+        "split": "validation"
+      },
+      "split": "validation"
+    },
+    {
+      "epoch": 2,
+      "improves_baseline_rmse": true,
+      "mae": 0.9484948702785242,
+      "mape_nonzero_actuals": 64.64774738513036,
+      "model": "SGDRegressor",
+      "r2": 0.27730691699445875,
+      "records": 240438,
+      "rmse": 1.839299585949013,
+      "seasonal_naive_metrics": {
+        "mae": 1.2364767632404197,
+        "mape_nonzero_actuals": 98.22777952465616,
+        "model": "Seasonal naive lag 7",
+        "r2": -0.16299236977508635,
+        "records": 240438,
+        "rmse": 2.3332644104787033,
+        "split": "validation"
+      },
+      "split": "validation"
+    },
+    {
+      "epoch": 3,
+      "improves_baseline_rmse": true,
+      "mae": 0.9412049448000184,
+      "mape_nonzero_actuals": 65.65452234170218,
+      "model": "SGDRegressor",
+      "r2": 0.26800430325428304,
+      "records": 240438,
+      "rmse": 1.8510996045116177,
+      "seasonal_naive_metrics": {
+        "mae": 1.2364767632404197,
+        "mape_nonzero_actuals": 98.22777952465616,
+        "model": "Seasonal naive lag 7",
+        "r2": -0.16299236977508635,
+        "records": 240438,
+        "rmse": 2.3332644104787033,
+        "split": "validation"
+      },
+      "split": "validation"
+    }
+  ],
+  "same_underlying_test_records": true,
+  "seasonal_naive_test_metrics": {
+    "mae": 1.4233803296498382,
+    "mape_nonzero_actuals": 98.93687735011798,
+    "model": "SeasonalNaiveLag7",
+    "r2": 0.05263970926262773,
+    "records": 246686,
+    "rmse": 2.7951137059701217,
+    "split": "test"
+  },
+  "source_data_modified": false,
+  "spark_algorithms_trained": [
+    "LinearRegression",
+    "DecisionTreeRegressor",
+    "RandomForestRegressor"
+  ],
+  "spark_hyperparameters": {
+    "DecisionTreeRegressor": {
+      "cacheNodeIds": false,
+      "checkpointInterval": 10,
+      "featuresCol": "features",
+      "impurity": "variance",
+      "labelCol": "Target_Quantity",
+      "leafCol": "",
+      "maxBins": 32,
+      "maxDepth": 8,
+      "maxMemoryInMB": 256,
+      "minInfoGain": 0.0,
+      "minInstancesPerNode": 20,
+      "minWeightFractionPerNode": 0.0,
+      "predictionCol": "prediction",
+      "seed": -5099025661090509305
+    },
+    "LinearRegression": {
+      "aggregationDepth": 2,
+      "elasticNetParam": 0.0,
+      "epsilon": 1.35,
+      "featuresCol": "features",
+      "fitIntercept": true,
+      "labelCol": "Target_Quantity",
+      "loss": "squaredError",
+      "maxBlockSizeInMB": 0.0,
+      "maxIter": 30,
+      "predictionCol": "prediction",
+      "regParam": 0.05,
+      "solver": "auto",
+      "standardization": true,
+      "tol": 1e-06
+    },
+    "RandomForestRegressor": {
+      "bootstrap": true,
+      "cacheNodeIds": false,
+      "checkpointInterval": 10,
+      "featureSubsetStrategy": "auto",
+      "featuresCol": "features",
+      "impurity": "variance",
+      "labelCol": "Target_Quantity",
+      "leafCol": "",
+      "maxBins": 64,
+      "maxDepth": 8,
+      "maxMemoryInMB": 256,
+      "minInfoGain": 0.0,
+      "minInstancesPerNode": 1,
+      "minWeightFractionPerNode": 0.0,
+      "numTrees": 24,
+      "predictionCol": "prediction",
+      "seed": 42,
+      "subsamplingRate": 1.0
+    }
+  },
+  "spark_models_dir": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/models/demand_models/spark",
+  "spark_rmse_improvement_over_seasonal_naive_pct": 21.99490499829863,
+  "spark_selected_model": "LinearRegression",
+  "spark_test_metrics": {
+    "mae": 1.1625982334659013,
+    "mape_nonzero_actuals": 66.21541072219101,
+    "model": "LinearRegression",
+    "r2": 0.42355069854035343,
+    "records": 246686,
+    "rmse": 2.1803311017475693,
+    "split": "test"
+  },
+  "spark_training_metrics": [
+    {
+      "mae": 1.1565813247343393,
+      "mape_nonzero_actuals": 65.40180102918606,
+      "model": "LinearRegression",
+      "r2": 0.3980613532557249,
+      "records": 929368,
+      "rmse": 2.010769929060741,
+      "split": "train"
+    },
+    {
+      "mae": 1.1783923587917198,
+      "mape_nonzero_actuals": 64.46891411329041,
+      "model": "DecisionTreeRegressor",
+      "r2": 0.40556619103661884,
+      "records": 929368,
+      "rmse": 1.9981956957913591,
+      "split": "train"
+    },
+    {
+      "mae": 1.1883201254976994,
+      "mape_nonzero_actuals": 62.71656483374653,
+      "model": "RandomForestRegressor",
+      "r2": 0.41352817657308705,
+      "records": 929368,
+      "rmse": 1.984768431871508,
+      "split": "train"
+    }
+  ],
+  "spark_validation_metrics": [
+    {
+      "mae": 1.0551893406383475,
+      "mape_nonzero_actuals": 65.2031644277697,
+      "model": "LinearRegression",
+      "r2": 0.35711510876156927,
+      "records": 240438,
+      "rmse": 1.7347709210462268,
+      "split": "validation"
+    },
+    {
+      "mae": 1.0768968794112803,
+      "mape_nonzero_actuals": 63.60743859996403,
+      "model": "DecisionTreeRegressor",
+      "r2": 0.33900465578259853,
+      "records": 240438,
+      "rmse": 1.7590359862158649,
+      "split": "validation"
+    },
+    {
+      "mae": 1.090726962724946,
+      "mape_nonzero_actuals": 62.05192619254077,
+      "model": "RandomForestRegressor",
+      "r2": 0.3509969800612964,
+      "records": 240438,
+      "rmse": 1.7430060031816654,
+      "split": "validation"
+    }
+  ],
+  "srs_requirements": [
+    "\u00a71.6.xlii",
+    "\u00a71.6.xliii",
+    "\u00a71.6.xliv",
+    "\u00a71.6.xlv",
+    "\u00a71.6.xlvi",
+    "\u00a71.7.4"
+  ]
+}

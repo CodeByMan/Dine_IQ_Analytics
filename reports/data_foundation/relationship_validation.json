@@ -1,0 +1,171 @@
+{
+  "checks": [
+    {
+      "child_key": "Home_Restaurant_ID",
+      "child_table": "customers",
+      "parent_key": "Restaurant_ID",
+      "parent_table": "restaurants",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Restaurant_ID",
+      "child_table": "inventory",
+      "parent_key": "Restaurant_ID",
+      "parent_table": "restaurants",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Item_ID",
+      "child_table": "inventory",
+      "parent_key": "Item_ID",
+      "parent_table": "menu_items",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Restaurant_ID",
+      "child_table": "menu_item_availability",
+      "parent_key": "Restaurant_ID",
+      "parent_table": "restaurants",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Item_ID",
+      "child_table": "menu_item_availability",
+      "parent_key": "Item_ID",
+      "parent_table": "menu_items",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Category_ID",
+      "child_table": "menu_items",
+      "parent_key": "Category_ID",
+      "parent_table": "menu_categories",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Order_ID",
+      "child_table": "order_items",
+      "parent_key": "Order_ID",
+      "parent_table": "orders",
+      "passed": false,
+      "unmatched_rows": 1129
+    },
+    {
+      "child_key": "Item_ID",
+      "child_table": "order_items",
+      "parent_key": "Item_ID",
+      "parent_table": "menu_items",
+      "passed": false,
+      "unmatched_rows": 1129
+    },
+    {
+      "child_key": "Customer_ID",
+      "child_table": "orders",
+      "parent_key": "Customer_ID",
+      "parent_table": "customers",
+      "passed": false,
+      "unmatched_rows": 520
+    },
+    {
+      "child_key": "Restaurant_ID",
+      "child_table": "orders",
+      "parent_key": "Restaurant_ID",
+      "parent_table": "restaurants",
+      "passed": false,
+      "unmatched_rows": 780
+    },
+    {
+      "child_key": "Promotion_ID",
+      "child_table": "orders",
+      "parent_key": "Promotion_ID",
+      "parent_table": "promotions",
+      "passed": false,
+      "unmatched_rows": 520
+    },
+    {
+      "child_key": "Item_ID",
+      "child_table": "pricing_history",
+      "parent_key": "Item_ID",
+      "parent_table": "menu_items",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Applicable_Category_ID",
+      "child_table": "promotions",
+      "parent_key": "Category_ID",
+      "parent_table": "menu_categories",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Applicable_Restaurant_ID",
+      "child_table": "promotions",
+      "parent_key": "Restaurant_ID",
+      "parent_table": "restaurants",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Order_ID",
+      "child_table": "ratings",
+      "parent_key": "Order_ID",
+      "parent_table": "orders",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Customer_ID",
+      "child_table": "ratings",
+      "parent_key": "Customer_ID",
+      "parent_table": "customers",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Item_ID",
+      "child_table": "ratings",
+      "parent_key": "Item_ID",
+      "parent_table": "menu_items",
+      "passed": false,
+      "unmatched_rows": 105
+    },
+    {
+      "child_key": "Restaurant_ID",
+      "child_table": "ratings",
+      "parent_key": "Restaurant_ID",
+      "parent_table": "restaurants",
+      "passed": false,
+      "unmatched_rows": 105
+    },
+    {
+      "child_key": "Restaurant_ID",
+      "child_table": "wastage",
+      "parent_key": "Restaurant_ID",
+      "parent_table": "restaurants",
+      "passed": true,
+      "unmatched_rows": 0
+    },
+    {
+      "child_key": "Item_ID",
+      "child_table": "wastage",
+      "parent_key": "Item_ID",
+      "parent_table": "menu_items",
+      "passed": true,
+      "unmatched_rows": 0
+    }
+  ],
+  "integrity_status": "PASS_WITH_FINDINGS",
+  "passed": true,
+  "srs_requirements": [
+    "\u00a71.6.xiii"
+  ],
+  "unmatched_reference_rows": 4288,
+  "validation_completed": true
+}

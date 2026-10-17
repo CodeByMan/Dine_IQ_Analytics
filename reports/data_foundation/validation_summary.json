@@ -1,0 +1,682 @@
+{
+  "ingestion": {
+    "canonical_ingestion_path": "src/dineiq/dataset/ingest.py::read_table",
+    "data_directory": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data",
+    "dataset_root": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data",
+    "explicit_schema_path": "src/dineiq/dataset/schema.py::expected_schema",
+    "inference_demo": {
+      "available": true,
+      "declared_types": {
+        "Age": "int",
+        "City": "string",
+        "Customer_ID": "string",
+        "Email": "string",
+        "First_Name": "string",
+        "Gender": "string",
+        "Home_Restaurant_ID": "string",
+        "Last_Name": "string",
+        "Locality": "string",
+        "Phone": "string",
+        "Signup_Date": "date"
+      },
+      "inference_row_count": 1000,
+      "inferred_types": {
+        "Age": "int",
+        "City": "string",
+        "Customer_ID": "string",
+        "Email": "string",
+        "First_Name": "string",
+        "Gender": "string",
+        "Home_Restaurant_ID": "string",
+        "Last_Name": "string",
+        "Locality": "string",
+        "Phone": "string",
+        "Signup_Date": "date"
+      },
+      "missing_columns": [],
+      "note": "Inference is evidence only; canonical reads use explicit schema plus casts.",
+      "passed": true,
+      "source_files": [
+        "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Customers.csv"
+      ],
+      "table": "customers"
+    },
+    "large_file_strategy": "Spark CSV reader with deterministic file list and bounded Spark partitions.",
+    "missing_tables": [],
+    "multiple_file_support": true,
+    "passed": true,
+    "source_file_count": 12,
+    "srs_requirements": [
+      "\u00a71.6.xii",
+      "\u00a71.6.xiii",
+      "\u00a71.6.xiv"
+    ],
+    "table_count": 12,
+    "tables": {
+      "customers": [
+        {
+          "bytes": 6624813,
+          "columns": [
+            "Customer_ID",
+            "First_Name",
+            "Last_Name",
+            "Gender",
+            "Age",
+            "City",
+            "Locality",
+            "Home_Restaurant_ID",
+            "Signup_Date",
+            "Email",
+            "Phone"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Customers.csv",
+          "rows": 55000,
+          "sha256": "261050a608dc88ff95e96bf81b547290b7af9b53ce09b105165f7eb3d6375ad7"
+        }
+      ],
+      "inventory": [
+        {
+          "bytes": 2611864,
+          "columns": [
+            "Inventory_ID",
+            "Restaurant_ID",
+            "Item_ID",
+            "Month",
+            "Opening_Stock",
+            "Received_Stock",
+            "Consumed_Stock",
+            "Closing_Stock",
+            "Unit"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Inventory.csv",
+          "rows": 48840,
+          "sha256": "c532fce3bcbb8eaf851bc707903bf572fb1efebe03df1ba3aec3169c1e2bd9a1"
+        }
+      ],
+      "menu_categories": [
+        {
+          "bytes": 264,
+          "columns": [
+            "Category_ID",
+            "Category_Name"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Menu_Categories.csv",
+          "rows": 12,
+          "sha256": "6dd44ce5dd3bcff4812ca7c9de4958b9c102fab578ee2071ad96c9ffafa398db"
+        }
+      ],
+      "menu_item_availability": [
+        {
+          "bytes": 146586,
+          "columns": [
+            "Availability_ID",
+            "Restaurant_ID",
+            "Item_ID",
+            "Is_Available",
+            "Available_From"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Menu_Item_Availability.csv",
+          "rows": 4070,
+          "sha256": "7237d03876207223c4140d9ea416eaf4af89c1938bb6dcd88f0d2428c25ce838"
+        }
+      ],
+      "menu_items": [
+        {
+          "bytes": 9847,
+          "columns": [
+            "Item_ID",
+            "Item_Name",
+            "Category_ID",
+            "Base_Cost",
+            "Base_Price",
+            "Introduced_Date",
+            "Is_Active"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Menu_Items.csv",
+          "rows": 185,
+          "sha256": "d1fd6ec48a2ead62952d89f5e650948345a665ff49f9e0d4e9872e95d99574f0"
+        }
+      ],
+      "order_items": [
+        {
+          "bytes": 60022917,
+          "columns": [
+            "Order_Item_ID",
+            "Order_ID",
+            "Item_ID",
+            "Quantity",
+            "Unit_Price",
+            "Discount_Percent",
+            "Line_Subtotal",
+            "Line_Total"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Order_Items.csv",
+          "rows": 1135614,
+          "sha256": "e11b11de4ad5a64eb204b06504e6542bd6f4ad4b2c38cdc35b1bf3c0a21c9960"
+        }
+      ],
+      "orders": [
+        {
+          "bytes": 33335870,
+          "columns": [
+            "Order_ID",
+            "Customer_ID",
+            "Restaurant_ID",
+            "Order_DateTime",
+            "Order_Date",
+            "Channel",
+            "Payment_Method",
+            "Promotion_ID",
+            "Status",
+            "Delivery_Charge",
+            "Item_Count",
+            "Subtotal",
+            "Total_Amount",
+            "Discount_Amount",
+            "Tax_Amount",
+            "Grand_Total"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Orders.csv",
+          "rows": 261300,
+          "sha256": "3df1e575692a1c4f95346575617b0873a16ab099ddc2273e14cef0092f955e82"
+        }
+      ],
+      "pricing_history": [
+        {
+          "bytes": 24659,
+          "columns": [
+            "Pricing_ID",
+            "Item_ID",
+            "Price",
+            "Previous_Price",
+            "Effective_Date",
+            "End_Date"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Pricing_History.csv",
+          "rows": 555,
+          "sha256": "7044bc521e7427a5160cc74913d0b43ae7fe05d76ee9393e9fbf668d1d5b4e4b"
+        }
+      ],
+      "promotions": [
+        {
+          "bytes": 3033,
+          "columns": [
+            "Promotion_ID",
+            "Promotion_Name",
+            "Discount_Percent",
+            "Start_Date",
+            "End_Date",
+            "Applicable_Category_ID",
+            "Applicable_Restaurant_ID"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Promotions.csv",
+          "rows": 45,
+          "sha256": "11bb40d28e14b3dd449faf8fed104261946f0f6351e49c209d5d99bcf7475be4"
+        }
+      ],
+      "ratings": [
+        {
+          "bytes": 10739563,
+          "columns": [
+            "Rating_ID",
+            "Order_ID",
+            "Customer_ID",
+            "Item_ID",
+            "Restaurant_ID",
+            "Rating_Value",
+            "Rating_Date",
+            "Comment",
+            "Reviewer_Name"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Ratings.csv",
+          "rows": 105000,
+          "sha256": "e4d2286d9f7ffa3732c3978d1ba9d2bce6cdbfff1701f27f403c0854563834d0"
+        }
+      ],
+      "restaurants": [
+        {
+          "bytes": 4228,
+          "columns": [
+            "Restaurant_ID",
+            "Chain_Name",
+            "Restaurant_Name",
+            "Locality",
+            "District",
+            "Address",
+            "City",
+            "Province",
+            "Country",
+            "Location_Type",
+            "Opening_Date",
+            "Seating_Capacity"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Restaurants.csv",
+          "rows": 22,
+          "sha256": "9d33a005f6bd6b11b4d965712c9022149a5087d2f8168b087931a2b61382bee8"
+        }
+      ],
+      "wastage": [
+        {
+          "bytes": 3655458,
+          "columns": [
+            "Wastage_ID",
+            "Restaurant_ID",
+            "Item_ID",
+            "Date",
+            "Prepared_Quantity",
+            "Wastage_Quantity",
+            "Unit",
+            "Reason",
+            "Wastage_Cost"
+          ],
+          "path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/raw_data/Wastage.csv",
+          "rows": 55096,
+          "sha256": "979e8588adb405bb3a54cbdb3b428a4a0721ac2cc99a5373d43c0f9e3ccefa0d"
+        }
+      ]
+    },
+    "total_rows": 1665739
+  },
+  "passed": true,
+  "quality": {
+    "canonical_source_findings": {
+      "cancelled_transactions": 12927,
+      "duplicate_order_lines": 3389,
+      "duplicate_orders": 1300,
+      "impossible_wastage_quantities": 275,
+      "inconsistent_units": 614,
+      "incorrect_discounts": 6778,
+      "invalid_dates": 520,
+      "invalid_location_references": 885,
+      "invalid_menu_prices": 2526,
+      "invalid_ratings": 525,
+      "invalid_restaurant_ids": 780,
+      "missing_customer_ids": 1300,
+      "missing_menu_ids": 7907,
+      "missing_values": 200228,
+      "negative_quantities": 2259
+    },
+    "enumerated_issue_types": [
+      "missing_values",
+      "duplicate_orders",
+      "duplicate_order_lines",
+      "invalid_menu_prices",
+      "negative_quantities",
+      "invalid_dates",
+      "invalid_ratings",
+      "missing_customer_ids",
+      "missing_menu_ids",
+      "invalid_restaurant_ids",
+      "impossible_wastage_quantities",
+      "incorrect_discounts",
+      "cancelled_transactions",
+      "inconsistent_units",
+      "invalid_location_references"
+    ],
+    "isolated_fixture_coverage": {
+      "expected_issue_types": 15,
+      "failed_types": [],
+      "fixture_types_detected": 15,
+      "fixture_types_found": 15,
+      "missing_types": [],
+      "passed": true,
+      "unexpected_types": []
+    },
+    "issue_type_count": 15,
+    "missing_rows_by_table": {
+      "customers": 2750,
+      "inventory": 488,
+      "menu_categories": 0,
+      "menu_item_availability": 0,
+      "menu_items": 0,
+      "order_items": 4518,
+      "orders": 149946,
+      "pricing_history": 366,
+      "promotions": 26,
+      "ratings": 42024,
+      "restaurants": 0,
+      "wastage": 110
+    },
+    "notes": [
+      "The SRS labels the list as 14 cases but enumerates 15; all 15 are checked.",
+      "Impossible wastage is detected when wasted quantity is negative or exceeds preparation quantity; the supplied fixture demonstrates the latter case.",
+      "Noncanonical Unit labels are counted in inventory and wastage. Known labels are standardized by the documented cleaner without physical unit conversion; gram/lb semantics remain a dataset limitation.",
+      "Canonical missingness and anomaly counts are findings, not automatic pipeline failure; raw source files remain unchanged."
+    ],
+    "passed": true,
+    "srs_requirements": [
+      "\u00a71.6.xiv"
+    ]
+  },
+  "relationships": {
+    "checks": [
+      {
+        "child_key": "Home_Restaurant_ID",
+        "child_table": "customers",
+        "parent_key": "Restaurant_ID",
+        "parent_table": "restaurants",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Restaurant_ID",
+        "child_table": "inventory",
+        "parent_key": "Restaurant_ID",
+        "parent_table": "restaurants",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Item_ID",
+        "child_table": "inventory",
+        "parent_key": "Item_ID",
+        "parent_table": "menu_items",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Restaurant_ID",
+        "child_table": "menu_item_availability",
+        "parent_key": "Restaurant_ID",
+        "parent_table": "restaurants",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Item_ID",
+        "child_table": "menu_item_availability",
+        "parent_key": "Item_ID",
+        "parent_table": "menu_items",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Category_ID",
+        "child_table": "menu_items",
+        "parent_key": "Category_ID",
+        "parent_table": "menu_categories",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Order_ID",
+        "child_table": "order_items",
+        "parent_key": "Order_ID",
+        "parent_table": "orders",
+        "passed": false,
+        "unmatched_rows": 1129
+      },
+      {
+        "child_key": "Item_ID",
+        "child_table": "order_items",
+        "parent_key": "Item_ID",
+        "parent_table": "menu_items",
+        "passed": false,
+        "unmatched_rows": 1129
+      },
+      {
+        "child_key": "Customer_ID",
+        "child_table": "orders",
+        "parent_key": "Customer_ID",
+        "parent_table": "customers",
+        "passed": false,
+        "unmatched_rows": 520
+      },
+      {
+        "child_key": "Restaurant_ID",
+        "child_table": "orders",
+        "parent_key": "Restaurant_ID",
+        "parent_table": "restaurants",
+        "passed": false,
+        "unmatched_rows": 780
+      },
+      {
+        "child_key": "Promotion_ID",
+        "child_table": "orders",
+        "parent_key": "Promotion_ID",
+        "parent_table": "promotions",
+        "passed": false,
+        "unmatched_rows": 520
+      },
+      {
+        "child_key": "Item_ID",
+        "child_table": "pricing_history",
+        "parent_key": "Item_ID",
+        "parent_table": "menu_items",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Applicable_Category_ID",
+        "child_table": "promotions",
+        "parent_key": "Category_ID",
+        "parent_table": "menu_categories",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Applicable_Restaurant_ID",
+        "child_table": "promotions",
+        "parent_key": "Restaurant_ID",
+        "parent_table": "restaurants",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Order_ID",
+        "child_table": "ratings",
+        "parent_key": "Order_ID",
+        "parent_table": "orders",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Customer_ID",
+        "child_table": "ratings",
+        "parent_key": "Customer_ID",
+        "parent_table": "customers",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Item_ID",
+        "child_table": "ratings",
+        "parent_key": "Item_ID",
+        "parent_table": "menu_items",
+        "passed": false,
+        "unmatched_rows": 105
+      },
+      {
+        "child_key": "Restaurant_ID",
+        "child_table": "ratings",
+        "parent_key": "Restaurant_ID",
+        "parent_table": "restaurants",
+        "passed": false,
+        "unmatched_rows": 105
+      },
+      {
+        "child_key": "Restaurant_ID",
+        "child_table": "wastage",
+        "parent_key": "Restaurant_ID",
+        "parent_table": "restaurants",
+        "passed": true,
+        "unmatched_rows": 0
+      },
+      {
+        "child_key": "Item_ID",
+        "child_table": "wastage",
+        "parent_key": "Item_ID",
+        "parent_table": "menu_items",
+        "passed": true,
+        "unmatched_rows": 0
+      }
+    ],
+    "integrity_status": "PASS_WITH_FINDINGS",
+    "passed": true,
+    "srs_requirements": [
+      "\u00a71.6.xiii"
+    ],
+    "unmatched_reference_rows": 4288,
+    "validation_completed": true
+  },
+  "schema": {
+    "checks": [
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "customers",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "inventory",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "menu_categories",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "menu_item_availability",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "menu_items",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "order_items",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "orders",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "pricing_history",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "promotions",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "ratings",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "restaurants",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      },
+      {
+        "missing_columns": [],
+        "passed": true,
+        "table": "wastage",
+        "type_mismatches": [],
+        "unexpected_columns": []
+      }
+    ],
+    "invalid_nonblank_casts_by_table": {
+      "customers": {
+        "Age": 0,
+        "Signup_Date": 0
+      },
+      "inventory": {
+        "Closing_Stock": 0,
+        "Consumed_Stock": 0,
+        "Month": 0,
+        "Opening_Stock": 0,
+        "Received_Stock": 0
+      },
+      "menu_categories": {},
+      "menu_item_availability": {
+        "Available_From": 0,
+        "Is_Available": 0
+      },
+      "menu_items": {
+        "Base_Cost": 0,
+        "Base_Price": 0,
+        "Introduced_Date": 0,
+        "Is_Active": 0
+      },
+      "order_items": {
+        "Discount_Percent": 0,
+        "Line_Subtotal": 0,
+        "Line_Total": 0,
+        "Quantity": 0,
+        "Unit_Price": 0
+      },
+      "orders": {
+        "Delivery_Charge": 0,
+        "Discount_Amount": 0,
+        "Grand_Total": 0,
+        "Item_Count": 0,
+        "Order_Date": 520,
+        "Order_DateTime": 0,
+        "Subtotal": 0,
+        "Tax_Amount": 0,
+        "Total_Amount": 0
+      },
+      "pricing_history": {
+        "Effective_Date": 0,
+        "End_Date": 0,
+        "Previous_Price": 0,
+        "Price": 0
+      },
+      "promotions": {
+        "Discount_Percent": 0,
+        "End_Date": 0,
+        "Start_Date": 0
+      },
+      "ratings": {
+        "Rating_Date": 0,
+        "Rating_Value": 0
+      },
+      "restaurants": {
+        "Opening_Date": 0,
+        "Seating_Capacity": 0
+      },
+      "wastage": {
+        "Date": 0,
+        "Prepared_Quantity": 0,
+        "Wastage_Cost": 0,
+        "Wastage_Quantity": 0
+      }
+    },
+    "passed": true,
+    "srs_requirements": [
+      "\u00a71.6.xii",
+      "\u00a71.6.xiii"
+    ]
+  }
+}

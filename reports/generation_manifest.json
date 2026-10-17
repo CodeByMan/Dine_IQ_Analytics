@@ -1,0 +1,1233 @@
+{
+ "NOTE": "INSTRUCTOR ANSWER KEY - generation parameters used only for validation; the data itself carries no analytical labels.",
+ "popular_low_margin": [
+  "M0182",
+  "M0083",
+  "M0077",
+  "M0176",
+  "M0159",
+  "M0097",
+  "M0177",
+  "M0063",
+  "M0140",
+  "M0163"
+ ],
+ "profitable_low_selling": [
+  "M0121",
+  "M0106",
+  "M0147",
+  "M0119",
+  "M0167",
+  "M0047",
+  "M0086",
+  "M0178",
+  "M0146",
+  "M0168"
+ ],
+ "high_wastage_items": [
+  "M0143",
+  "M0119",
+  "M0158",
+  "M0007",
+  "M0121",
+  "M0024",
+  "M0117",
+  "M0083",
+  "M0181",
+  "M0147",
+  "M0101",
+  "M0059"
+ ],
+ "price_sensitive": [
+  "M0001",
+  "M0011",
+  "M0021",
+  "M0028",
+  "M0031",
+  "M0036",
+  "M0041",
+  "M0053",
+  "M0070",
+  "M0075",
+  "M0076",
+  "M0077",
+  "M0086",
+  "M0119",
+  "M0130",
+  "M0152",
+  "M0159",
+  "M0160",
+  "M0170",
+  "M0181"
+ ],
+ "new_items": [
+  "M0040",
+  "M0118",
+  "M0149",
+  "M0161",
+  "M0088",
+  "M0060"
+ ],
+ "poorly_rated": [
+  "M0082",
+  "M0020",
+  "M0178",
+  "M0051",
+  "M0036",
+  "M0059",
+  "M0065",
+  "M0011"
+ ],
+ "promotion_quality": {
+  "PROMO001": "Weak",
+  "PROMO002": "Misleading",
+  "PROMO003": "Effective",
+  "PROMO004": "Effective",
+  "PROMO005": "Weak",
+  "PROMO006": "Misleading",
+  "PROMO007": "Misleading",
+  "PROMO008": "Misleading",
+  "PROMO009": "Effective",
+  "PROMO010": "Misleading",
+  "PROMO011": "Weak",
+  "PROMO012": "Effective",
+  "PROMO013": "Misleading",
+  "PROMO014": "Weak",
+  "PROMO015": "Effective",
+  "PROMO016": "Misleading",
+  "PROMO017": "Weak",
+  "PROMO018": "Effective",
+  "PROMO019": "Misleading",
+  "PROMO020": "Misleading",
+  "PROMO021": "Weak",
+  "PROMO022": "Effective",
+  "PROMO023": "Effective",
+  "PROMO024": "Weak",
+  "PROMO025": "Effective",
+  "PROMO026": "Weak",
+  "PROMO027": "Effective",
+  "PROMO028": "Effective",
+  "PROMO029": "Effective",
+  "PROMO030": "Effective",
+  "PROMO031": "Weak",
+  "PROMO032": "Misleading",
+  "PROMO033": "Effective",
+  "PROMO034": "Effective",
+  "PROMO035": "Effective",
+  "PROMO036": "Weak",
+  "PROMO037": "Misleading",
+  "PROMO038": "Misleading",
+  "PROMO039": "Weak",
+  "PROMO040": "Weak",
+  "PROMO041": "Weak",
+  "PROMO042": "Weak",
+  "PROMO043": "Weak",
+  "PROMO044": "Effective",
+  "PROMO045": "Misleading"
+ },
+ "sales_anomalies": {
+  "spikes": [
+   {
+    "Item_ID": "M0018",
+    "Restaurant_ID": "R019",
+    "Date": "2025-01-28",
+    "Extra_Lines": 20
+   },
+   {
+    "Item_ID": "M0082",
+    "Restaurant_ID": "R009",
+    "Date": "2025-04-29",
+    "Extra_Lines": 31
+   },
+   {
+    "Item_ID": "M0127",
+    "Restaurant_ID": "R007",
+    "Date": "2025-08-13",
+    "Extra_Lines": 36
+   },
+   {
+    "Item_ID": "M0102",
+    "Restaurant_ID": "R013",
+    "Date": "2025-04-15",
+    "Extra_Lines": 19
+   },
+   {
+    "Item_ID": "M0155",
+    "Restaurant_ID": "R020",
+    "Date": "2025-03-05",
+    "Extra_Lines": 9
+   },
+   {
+    "Item_ID": "M0020",
+    "Restaurant_ID": "R008",
+    "Date": "2025-08-20",
+    "Extra_Lines": 28
+   },
+   {
+    "Item_ID": "M0163",
+    "Restaurant_ID": "R011",
+    "Date": "2025-12-06",
+    "Extra_Lines": 36
+   },
+   {
+    "Item_ID": "M0097",
+    "Restaurant_ID": "R017",
+    "Date": "2025-07-31",
+    "Extra_Lines": 25
+   },
+   {
+    "Item_ID": "M0145",
+    "Restaurant_ID": "R007",
+    "Date": "2025-04-03",
+    "Extra_Lines": 26
+   },
+   {
+    "Item_ID": "M0140",
+    "Restaurant_ID": "R005",
+    "Date": "2025-12-08",
+    "Extra_Lines": 28
+   }
+  ],
+  "drops": [
+   {
+    "Item_ID": "M0004",
+    "Restaurant_ID": "R003",
+    "Window_Start": "2025-09-01",
+    "Window_End": "2025-09-07",
+    "Rows_Suppressed": 30,
+    "Rows_Available_Before": 36
+   },
+   {
+    "Item_ID": "M0002",
+    "Restaurant_ID": "R016",
+    "Window_Start": "2025-01-25",
+    "Window_End": "2025-01-31",
+    "Rows_Suppressed": 12,
+    "Rows_Available_Before": 15
+   },
+   {
+    "Item_ID": "M0123",
+    "Restaurant_ID": "R014",
+    "Window_Start": "2025-06-16",
+    "Window_End": "2025-06-22",
+    "Rows_Suppressed": 4,
+    "Rows_Available_Before": 5
+   },
+   {
+    "Item_ID": "M0028",
+    "Restaurant_ID": "R016",
+    "Window_Start": "2025-03-08",
+    "Window_End": "2025-03-14",
+    "Rows_Suppressed": 3,
+    "Rows_Available_Before": 4
+   },
+   {
+    "Item_ID": "M0063",
+    "Restaurant_ID": "R015",
+    "Window_Start": "2025-07-10",
+    "Window_End": "2025-07-16",
+    "Rows_Suppressed": 5,
+    "Rows_Available_Before": 7
+   },
+   {
+    "Item_ID": "M0007",
+    "Restaurant_ID": "R013",
+    "Window_Start": "2025-09-08",
+    "Window_End": "2025-09-14",
+    "Rows_Suppressed": 6,
+    "Rows_Available_Before": 8
+   },
+   {
+    "Item_ID": "M0090",
+    "Restaurant_ID": "R021",
+    "Window_Start": "2025-03-11",
+    "Window_End": "2025-03-17",
+    "Rows_Suppressed": 6,
+    "Rows_Available_Before": 8
+   },
+   {
+    "Item_ID": "M0052",
+    "Restaurant_ID": "R014",
+    "Window_Start": "2025-05-22",
+    "Window_End": "2025-05-28",
+    "Rows_Suppressed": 1,
+    "Rows_Available_Before": 2
+   },
+   {
+    "Item_ID": "M0077",
+    "Restaurant_ID": "R021",
+    "Window_Start": "2025-06-19",
+    "Window_End": "2025-06-25",
+    "Rows_Suppressed": 13,
+    "Rows_Available_Before": 16
+   },
+   {
+    "Item_ID": "M0159",
+    "Restaurant_ID": "R001",
+    "Window_Start": "2025-07-12",
+    "Window_End": "2025-07-18",
+    "Rows_Suppressed": 12,
+    "Rows_Available_Before": 15
+   }
+  ],
+  "high_value_orders": [
+   "ORD0081830",
+   "ORD0119099",
+   "ORD0116889",
+   "ORD0168241",
+   "ORD0248097",
+   "ORD0019737",
+   "ORD0076713",
+   "ORD0219696",
+   "ORD0086621",
+   "ORD0240342",
+   "ORD0245282",
+   "ORD0207419",
+   "ORD0139355",
+   "ORD0047059",
+   "ORD0125082",
+   "ORD0055483",
+   "ORD0009147",
+   "ORD0063170",
+   "ORD0159788",
+   "ORD0052843",
+   "ORD0059140",
+   "ORD0084394",
+   "ORD0037695",
+   "ORD0101685",
+   "ORD0176809",
+   "ORD0256182",
+   "ORD0197643",
+   "ORD0016156",
+   "ORD0077739",
+   "ORD0029107",
+   "ORD0070265",
+   "ORD0222377",
+   "ORD0129010",
+   "ORD0184049",
+   "ORD0254147",
+   "ORD0172952",
+   "ORD0169380",
+   "ORD0045846",
+   "ORD0064881",
+   "ORD0198140",
+   "ORD0144848",
+   "ORD0147884",
+   "ORD0086675",
+   "ORD0140805",
+   "ORD0236042",
+   "ORD0137684",
+   "ORD0195800",
+   "ORD0243427",
+   "ORD0045325",
+   "ORD0178562",
+   "ORD0208000",
+   "ORD0011856",
+   "ORD0187406",
+   "ORD0006541",
+   "ORD0156700",
+   "ORD0171984",
+   "ORD0179990",
+   "ORD0015656",
+   "ORD0050010",
+   "ORD0022830",
+   "ORD0137259",
+   "ORD0184745",
+   "ORD0083466",
+   "ORD0059700",
+   "ORD0168196",
+   "ORD0193095",
+   "ORD0153603",
+   "ORD0175742",
+   "ORD0141045",
+   "ORD0112614",
+   "ORD0053445",
+   "ORD0001156",
+   "ORD0220930",
+   "ORD0245617",
+   "ORD0112454",
+   "ORD0095282",
+   "ORD0225546",
+   "ORD0175145",
+   "ORD0035970",
+   "ORD0132261",
+   "ORD0011455",
+   "ORD0051604",
+   "ORD0144351",
+   "ORD0151862",
+   "ORD0177242",
+   "ORD0165247",
+   "ORD0180893",
+   "ORD0128258",
+   "ORD0069522",
+   "ORD0240137",
+   "ORD0188097",
+   "ORD0254221",
+   "ORD0211210",
+   "ORD0202220",
+   "ORD0150529",
+   "ORD0052081",
+   "ORD0071108",
+   "ORD0099513",
+   "ORD0259912",
+   "ORD0053861",
+   "ORD0128656",
+   "ORD0060955",
+   "ORD0014700",
+   "ORD0148581",
+   "ORD0112739",
+   "ORD0241419",
+   "ORD0170374",
+   "ORD0112082",
+   "ORD0004687",
+   "ORD0198947",
+   "ORD0097457",
+   "ORD0084340",
+   "ORD0069744",
+   "ORD0022403",
+   "ORD0107050",
+   "ORD0238320",
+   "ORD0107465",
+   "ORD0055794",
+   "ORD0200389",
+   "ORD0256705",
+   "ORD0219403",
+   "ORD0087856",
+   "ORD0238512",
+   "ORD0182284",
+   "ORD0088066",
+   "ORD0128219",
+   "ORD0209391",
+   "ORD0084468",
+   "ORD0065171",
+   "ORD0099081",
+   "ORD0091166",
+   "ORD0040191",
+   "ORD0074216",
+   "ORD0079745",
+   "ORD0071164",
+   "ORD0101522",
+   "ORD0106120",
+   "ORD0164921",
+   "ORD0144910",
+   "ORD0224405",
+   "ORD0045852",
+   "ORD0255059",
+   "ORD0008067",
+   "ORD0188116",
+   "ORD0196290",
+   "ORD0055503",
+   "ORD0195811",
+   "ORD0023117",
+   "ORD0130396",
+   "ORD0063262",
+   "ORD0158324",
+   "ORD0117496",
+   "ORD0010632",
+   "ORD0173504",
+   "ORD0187908",
+   "ORD0082608",
+   "ORD0047046",
+   "ORD0240724",
+   "ORD0193180",
+   "ORD0127801",
+   "ORD0191628",
+   "ORD0158538",
+   "ORD0223835",
+   "ORD0192220",
+   "ORD0197591",
+   "ORD0060231",
+   "ORD0184396",
+   "ORD0000863",
+   "ORD0241396",
+   "ORD0232650",
+   "ORD0080723",
+   "ORD0196347",
+   "ORD0214039",
+   "ORD0206522",
+   "ORD0208977",
+   "ORD0108267",
+   "ORD0253621",
+   "ORD0126893",
+   "ORD0132150",
+   "ORD0134480",
+   "ORD0013624",
+   "ORD0135983",
+   "ORD0167313",
+   "ORD0109519",
+   "ORD0013106",
+   "ORD0130103",
+   "ORD0015260",
+   "ORD0010460",
+   "ORD0138726",
+   "ORD0248297",
+   "ORD0201967",
+   "ORD0036762",
+   "ORD0058455",
+   "ORD0212520",
+   "ORD0091870",
+   "ORD0232216",
+   "ORD0121080",
+   "ORD0175713",
+   "ORD0171549",
+   "ORD0102310",
+   "ORD0168758",
+   "ORD0177627",
+   "ORD0100749",
+   "ORD0090342",
+   "ORD0070829",
+   "ORD0201569",
+   "ORD0240346",
+   "ORD0098150",
+   "ORD0177171",
+   "ORD0017763",
+   "ORD0131858",
+   "ORD0209870",
+   "ORD0026355",
+   "ORD0076046",
+   "ORD0029539",
+   "ORD0132928",
+   "ORD0026838",
+   "ORD0053813",
+   "ORD0041185",
+   "ORD0203768",
+   "ORD0155723",
+   "ORD0117887",
+   "ORD0196704",
+   "ORD0207362",
+   "ORD0128978",
+   "ORD0185374",
+   "ORD0104566",
+   "ORD0101499",
+   "ORD0161421",
+   "ORD0236680",
+   "ORD0207275",
+   "ORD0026790",
+   "ORD0036938",
+   "ORD0151553",
+   "ORD0117773",
+   "ORD0071838",
+   "ORD0089805",
+   "ORD0190087",
+   "ORD0105401",
+   "ORD0257873",
+   "ORD0096738",
+   "ORD0227920",
+   "ORD0248390",
+   "ORD0005339",
+   "ORD0149118",
+   "ORD0259116",
+   "ORD0048243",
+   "ORD0216289",
+   "ORD0009852",
+   "ORD0232423"
+  ]
+ },
+ "rating_bursts": [
+  {
+   "Item_ID": "M0062",
+   "Restaurant_ID": "R019",
+   "Value": 5,
+   "Date": "2025-10-09",
+   "Rows": 120
+  },
+  {
+   "Item_ID": "M0067",
+   "Restaurant_ID": "R020",
+   "Value": 5,
+   "Date": "2025-09-11",
+   "Rows": 120
+  },
+  {
+   "Item_ID": "M0001",
+   "Restaurant_ID": "R012",
+   "Value": 5,
+   "Date": "2025-07-05",
+   "Rows": 120
+  },
+  {
+   "Item_ID": "M0001",
+   "Restaurant_ID": "R015",
+   "Value": 1,
+   "Date": "2025-06-09",
+   "Rows": 120
+  },
+  {
+   "Item_ID": "M0125",
+   "Restaurant_ID": "R010",
+   "Value": 1,
+   "Date": "2025-06-11",
+   "Rows": 120
+  }
+ ],
+ "price_elasticity_windows": [
+  {
+   "Item_ID": "M0001",
+   "Pct_Price_Change": -5.5,
+   "Direction": "decrease",
+   "Rows_Added": 220
+  },
+  {
+   "Item_ID": "M0001",
+   "Pct_Price_Change": 11.3,
+   "Direction": "increase",
+   "Rows_Removed": 559
+  },
+  {
+   "Item_ID": "M0001",
+   "Pct_Price_Change": 14.4,
+   "Direction": "increase",
+   "Rows_Removed": 816
+  },
+  {
+   "Item_ID": "M0011",
+   "Pct_Price_Change": 6.5,
+   "Direction": "increase",
+   "Rows_Removed": 71
+  },
+  {
+   "Item_ID": "M0011",
+   "Pct_Price_Change": 10.5,
+   "Direction": "increase",
+   "Rows_Removed": 102
+  },
+  {
+   "Item_ID": "M0011",
+   "Pct_Price_Change": -7.5,
+   "Direction": "decrease",
+   "Rows_Added": 47
+  },
+  {
+   "Item_ID": "M0021",
+   "Pct_Price_Change": 16.7,
+   "Direction": "increase",
+   "Rows_Removed": 37
+  },
+  {
+   "Item_ID": "M0021",
+   "Pct_Price_Change": 15.4,
+   "Direction": "increase",
+   "Rows_Removed": 42
+  },
+  {
+   "Item_ID": "M0028",
+   "Pct_Price_Change": 5.8,
+   "Direction": "increase",
+   "Rows_Removed": 132
+  },
+  {
+   "Item_ID": "M0028",
+   "Pct_Price_Change": 16.4,
+   "Direction": "increase",
+   "Rows_Removed": 333
+  },
+  {
+   "Item_ID": "M0031",
+   "Pct_Price_Change": 7.2,
+   "Direction": "increase",
+   "Rows_Removed": 64
+  },
+  {
+   "Item_ID": "M0031",
+   "Pct_Price_Change": -16.6,
+   "Direction": "decrease",
+   "Rows_Added": 124
+  },
+  {
+   "Item_ID": "M0031",
+   "Pct_Price_Change": -16.8,
+   "Direction": "decrease",
+   "Rows_Added": 172
+  },
+  {
+   "Item_ID": "M0036",
+   "Pct_Price_Change": -11.3,
+   "Direction": "decrease",
+   "Rows_Added": 20
+  },
+  {
+   "Item_ID": "M0036",
+   "Pct_Price_Change": 9.9,
+   "Direction": "increase",
+   "Rows_Removed": 25
+  },
+  {
+   "Item_ID": "M0041",
+   "Pct_Price_Change": -10.6,
+   "Direction": "decrease",
+   "Rows_Added": 61
+  },
+  {
+   "Item_ID": "M0041",
+   "Pct_Price_Change": 9.7,
+   "Direction": "increase",
+   "Rows_Removed": 92
+  },
+  {
+   "Item_ID": "M0041",
+   "Pct_Price_Change": 11.8,
+   "Direction": "increase",
+   "Rows_Removed": 99
+  },
+  {
+   "Item_ID": "M0053",
+   "Pct_Price_Change": -16.2,
+   "Direction": "decrease",
+   "Rows_Added": 117
+  },
+  {
+   "Item_ID": "M0070",
+   "Pct_Price_Change": 10.7,
+   "Direction": "increase",
+   "Rows_Removed": 117
+  },
+  {
+   "Item_ID": "M0075",
+   "Pct_Price_Change": 18.0,
+   "Direction": "increase",
+   "Rows_Removed": 161
+  },
+  {
+   "Item_ID": "M0076",
+   "Pct_Price_Change": 16.3,
+   "Direction": "increase",
+   "Rows_Removed": 277
+  },
+  {
+   "Item_ID": "M0076",
+   "Pct_Price_Change": 9.1,
+   "Direction": "increase",
+   "Rows_Removed": 62
+  },
+  {
+   "Item_ID": "M0077",
+   "Pct_Price_Change": 17.4,
+   "Direction": "increase",
+   "Rows_Removed": 858
+  },
+  {
+   "Item_ID": "M0077",
+   "Pct_Price_Change": 10.9,
+   "Direction": "increase",
+   "Rows_Removed": 499
+  },
+  {
+   "Item_ID": "M0077",
+   "Pct_Price_Change": 16.1,
+   "Direction": "increase",
+   "Rows_Removed": 958
+  },
+  {
+   "Item_ID": "M0077",
+   "Pct_Price_Change": -13.8,
+   "Direction": "decrease",
+   "Rows_Added": 537
+  },
+  {
+   "Item_ID": "M0086",
+   "Pct_Price_Change": -20.0,
+   "Direction": "decrease",
+   "Rows_Added": 49
+  },
+  {
+   "Item_ID": "M0086",
+   "Pct_Price_Change": 12.5,
+   "Direction": "increase",
+   "Rows_Removed": 33
+  },
+  {
+   "Item_ID": "M0086",
+   "Pct_Price_Change": 5.6,
+   "Direction": "increase",
+   "Rows_Removed": 15
+  },
+  {
+   "Item_ID": "M0119",
+   "Pct_Price_Change": 7.5,
+   "Direction": "increase",
+   "Rows_Removed": 9
+  },
+  {
+   "Item_ID": "M0119",
+   "Pct_Price_Change": 15.1,
+   "Direction": "increase",
+   "Rows_Removed": 30
+  },
+  {
+   "Item_ID": "M0119",
+   "Pct_Price_Change": -8.1,
+   "Direction": "decrease",
+   "Rows_Added": 4
+  },
+  {
+   "Item_ID": "M0130",
+   "Pct_Price_Change": 17.1,
+   "Direction": "increase",
+   "Rows_Removed": 151
+  },
+  {
+   "Item_ID": "M0130",
+   "Pct_Price_Change": 13.4,
+   "Direction": "increase",
+   "Rows_Removed": 117
+  },
+  {
+   "Item_ID": "M0130",
+   "Pct_Price_Change": 15.1,
+   "Direction": "increase",
+   "Rows_Removed": 126
+  },
+  {
+   "Item_ID": "M0152",
+   "Pct_Price_Change": 4.2,
+   "Direction": "increase",
+   "Rows_Removed": 151
+  },
+  {
+   "Item_ID": "M0152",
+   "Pct_Price_Change": 4.0,
+   "Direction": "increase",
+   "Rows_Removed": 180
+  },
+  {
+   "Item_ID": "M0159",
+   "Pct_Price_Change": 6.2,
+   "Direction": "increase",
+   "Rows_Removed": 174
+  },
+  {
+   "Item_ID": "M0160",
+   "Pct_Price_Change": 7.6,
+   "Direction": "increase",
+   "Rows_Removed": 20
+  },
+  {
+   "Item_ID": "M0160",
+   "Pct_Price_Change": 11.3,
+   "Direction": "increase",
+   "Rows_Removed": 58
+  },
+  {
+   "Item_ID": "M0170",
+   "Pct_Price_Change": -14.5,
+   "Direction": "decrease",
+   "Rows_Added": 37
+  },
+  {
+   "Item_ID": "M0170",
+   "Pct_Price_Change": -4.6,
+   "Direction": "decrease",
+   "Rows_Added": 11
+  },
+  {
+   "Item_ID": "M0181",
+   "Pct_Price_Change": -11.9,
+   "Direction": "decrease",
+   "Rows_Added": 94
+  },
+  {
+   "Item_ID": "M0181",
+   "Pct_Price_Change": 8.1,
+   "Direction": "increase",
+   "Rows_Removed": 70
+  }
+ ],
+ "branch_parameters": {
+  "R001": {
+   "locality": "Clifton Block 5",
+   "busy": 1.6,
+   "profile": "family",
+   "age_mean": 32,
+   "female_share": 0.5,
+   "price_sensitivity": 0.7,
+   "wastage_multiplier": 0.9,
+   "rating_bias": 0.12,
+   "promo_response": 0.8,
+   "channel_mix": [
+    0.38,
+    0.16,
+    0.18,
+    0.24,
+    0.04
+   ]
+  },
+  "R002": {
+   "locality": "Boat Basin, Clifton",
+   "busy": 1.35,
+   "profile": "family",
+   "age_mean": 30,
+   "female_share": 0.52,
+   "price_sensitivity": 0.7,
+   "wastage_multiplier": 0.95,
+   "rating_bias": 0.1,
+   "promo_response": 0.8,
+   "channel_mix": [
+    0.45,
+    0.12,
+    0.16,
+    0.23,
+    0.04
+   ]
+  },
+  "R003": {
+   "locality": "DHA Phase 6",
+   "busy": 1.7,
+   "profile": "family",
+   "age_mean": 35,
+   "female_share": 0.5,
+   "price_sensitivity": 0.6,
+   "wastage_multiplier": 0.85,
+   "rating_bias": 0.15,
+   "promo_response": 0.7,
+   "channel_mix": [
+    0.3,
+    0.15,
+    0.22,
+    0.28,
+    0.05
+   ]
+  },
+  "R004": {
+   "locality": "DHA Phase 2 Extension",
+   "busy": 1.45,
+   "profile": "family",
+   "age_mean": 34,
+   "female_share": 0.5,
+   "price_sensitivity": 0.6,
+   "wastage_multiplier": 0.9,
+   "rating_bias": 0.12,
+   "promo_response": 0.7,
+   "channel_mix": [
+    0.32,
+    0.16,
+    0.2,
+    0.27,
+    0.05
+   ]
+  },
+  "R005": {
+   "locality": "Sea View",
+   "busy": 1.2,
+   "profile": "family",
+   "age_mean": 28,
+   "female_share": 0.48,
+   "price_sensitivity": 0.9,
+   "wastage_multiplier": 1.2,
+   "rating_bias": -0.05,
+   "promo_response": 1.1,
+   "channel_mix": [
+    0.55,
+    0.2,
+    0.08,
+    0.12,
+    0.05
+   ]
+  },
+  "R006": {
+   "locality": "Saddar",
+   "busy": 1.4,
+   "profile": "office",
+   "age_mean": 36,
+   "female_share": 0.3,
+   "price_sensitivity": 1.2,
+   "wastage_multiplier": 1.1,
+   "rating_bias": -0.08,
+   "promo_response": 1.3,
+   "channel_mix": [
+    0.5,
+    0.22,
+    0.04,
+    0.08,
+    0.16
+   ]
+  },
+  "R007": {
+   "locality": "Gulshan-e-Iqbal Block 13-D",
+   "busy": 1.65,
+   "profile": "family",
+   "age_mean": 31,
+   "female_share": 0.52,
+   "price_sensitivity": 1.0,
+   "wastage_multiplier": 1.0,
+   "rating_bias": 0.0,
+   "promo_response": 1.0,
+   "channel_mix": [
+    0.4,
+    0.18,
+    0.14,
+    0.22,
+    0.06
+   ]
+  },
+  "R008": {
+   "locality": "Gulistan-e-Jauhar Block 12",
+   "busy": 1.45,
+   "profile": "family",
+   "age_mean": 30,
+   "female_share": 0.5,
+   "price_sensitivity": 1.1,
+   "wastage_multiplier": 1.05,
+   "rating_bias": -0.02,
+   "promo_response": 1.1,
+   "channel_mix": [
+    0.38,
+    0.2,
+    0.14,
+    0.22,
+    0.06
+   ]
+  },
+  "R009": {
+   "locality": "Johar Chowrangi, University Road",
+   "busy": 1.3,
+   "profile": "student",
+   "age_mean": 24,
+   "female_share": 0.42,
+   "price_sensitivity": 1.4,
+   "wastage_multiplier": 1.1,
+   "rating_bias": -0.05,
+   "promo_response": 1.5,
+   "channel_mix": [
+    0.3,
+    0.2,
+    0.2,
+    0.26,
+    0.04
+   ]
+  },
+  "R010": {
+   "locality": "PECHS Block 2",
+   "busy": 1.25,
+   "profile": "mixed",
+   "age_mean": 36,
+   "female_share": 0.5,
+   "price_sensitivity": 0.85,
+   "wastage_multiplier": 0.95,
+   "rating_bias": 0.05,
+   "promo_response": 0.9,
+   "channel_mix": [
+    0.42,
+    0.18,
+    0.12,
+    0.22,
+    0.06
+   ]
+  },
+  "R011": {
+   "locality": "Bahadurabad",
+   "busy": 1.1,
+   "profile": "student",
+   "age_mean": 27,
+   "female_share": 0.45,
+   "price_sensitivity": 1.2,
+   "wastage_multiplier": 1.0,
+   "rating_bias": 0.0,
+   "promo_response": 1.3,
+   "channel_mix": [
+    0.35,
+    0.2,
+    0.16,
+    0.24,
+    0.05
+   ]
+  },
+  "R012": {
+   "locality": "Tariq Road",
+   "busy": 1.5,
+   "profile": "office",
+   "age_mean": 33,
+   "female_share": 0.38,
+   "price_sensitivity": 1.1,
+   "wastage_multiplier": 1.15,
+   "rating_bias": -0.04,
+   "promo_response": 1.2,
+   "channel_mix": [
+    0.48,
+    0.22,
+    0.06,
+    0.14,
+    0.1
+   ]
+  },
+  "R013": {
+   "locality": "North Nazimabad Block H",
+   "busy": 1.3,
+   "profile": "family",
+   "age_mean": 33,
+   "female_share": 0.52,
+   "price_sensitivity": 1.0,
+   "wastage_multiplier": 1.0,
+   "rating_bias": 0.02,
+   "promo_response": 1.0,
+   "channel_mix": [
+    0.4,
+    0.2,
+    0.1,
+    0.2,
+    0.1
+   ]
+  },
+  "R014": {
+   "locality": "Nazimabad No. 2",
+   "busy": 1.0,
+   "profile": "mixed",
+   "age_mean": 35,
+   "female_share": 0.45,
+   "price_sensitivity": 1.3,
+   "wastage_multiplier": 1.15,
+   "rating_bias": -0.06,
+   "promo_response": 1.4,
+   "channel_mix": [
+    0.38,
+    0.22,
+    0.04,
+    0.14,
+    0.22
+   ]
+  },
+  "R015": {
+   "locality": "Federal B Area Block 16",
+   "busy": 1.15,
+   "profile": "family",
+   "age_mean": 32,
+   "female_share": 0.5,
+   "price_sensitivity": 1.1,
+   "wastage_multiplier": 1.0,
+   "rating_bias": -0.01,
+   "promo_response": 1.1,
+   "channel_mix": [
+    0.4,
+    0.2,
+    0.1,
+    0.22,
+    0.08
+   ]
+  },
+  "R016": {
+   "locality": "Hyderi Market",
+   "busy": 0.9,
+   "profile": "mixed",
+   "age_mean": 34,
+   "female_share": 0.5,
+   "price_sensitivity": 1.1,
+   "wastage_multiplier": 1.0,
+   "rating_bias": 0.0,
+   "promo_response": 1.1,
+   "channel_mix": [
+    0.4,
+    0.22,
+    0.08,
+    0.2,
+    0.1
+   ]
+  },
+  "R017": {
+   "locality": "North Karachi Sector 11-A",
+   "busy": 0.85,
+   "profile": "mixed",
+   "age_mean": 31,
+   "female_share": 0.4,
+   "price_sensitivity": 1.5,
+   "wastage_multiplier": 1.3,
+   "rating_bias": -0.1,
+   "promo_response": 1.5,
+   "channel_mix": [
+    0.34,
+    0.26,
+    0.04,
+    0.12,
+    0.24
+   ]
+  },
+  "R018": {
+   "locality": "Shahrah-e-Faisal, Karsaz",
+   "busy": 1.35,
+   "profile": "office",
+   "age_mean": 35,
+   "female_share": 0.35,
+   "price_sensitivity": 0.9,
+   "wastage_multiplier": 0.95,
+   "rating_bias": 0.05,
+   "promo_response": 0.9,
+   "channel_mix": [
+    0.36,
+    0.24,
+    0.14,
+    0.2,
+    0.06
+   ]
+  },
+  "R019": {
+   "locality": "Korangi Industrial Area",
+   "busy": 0.95,
+   "profile": "industrial",
+   "age_mean": 33,
+   "female_share": 0.18,
+   "price_sensitivity": 1.5,
+   "wastage_multiplier": 1.35,
+   "rating_bias": -0.12,
+   "promo_response": 1.6,
+   "channel_mix": [
+    0.3,
+    0.38,
+    0.04,
+    0.06,
+    0.22
+   ]
+  },
+  "R020": {
+   "locality": "Landhi",
+   "busy": 0.75,
+   "profile": "industrial",
+   "age_mean": 31,
+   "female_share": 0.22,
+   "price_sensitivity": 1.6,
+   "wastage_multiplier": 1.4,
+   "rating_bias": -0.15,
+   "promo_response": 1.7,
+   "channel_mix": [
+    0.3,
+    0.34,
+    0.04,
+    0.08,
+    0.24
+   ]
+  },
+  "R021": {
+   "locality": "Malir Halt",
+   "busy": 0.8,
+   "profile": "mixed",
+   "age_mean": 32,
+   "female_share": 0.45,
+   "price_sensitivity": 1.4,
+   "wastage_multiplier": 1.2,
+   "rating_bias": -0.08,
+   "promo_response": 1.4,
+   "channel_mix": [
+    0.34,
+    0.26,
+    0.06,
+    0.14,
+    0.2
+   ]
+  },
+  "R022": {
+   "locality": "Scheme 33",
+   "busy": 0.7,
+   "profile": "mixed",
+   "age_mean": 29,
+   "female_share": 0.46,
+   "price_sensitivity": 1.3,
+   "wastage_multiplier": 1.2,
+   "rating_bias": -0.05,
+   "promo_response": 1.3,
+   "channel_mix": [
+    0.36,
+    0.22,
+    0.12,
+    0.2,
+    0.1
+   ]
+  }
+ }
+}

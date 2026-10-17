@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "removed_rows": 37229,
+  "source_data_modified": false,
+  "srs_requirements": [
+    "\u00a71.6.xv"
+  ],
+  "tables": {
+    "customers": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 55000,
+      "input_rows": 55000,
+      "quarantine_rows": 0,
+      "removed_rows": 0,
+      "rules": [],
+      "source_modified": false,
+      "table": "customers"
+    },
+    "inventory": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 48840,
+      "input_rows": 48840,
+      "quarantine_rows": 0,
+      "removed_rows": 0,
+      "rules": [],
+      "source_modified": false,
+      "table": "inventory"
+    },
+    "menu_categories": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 12,
+      "input_rows": 12,
+      "quarantine_rows": 0,
+      "removed_rows": 0,
+      "rules": [],
+      "source_modified": false,
+      "table": "menu_categories"
+    },
+    "menu_item_availability": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 4070,
+      "input_rows": 4070,
+      "quarantine_rows": 0,
+      "removed_rows": 0,
+      "rules": [],
+      "source_modified": false,
+      "table": "menu_item_availability"
+    },
+    "menu_items": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 185,
+      "input_rows": 185,
+      "quarantine_rows": 0,
+      "removed_rows": 0,
+      "rules": [],
+      "source_modified": false,
+      "table": "menu_items"
+    },
+    "order_items": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 1105311,
+      "input_rows": 1135614,
+      "quarantine_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/quarantine/order_items",
+      "quarantine_rows": 30268,
+      "removed_rows": 30303,
+      "rules": [],
+      "source_modified": false,
+      "table": "order_items"
+    },
+    "orders": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 256880,
+      "input_rows": 261300,
+      "quarantine_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/quarantine/orders",
+      "quarantine_rows": 4420,
+      "removed_rows": 4420,
+      "rules": [],
+      "source_modified": false,
+      "table": "orders"
+    },
+    "pricing_history": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 555,
+      "input_rows": 555,
+      "quarantine_rows": 0,
+      "removed_rows": 0,
+      "rules": [],
+      "source_modified": false,
+      "table": "pricing_history"
+    },
+    "promotions": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 45,
+      "input_rows": 45,
+      "quarantine_rows": 0,
+      "removed_rows": 0,
+      "rules": [],
+      "source_modified": false,
+      "table": "promotions"
+    },
+    "ratings": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 102604,
+      "input_rows": 105000,
+      "quarantine_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/quarantine/ratings",
+      "quarantine_rows": 2396,
+      "removed_rows": 2396,
+      "rules": [],
+      "source_modified": false,
+      "table": "ratings"
+    },
+    "restaurants": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 22,
+      "input_rows": 22,
+      "quarantine_rows": 0,
+      "removed_rows": 0,
+      "rules": [],
+      "source_modified": false,
+      "table": "restaurants"
+    },
+    "wastage": {
+      "action": "retain_or_apply_documented_dataset_cleaning",
+      "clean_rows": 54986,
+      "input_rows": 55096,
+      "quarantine_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/quarantine/wastage",
+      "quarantine_rows": 110,
+      "removed_rows": 110,
+      "rules": [],
+      "source_modified": false,
+      "table": "wastage"
+    }
+  }
+}

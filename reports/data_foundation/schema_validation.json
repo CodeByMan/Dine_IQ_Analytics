@@ -1,0 +1,160 @@
+{
+  "checks": [
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "customers",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "inventory",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "menu_categories",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "menu_item_availability",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "menu_items",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "order_items",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "orders",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "pricing_history",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "promotions",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "ratings",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "restaurants",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    },
+    {
+      "missing_columns": [],
+      "passed": true,
+      "table": "wastage",
+      "type_mismatches": [],
+      "unexpected_columns": []
+    }
+  ],
+  "invalid_nonblank_casts_by_table": {
+    "customers": {
+      "Age": 0,
+      "Signup_Date": 0
+    },
+    "inventory": {
+      "Closing_Stock": 0,
+      "Consumed_Stock": 0,
+      "Month": 0,
+      "Opening_Stock": 0,
+      "Received_Stock": 0
+    },
+    "menu_categories": {},
+    "menu_item_availability": {
+      "Available_From": 0,
+      "Is_Available": 0
+    },
+    "menu_items": {
+      "Base_Cost": 0,
+      "Base_Price": 0,
+      "Introduced_Date": 0,
+      "Is_Active": 0
+    },
+    "order_items": {
+      "Discount_Percent": 0,
+      "Line_Subtotal": 0,
+      "Line_Total": 0,
+      "Quantity": 0,
+      "Unit_Price": 0
+    },
+    "orders": {
+      "Delivery_Charge": 0,
+      "Discount_Amount": 0,
+      "Grand_Total": 0,
+      "Item_Count": 0,
+      "Order_Date": 520,
+      "Order_DateTime": 0,
+      "Subtotal": 0,
+      "Tax_Amount": 0,
+      "Total_Amount": 0
+    },
+    "pricing_history": {
+      "Effective_Date": 0,
+      "End_Date": 0,
+      "Previous_Price": 0,
+      "Price": 0
+    },
+    "promotions": {
+      "Discount_Percent": 0,
+      "End_Date": 0,
+      "Start_Date": 0
+    },
+    "ratings": {
+      "Rating_Date": 0,
+      "Rating_Value": 0
+    },
+    "restaurants": {
+      "Opening_Date": 0,
+      "Seating_Capacity": 0
+    },
+    "wastage": {
+      "Date": 0,
+      "Prepared_Quantity": 0,
+      "Wastage_Cost": 0,
+      "Wastage_Quantity": 0
+    }
+  },
+  "passed": true,
+  "srs_requirements": [
+    "\u00a71.6.xii",
+    "\u00a71.6.xiii"
+  ]
+}

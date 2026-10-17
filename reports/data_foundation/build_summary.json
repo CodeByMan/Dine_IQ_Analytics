@@ -1,0 +1,255 @@
+{
+  "cleaned_rows_by_table": {
+    "customers": 55000,
+    "inventory": 48840,
+    "menu_categories": 12,
+    "menu_item_availability": 4070,
+    "menu_items": 185,
+    "order_items": 1105311,
+    "orders": 256880,
+    "pricing_history": 555,
+    "promotions": 45,
+    "ratings": 102604,
+    "restaurants": 22,
+    "wastage": 54986
+  },
+  "cleaning_decisions": {
+    "passed": true,
+    "removed_rows": 37229,
+    "source_data_modified": false,
+    "srs_requirements": [
+      "\u00a71.6.xv"
+    ],
+    "tables": {
+      "customers": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 55000,
+        "input_rows": 55000,
+        "quarantine_rows": 0,
+        "removed_rows": 0,
+        "rules": [],
+        "source_modified": false,
+        "table": "customers"
+      },
+      "inventory": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 48840,
+        "input_rows": 48840,
+        "quarantine_rows": 0,
+        "removed_rows": 0,
+        "rules": [],
+        "source_modified": false,
+        "table": "inventory"
+      },
+      "menu_categories": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 12,
+        "input_rows": 12,
+        "quarantine_rows": 0,
+        "removed_rows": 0,
+        "rules": [],
+        "source_modified": false,
+        "table": "menu_categories"
+      },
+      "menu_item_availability": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 4070,
+        "input_rows": 4070,
+        "quarantine_rows": 0,
+        "removed_rows": 0,
+        "rules": [],
+        "source_modified": false,
+        "table": "menu_item_availability"
+      },
+      "menu_items": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 185,
+        "input_rows": 185,
+        "quarantine_rows": 0,
+        "removed_rows": 0,
+        "rules": [],
+        "source_modified": false,
+        "table": "menu_items"
+      },
+      "order_items": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 1105311,
+        "input_rows": 1135614,
+        "quarantine_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/quarantine/order_items",
+        "quarantine_rows": 30268,
+        "removed_rows": 30303,
+        "rules": [],
+        "source_modified": false,
+        "table": "order_items"
+      },
+      "orders": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 256880,
+        "input_rows": 261300,
+        "quarantine_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/quarantine/orders",
+        "quarantine_rows": 4420,
+        "removed_rows": 4420,
+        "rules": [],
+        "source_modified": false,
+        "table": "orders"
+      },
+      "pricing_history": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 555,
+        "input_rows": 555,
+        "quarantine_rows": 0,
+        "removed_rows": 0,
+        "rules": [],
+        "source_modified": false,
+        "table": "pricing_history"
+      },
+      "promotions": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 45,
+        "input_rows": 45,
+        "quarantine_rows": 0,
+        "removed_rows": 0,
+        "rules": [],
+        "source_modified": false,
+        "table": "promotions"
+      },
+      "ratings": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 102604,
+        "input_rows": 105000,
+        "quarantine_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/quarantine/ratings",
+        "quarantine_rows": 2396,
+        "removed_rows": 2396,
+        "rules": [],
+        "source_modified": false,
+        "table": "ratings"
+      },
+      "restaurants": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 22,
+        "input_rows": 22,
+        "quarantine_rows": 0,
+        "removed_rows": 0,
+        "rules": [],
+        "source_modified": false,
+        "table": "restaurants"
+      },
+      "wastage": {
+        "action": "retain_or_apply_documented_dataset_cleaning",
+        "clean_rows": 54986,
+        "input_rows": 55096,
+        "quarantine_path": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/quarantine/wastage",
+        "quarantine_rows": 110,
+        "removed_rows": 110,
+        "rules": [],
+        "source_modified": false,
+        "table": "wastage"
+      }
+    }
+  },
+  "eda_rows": {
+    "best_rated_dishes": 185,
+    "channel_ordering_patterns": 6,
+    "high_wastage_dishes": 185,
+    "highest_margin_dishes": 185,
+    "highest_profit_dishes": 185,
+    "highest_revenue_dishes": 185,
+    "location_sales_patterns": 22,
+    "lowest_selling_dishes": 185,
+    "peak_ordering_periods": 23,
+    "poorly_rated_dishes": 185,
+    "popular_menu_categories": 12,
+    "promotion_driven_sales": 45,
+    "top_selling_dishes": 185
+  },
+  "feature_names": [
+    "item_revenue",
+    "cost",
+    "contribution_margin",
+    "profit_percentage",
+    "order_frequency",
+    "item_popularity",
+    "repeat_purchase_rate",
+    "average_rating",
+    "rating_trend",
+    "wastage_percentage",
+    "promotion_dependency",
+    "discount_percentage",
+    "customer_recency",
+    "customer_frequency",
+    "customer_monetary_value",
+    "average_order_value",
+    "peak_hour_frequency",
+    "weekend_order_ratio",
+    "location_performance",
+    "channel_preference",
+    "basket_size",
+    "price_change_percentage"
+  ],
+  "feature_rows": {
+    "customer_features": 42734,
+    "menu_features": 185,
+    "menu_location_features": 4069
+  },
+  "parquet_outputs": 31,
+  "parquet_readback_rows": {
+    "cleaned_order_items": 1105311,
+    "customer_features": 42734,
+    "eda/best_rated_dishes": 185,
+    "eda/channel_ordering_patterns": 6,
+    "eda/high_wastage_dishes": 185,
+    "eda/highest_margin_dishes": 185,
+    "eda/highest_profit_dishes": 185,
+    "eda/highest_revenue_dishes": 185,
+    "eda/location_sales_patterns": 22,
+    "eda/lowest_selling_dishes": 185,
+    "eda/peak_ordering_periods": 23,
+    "eda/poorly_rated_dishes": 185,
+    "eda/popular_menu_categories": 12,
+    "eda/promotion_driven_sales": 45,
+    "eda/top_selling_dishes": 185,
+    "menu_features": 185,
+    "menu_location_features": 4069,
+    "spark_sql/channel": 6,
+    "spark_sql/location": 22,
+    "spark_sql/weekday": 7
+  },
+  "partitioned_output": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/cleaned_parquet/order_items",
+  "passed": true,
+  "required_join_rows": {
+    "menu_items__inventory": 48840,
+    "menu_items__menu_categories": 185,
+    "menu_items__pricing_history": 555,
+    "menu_items__ratings": 102604,
+    "menu_items__wastage": 54986,
+    "order_items__menu_items": 1105311,
+    "orders__customers": 256880,
+    "orders__order_items": 1105465,
+    "orders__promotions": 256880,
+    "orders__restaurants": 256880
+  },
+  "run_metadata": {
+    "completed_at_utc": "2026-10-14T10:25:31.287374+00:00",
+    "source_data_modified": false,
+    "spark_master": "local[1]",
+    "spark_version": "4.1.3"
+  },
+  "source_data_modified": false,
+  "spark_sql_aggregates": {
+    "channel": 6,
+    "location": 22,
+    "weekday": 7
+  },
+  "spark_sql_paths": {
+    "channel": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/spark_sql/channel",
+    "location": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/spark_sql_location_summary",
+    "weekday": "/mnt/c/Users/Work/Desktop/TechWiz/DineIQ_Analytics/parquet_data/data_foundation/spark_sql/weekday"
+  },
+  "srs_requirements": [
+    "\u00a71.6.xv",
+    "\u00a71.6.xvi",
+    "\u00a71.6.xvii",
+    "\u00a71.6.xviii",
+    "\u00a71.6.xix"
+  ]
+}
