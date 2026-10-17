@@ -1,0 +1,23 @@
+Restaurant_ID,Chain_Name,Restaurant_Name,Locality,District,Address,City,Province,Country,Location_Type,Opening_Date,Seating_Capacity
+R001,Zauq Kitchen,Zauq Kitchen - Clifton Block 5,Clifton Block 5,South Karachi,"Shop 4, Do Talwar Road, Clifton Block 5, Karachi",Karachi,Sindh,Pakistan,Seaview,2018-01-09,131
+R002,Zauq Kitchen,"Zauq Kitchen - Boat Basin, Clifton","Boat Basin, Clifton",South Karachi,"Shop 20, Khayaban-e-Roomi, Boat Basin, Clifton, Karachi",Karachi,Sindh,Pakistan,Uptown,2020-10-07,160
+R003,Zauq Kitchen,Zauq Kitchen - DHA Phase 6,DHA Phase 6,South Karachi,"Shop 4, Bukhari Commercial Lane, DHA Phase 6, Karachi",Karachi,Sindh,Pakistan,Uptown,2018-08-22,68
+R004,Zauq Kitchen,Zauq Kitchen - DHA Phase 2 Extension,DHA Phase 2 Extension,South Karachi,"Shop 5, Khayaban-e-Ittehad, DHA Phase 2 Extension, Karachi",Karachi,Sindh,Pakistan,Uptown,2020-01-07,176
+R005,Zauq Kitchen,Zauq Kitchen - Sea View,Sea View,South Karachi,"Shop 33, Beach Avenue, Sea View, Karachi",Karachi,Sindh,Pakistan,Waterfront,2018-02-16,140
+R006,Zauq Kitchen,Zauq Kitchen - Saddar,Saddar,South Karachi,"Shop 35, Zaibunnisa Street, Saddar, Karachi",Karachi,Sindh,Pakistan,Downtown,2020-02-15,57
+R007,Zauq Kitchen,Zauq Kitchen - Gulshan-e-Iqbal Block 13-D,Gulshan-e-Iqbal Block 13-D,East Karachi,"Shop 37, Main Rashid Minhas Road, Gulshan-e-Iqbal Block 13-D, Karachi",Karachi,Sindh,Pakistan,Downtown,2020-08-17,110
+R008,Zauq Kitchen,Zauq Kitchen - Gulistan-e-Jauhar Block 12,Gulistan-e-Jauhar Block 12,East Karachi,"Shop 17, Abul Hasan Isphahani Road, Gulistan-e-Jauhar Block 12, Karachi",Karachi,Sindh,Pakistan,Suburban,2022-10-14,169
+R009,Zauq Kitchen,"Zauq Kitchen - Johar Chowrangi, University Road","Johar Chowrangi, University Road",East Karachi,"Shop 35, University Road, Johar Chowrangi, University Road, Karachi",Karachi,Sindh,Pakistan,Downtown,2019-01-27,96
+R010,Zauq Kitchen,Zauq Kitchen - PECHS Block 2,PECHS Block 2,East Karachi,"Shop 37, Tariq Road Link, PECHS Block 2, Karachi",Karachi,Sindh,Pakistan,Uptown,2019-11-12,102
+R011,Zauq Kitchen,Zauq Kitchen - Bahadurabad,Bahadurabad,East Karachi,"Shop 20, Bahadur Yar Jung Road, Bahadurabad, Karachi",Karachi,Sindh,Pakistan,Downtown,2022-06-04,52
+R012,Zauq Kitchen,Zauq Kitchen - Tariq Road,Tariq Road,East Karachi,"Shop 25, Tariq Road Main, Tariq Road, Karachi",Karachi,Sindh,Pakistan,Downtown,2017-02-08,48
+R013,Zauq Kitchen,Zauq Kitchen - North Nazimabad Block H,North Nazimabad Block H,Central Karachi,"Shop 38, Hyderi Road, North Nazimabad Block H, Karachi",Karachi,Sindh,Pakistan,Suburban,2017-08-04,78
+R014,Zauq Kitchen,Zauq Kitchen - Nazimabad No. 2,Nazimabad No. 2,Central Karachi,"Shop 28, Abbasi Shaheed Road, Nazimabad No. 2, Karachi",Karachi,Sindh,Pakistan,Suburban,2022-12-04,146
+R015,Zauq Kitchen,Zauq Kitchen - Federal B Area Block 16,Federal B Area Block 16,Central Karachi,"Shop 31, Karimabad Main, Federal B Area Block 16, Karachi",Karachi,Sindh,Pakistan,Suburban,2021-05-26,49
+R016,Zauq Kitchen,Zauq Kitchen - Hyderi Market,Hyderi Market,Central Karachi,"Shop 43, Hyderi Market Road, Hyderi Market, Karachi",Karachi,Sindh,Pakistan,Downtown,2020-08-31,165
+R017,Zauq Kitchen,Zauq Kitchen - North Karachi Sector 11-A,North Karachi Sector 11-A,Central Karachi,"Shop 30, Sector 11-A Commercial Lane, North Karachi Sector 11-A, Karachi",Karachi,Sindh,Pakistan,Suburban,2017-12-27,146
+R018,Zauq Kitchen,"Zauq Kitchen - Shahrah-e-Faisal, Karsaz","Shahrah-e-Faisal, Karsaz",East Karachi,"Shop 9, Shahrah-e-Faisal Service Road, Shahrah-e-Faisal, Karsaz, Karachi",Karachi,Sindh,Pakistan,Highway,2021-04-29,105
+R019,Zauq Kitchen,Zauq Kitchen - Korangi Industrial Area,Korangi Industrial Area,Korangi,"Shop 22, Korangi Road, Korangi Industrial Area, Karachi",Karachi,Sindh,Pakistan,Industrial,2023-11-26,116
+R020,Zauq Kitchen,Zauq Kitchen - Landhi,Landhi,Korangi,"Shop 7, Landhi Main Bazaar, Landhi, Karachi",Karachi,Sindh,Pakistan,Industrial,2018-04-09,135
+R021,Zauq Kitchen,Zauq Kitchen - Malir Halt,Malir Halt,Malir,"Shop 41, Malir Halt Road, Malir Halt, Karachi",Karachi,Sindh,Pakistan,Suburban,2018-04-05,91
+R022,Zauq Kitchen,Zauq Kitchen - Scheme 33,Scheme 33,Malir,"Shop 43, Scheme 33 Main Boulevard, Scheme 33, Karachi",Karachi,Sindh,Pakistan,Suburban,2020-12-12,85

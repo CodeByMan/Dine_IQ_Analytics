@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "chain": "Zauq Kitchen",
+  "branches": 22,
+  "customers": 55000,
+  "orders": 260000,
+  "ratings": 105000,
+  "wastage": 55000,
+  "period": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "max_valid_price_pkr": 10000,
+  "tax_rule": {
+    "cash": 0.13,
+    "card_or_online": 0.08
+  },
+  "split": {
+    "train": "< 2025-09-01",
+    "validation": "2025-09-01..2025-10-31",
+    "test": ">= 2025-11-01"
+  },
+  "dq_rates": "0.1%-3% per issue type; see reports/issue_ledger.csv"
+}

@@ -1,0 +1,601 @@
+Rating_ID,Order_ID,Customer_ID,Item_ID,Restaurant_ID,Rating_Value,Rating_Date,Comment,Reviewer_Name
+RT0077691,ORD0181573,CUS038345,M0024,R013,4,2025-08-31,,Kamran H.
+RT0045235,ORD0010303,CUS002099,M0015,R001,5,2025-01-29,"Really enjoyed the Siri Paya, great taste. Delivery was fast and the food stayed hot.",Nadeem Z.
+RT0030015,ORD0120034,CUS025120,M0155,R009,5,2025-03-25,,Kashif I.
+RT0041948,ORD0188603,CUS039870,M0044,R020,3,2025-04-15,"The Malai Boti was okay, nothing special. Service was acceptable.",Asad Q.
+RT0008312,ORD0209075,CUS044273,M0176,R015,3,2025-06-19,,Fahad R.
+RT0008842,ORD0059246,CUS012441,M0006,R006,4,2025-11-28,"Loved the Beef Handi, cooked perfectly. Good value for money.",Ayesha S.
+RT0067384,ORD0030741,CUS006488,M0063,R011,4,2025-07-09,,Sidra S.
+RT0049319,ORD0105321,CUS021980,M0055,R002,2,2025-07-28,Gola Kebab was far too salty.,Noman A.
+RT0044447,ORD0056904,CUS011956,M0077,R001,2,2025-09-27,The Daal Palak was undercooked.,Hassan M.
+RT0055728,ORD0172071,CUS036325,M0082,R018,3,2025-11-26,,Hussain R.
+RT0072192,ORD0226836,CUS048156,M0123,R009,5,2025-11-24,,Adeel L.
+RT0071109,ORD0219754,CUS046666,M0002,R019,3,2025-03-03,Mutton Karahi was decent but a bit oily. Prices are fair but not cheap.,Junaid A.
+RT0076492,ORD0051330,CUS010856,M0152,R018,4,2025-06-13,,Sumaiya N.
+RT0052707,ORD0105696,CUS022028,M0002,R010,4,2025-02-06,The Mutton Karahi was absolutely delicious.,Komal B.
+RT0026996,ORD0071805,CUS014953,M0097,R006,5,2025-04-19,The Chicken Sandwich was absolutely delicious.,Talha H.
+RT0025067,ORD0178349,CUS037700,M0084,R010,3,2025-12-24,,Saad L.
+RT0038140,ORD0176797,CUS037396,M0043,R008,5,2025-08-26,The Chicken Tikka Boneless was fresh and piping hot. Our table was ready on time.,Adeel U.
+RT0058491,ORD0242198,CUS051344,M0052,R007,4,2025-09-15,,Khadija I.
+RT0093278,ORD0170211,CUS035978,M0152,R016,2,2025-05-12,Brownie with Ice Cream was far too salty. Service was very slow.,Ahmed S.
+RT0053210,ORD0005290,CUS001148,M0044,R018,5,2025-11-15,,Owais J.
+RT0023144,ORD0256778,CUS054378,M0089,R022,4,2025-06-03,Best Cheese Naan I have had in Karachi. Will definitely order again.,Hamza I.
+RT0056864,ORD0168297,CUS035538,M0102,R005,4,2025-05-23,,Anam K.
+RT0043495,ORD0221892,CUS047126,M0095,R018,5,2025-08-09,The Chicken Burger was fresh and piping hot. Staff was very courteous.,Adeel S.
+RT0079640,ORD0187155,CUS039539,M0056,R002,5,2025-07-26,,Mahnoor M.
+RT0018249,ORD0044585,CUS009485,M0004,R014,4,2025-09-23,,Waqas I.
+RT0056060,ORD0083532,CUS017422,M0071,R012,3,2025-11-05,"The Aloo Gobi was okay, nothing special. Service was acceptable.",Saad A.
+RT0015885,ORD0176629,CUS037356,M0185,R011,5,2025-05-26,,Zainab B.
+RT0002404,ORD0149199,CUS031424,M0084,R009,5,2025-12-15,,Mahnoor H.
+RT0098131,ORD0204565,CUS043351,M0025,R013,3,2025-11-22,,Salman J.
+RT0073731,ORD0113703,CUS023715,M0127,R008,5,2025-06-30,Best Raita I have had in Karachi. Portion size is great for the price.,Talha A.
+RT0065391,ORD0131188,CUS027537,M0027,R003,4,2025-09-07,,Aliza B.
+RT0086064,ORD0189235,CUS039987,M0077,R021,4,2025-06-11,,Hussain J.
+RT0089727,ORD0180902,CUS038188,M0030,R003,4,2025-07-01,"Loved the Chicken Pulao, cooked perfectly. Service was quick and friendly.",Fahad S.
+RT0050586,ORD0032960,CUS006931,M0099,R012,5,2025-09-03,,Komal U.
+RT0013397,ORD0079439,CUS016605,M0042,R009,5,2025-03-23,The Chicken Tikka was absolutely delicious.,Kinza Z.
+RT0032021,ORD0142335,CUS029952,M0001,R021,5,2025-06-30,The Chicken Karahi was fresh and piping hot. Portion size is great for the price.,Zainab A.
+RT0056260,ORD0074449,CUS015474,M0100,R001,4,2025-04-21,,Imran A.
+RT0069560,ORD0143521,CUS030210,M0060,R010,1,2025-12-09,,Owais M.
+RT0078127,ORD0251178,CUS053246,M0103,R007,5,2025-12-17,,Maham S.
+RT0080341,ORD0047516,CUS010070,M0102,R013,5,2025-04-13,"Loved the Chicken Shawarma, cooked perfectly. Packaging was neat and secure.",Bilal S.
+RT0076577,ORD0138789,CUS029169,M0002,R018,3,2025-10-28,"The Mutton Karahi was okay, nothing special. Prices are fair but not cheap.",Umar S.
+RT0002443,ORD0251890,CUS053377,M0157,R019,3,2025-03-08,,Maham S.
+RT0083312,ORD0123171,CUS025784,M0181,R008,4,2025-05-29,Best Chana Puri I have had in Karachi. Portion size is great for the price.,Farah C.
+RT0016154,ORD0164671,CUS034823,M0045,R005,4,2025-06-22,"Loved the Seekh Kebab, cooked perfectly. Packaging was neat and secure.",Bilal K.
+RT0014728,ORD0127828,CUS026823,M0145,R019,5,2025-05-17,,Adeel H.
+RT0009024,ORD0053290,CUS011264,M0139,R010,5,2025-06-26,Gulab Jamun had amazing flavour. The branch was spotless.,Amna K.
+RT0017860,ORD0045051,CUS009557,M0041,R004,4,2025-01-08,,Tariq L.
+RT0053997,ORD0027178,CUS005743,M0044,R003,4,2025-08-03,,Danish B.
+RT0084521,ORD0177853,CUS037606,M0001,R005,4,2025-12-21,Best Chicken Karahi I have had in Karachi.,Hassan M.
+RT0056455,ORD0145594,CUS030661,M0176,R008,3,2025-09-03,Grilled Fish was decent but a bit oily.,Maham B.
+RT0014056,ORD0184382,CUS038978,M0067,R020,5,2025-09-11,Best food ever!,Waleed S.
+RT0003055,ORD0256965,CUS054431,M0045,R002,3,2025-07-29,,Usman A.
+RT0032160,ORD0048953,CUS010326,M0037,R014,4,2025-07-25,Sindhi Biryani had amazing flavour. Will definitely order again.,Naveed L.
+RT0014556,ORD0228141,CUS048382,M0103,R004,5,2025-09-16,The Chicken Paratha Roll was fresh and piping hot. Our table was ready on time.,Ayesha S.
+RT0048390,ORD0132978,CUS027927,M0026,R019,5,2025-04-29,Best Keema Matar I have had in Karachi.,Fahad S.
+RT0053960,ORD0195098,CUS041253,M0142,R006,3,2025-07-25,,Junaid M.
+RT0033357,ORD0186762,CUS039492,M0044,R002,4,2025-10-15,Malai Boti had amazing flavour.,Arslan M.
+RT0012718,ORD0055163,CUS011583,M0157,R019,5,2025-04-04,,Abdullah Z.
+RT0043984,ORD0219653,CUS046631,M0080,R002,4,2025-04-08,,Kamran B.
+RT0059199,ORD0209856,CUS044478,M0126,R010,3,2025-09-22,"The French Fries was okay, nothing special.",Junaid A.
+RT0058107,ORD0055253,CUS011599,M0151,R008,3,2025-11-12,"Average Sohan Halwa, expected more flavour. Service was acceptable.",Hassan S.
+RT0042265,ORD0017716,CUS003650,M0155,R001,4,2025-09-16,"Loved the Sweet Lassi, cooked perfectly. Portion size is great for the price.",Khadija J.
+RT0023077,ORD0017337,CUS003567,M0030,R006,5,2025-09-15,,Noman A.
+RT0021738,ORD0149662,CUS031528,M0101,R008,4,2025-01-15,The Chicken Nuggets was absolutely delicious. Packaging was neat and secure.,Muhammad I.
+RT0078602,ORD0090656,CUS018885,M0004,R012,3,2025-11-26,,Muhammad N.
+RT0002788,ORD0066000,CUS013852,M0052,R017,4,2025-02-03,The Chicken Boti was absolutely delicious. Service was quick and friendly.,Rida C.
+RT0063135,ORD0073361,CUS015216,M0185,R008,4,2025-07-31,"Really enjoyed the Lassi Breakfast Combo, great taste. Good value for money.",Mariam B.
+RT0034718,ORD0132991,CUS027927,M0171,R019,3,2025-08-11,"Average Cold Coffee, expected more flavour. Service was acceptable.",Fahad S.
+RT0014026,ORD0165616,CUS035009,M0081,R012,3,2025-01-04,"Average Plain Naan, expected more flavour. Wait time was a little long.",Hina J.
+RT0016846,ORD0027069,CUS005720,M0045,R013,3,2025-04-27,,Sidra B.
+RT0093510,ORD0196112,CUS041455,M0081,R019,4,2025-11-25,Plain Naan had amazing flavour. Portion size is great for the price.,Naveed A.
+RT0084291,ORD0209107,CUS044280,M0044,R018,3,2025-12-03,,Usman Q.
+RT0033105,ORD0021377,CUS004513,M0145,R018,3,2025-07-04,Falooda was decent but a bit oily. Wait time was a little long.,Komal A.
+RT0083409,ORD0072245,CUS015005,M0025,R009,5,2025-09-05,,Aliza K.
+RT0039252,ORD0194870,CUS041216,M0001,R003,5,2025-02-18,Best Chicken Karahi I have had in Karachi.,Mehwish J.
+RT0034256,ORD0112753,CUS023475,M0184,R010,5,2025-02-21,The Paya Breakfast was absolutely delicious.,Adeel B.
+RT0049645,ORD0013558,CUS002813,M0125,R006,4,2025-02-05,Best Chicken Fingers I have had in Karachi.,Mahnoor M.
+RT0025297,ORD0062646,CUS013179,M0145,R008,5,2025-07-09,,Areeba C.
+RT0090029,ORD0239061,CUS050668,M0095,R003,5,2025-06-29,The Chicken Burger was absolutely delicious. Our table was ready on time.,Fatima H.
+RT0059125,ORD0186459,CUS039432,M0001,R003,4,2025-01-21,"Loved the Chicken Karahi, cooked perfectly.",Mahnoor M.
+RT0090289,ORD0085673,CUS017824,M0030,R001,4,2025-11-03,,Sumaiya S.
+RT0002358,ORD0193774,CUS040968,M0095,R003,3,2025-02-15,,Waleed I.
+RT0067669,ORD0119351,CUS024976,M0044,R009,4,2025-07-08,,Farah H.
+RT0087907,ORD0129892,CUS027250,M0146,R003,3,2025-06-15,"Average Shahi Tukray, expected more flavour. Wait time was a little long.",Arslan M.
+RT0053072,ORD0117777,CUS024604,M0143,R003,3,2025-11-02,Ras Malai was decent but a bit oily. Service was acceptable.,Hafsa A.
+RT0058427,ORD0240391,CUS050935,M0127,R002,3,2025-08-01,Raita was decent but a bit oily.,Waqas R.
+RT0034356,ORD0169497,CUS035842,M0123,R006,4,2025-09-12,"Loved the Dahi Papri Chaat, cooked perfectly. Good value for money.",Sumaiya B.
+RT0011294,ORD0118901,CUS024889,M0069,R007,3,2025-02-21,,Usman N.
+RT0033831,ORD0025582,CUS005422,M0066,R014,5,2025-04-14,,Zainab I.
+RT0034503,ORD0234965,CUS049851,M0177,R003,5,2025-02-16,,Hassan S.
+RT0023662,ORD0077100,CUS016055,M0031,R005,2,2025-11-02,The Mutton Pulao was oily and tasted stale. We waited over 40 minutes.,Aliza L.
+RT0078453,ORD0211397,CUS044843,M0045,R010,3,2025-02-04,"The Seekh Kebab was okay, nothing special.",Mahnoor N.
+RT0099440,ORD0051149,CUS010804,M0177,R007,3,2025-11-13,,Iqra R.
+RT0087108,ORD0102838,CUS021525,M0084,R012,5,2025-06-12,,Hamza A.
+RT0022776,ORD0139805,CUS029367,M0027,R010,3,2025-05-07,Chicken Biryani was decent but a bit oily. Service was acceptable.,Shahid I.
+RT0028601,ORD0054095,CUS011416,M0141,R003,5,2025-04-20,,Daniyal L.
+RT0034787,ORD0140678,CUS029569,M0044,R013,3,2025-02-07,,Rukhsar A.
+RT0020504,ORD0123382,CUS025838,M0110,R001,5,2025-06-01,,Nimra J.
+RT0084717,ORD0015405,CUS003186,M0126,R022,2,2025-10-24,,Haris L.
+RT0044798,ORD0099690,CUS020852,M0112,R016,4,2025-11-28,,Shoaib J.
+RT0068252,ORD0043350,CUS009213,M0177,R012,5,2025-11-13,The Fish and Chips was fresh and piping hot. Will definitely order again.,Hira H.
+RT0044063,ORD0033857,CUS007146,M0144,R011,4,2025-08-05,The Firni was fresh and piping hot. Our table was ready on time.,Maham S.
+RT0079970,ORD0020473,CUS004318,M0081,R003,5,2025-07-06,,Hira A.
+RT0061299,ORD0195807,CUS041391,M0011,R001,4,2025-01-26,"Loved the Chicken Jalfrezi, cooked perfectly.",Shoaib H.
+RT0019235,ORD0143436,CUS030196,M0124,R009,5,2025-10-14,The Fruit Chaat was fresh and piping hot. Our table was ready on time.,Farhan H.
+RT0051919,ORD0014225,,M0002,R003,5,2025-07-27,The Mutton Karahi was absolutely delicious. Packaging was neat and secure.,Arslan J.
+RT0034054,ORD0182680,CUS038588,M0002,R007,4,2025-11-09,Mutton Karahi had amazing flavour. The branch was spotless.,Saad Z.
+RT0006833,ORD0095590,CUS019965,M0081,R018,3,2025-09-20,"The Plain Naan was okay, nothing special. Service was acceptable.",Nadeem R.
+RT0092614,ORD0248416,CUS052668,M0095,R013,4,2025-02-07,,Junaid A.
+RT0011751,ORD0247421,CUS052459,M0130,R003,3,2025-11-23,"The Russian Salad was okay, nothing special. Prices are fair but not cheap.",Areeba Y.
+RT0007876,ORD0055358,CUS011622,M0115,R002,5,2025-06-30,,Hira Y.
+RT0044647,ORD0091386,CUS019036,M0153,R022,4,2025-11-15,,Rabia S.
+RT0059443,ORD0072862,CUS015093,M0157,R008,3,2025-10-30,"Average Fresh Lemonade, expected more flavour. Prices are fair but not cheap.",Areeba M.
+RT0040188,ORD0002791,CUS000595,M0134,R002,3,2025-10-14,"Average Mint Raita, expected more flavour.",Nadeem M.
+RT0098084,ORD0209470,CUS044383,M0001,R021,4,2025-02-23,Best Chicken Karahi I have had in Karachi. Our table was ready on time.,Iqra N.
+RT0036273,ORD0094115,CUS019635,M0153,R002,10,2025-11-02,,Rukhsar S.
+RT0080083,ORD0193512,CUS040891,M0037,R001,5,2025-08-18,"Really enjoyed the Sindhi Biryani, great taste. The branch was spotless.",Kashif K.
+RT0010836,ORD0035308,CUS007430,M0063,R010,2,2025-01-16,The BBQ Family Platter was oily and tasted stale. Our order was incomplete.,Hira D.
+RT0044061,ORD0128016,CUS026865,M0143,R012,4,2025-05-03,The Ras Malai was absolutely delicious.,Sana A.
+RT0069526,ORD0023714,CUS005053,M0099,R002,4,2025-07-21,,Rabia Z.
+RT0001719,ORD0218799,CUS046444,M0095,R006,4,2025-11-30,,Hussain A.
+RT0103868,ORD0192526,CUS040698,M0001,R019,2,2025-10-20,The Chicken Karahi was cold and bland. The staff was rude.,Anam K.
+RT0072190,ORD0014204,CUS002941,M0029,R018,5,2025-02-14,,Salman B.
+RT0016791,ORD0206573,CUS043766,M0176,R019,4,2025-04-12,"Really enjoyed the Grilled Fish, great taste.",Laiba S.
+RT0060151,ORD0222434,CUS047254,M0169,R012,3,2025-12-29,,Waqas J.
+RT0023728,ORD0010863,CUS002223,M0155,R014,5,2025-06-18,Best Sweet Lassi I have had in Karachi. Delivery was fast and the food stayed hot.,Fatima S.
+RT0018599,ORD0168397,CUS035560,M0046,R004,4,2025-06-28,Chicken Seekh Kebab had amazing flavour. Packaging was neat and secure.,Sadia A.
+RT0071025,ORD0042554,CUS009035,M0077,R001,3,2025-04-10,,Areeba Q.
+RT0087930,ORD0078929,CUS016482,M0184,R008,4,2025-02-16,The Paya Breakfast was absolutely delicious. The branch was spotless.,Amna S.
+RT0018760,ORD0007892,CUS001695,M0157,R008,3,2025-05-11,Fresh Lemonade was decent but a bit oily. Service was acceptable.,Aliza N.
+RT0080324,ORD0123595,CUS025865,M0143,R010,4,2025-11-08,,Bilal Z.
+RT0072720,ORD0142434,CUS029962,M0127,R008,5,2025-12-23,,Zain R.
+RT0047466,ORD0130907,CUS027474,M0100,R018,4,2025-12-13,Beef Burger had amazing flavour. Will definitely order again.,Talha K.
+RT0012154,ORD0161426,CUS034135,M0155,R016,3,2025-06-12,"Average Sweet Lassi, expected more flavour.",Aliza R.
+RT0083203,ORD0112515,CUS023432,M0152,R010,5,2025-05-08,,Hussain M.
+RT0037736,ORD0101491,CUS021229,M0160,R013,5,2025-03-03,Best Mint Margarita I have had in Karachi. Staff was very courteous.,Aiman B.
+RT0052908,ORD0167109,CUS035348,M0095,R008,4,2025-08-10,"Really enjoyed the Chicken Burger, great taste.",Rida B.
+RT0097339,ORD0212635,CUS045146,M0161,R005,4,2025-11-22,The Mango Shake was fresh and piping hot. Will definitely order again.,Kinza M.
+RT0093615,ORD0035062,CUS007382,M0126,R006,3,2025-08-12,"The French Fries was okay, nothing special.",Atif U.
+RT0003358,ORD0129878,CUS027247,M0002,R015,5,2025-10-20,,Saima B.
+RT0081682,ORD0089648,CUS018653,M0155,R022,5,2025-06-29,,Arslan L.
+RT0042911,ORD0231992,CUS049230,M0102,R002,4,2025-03-10,Best Chicken Shawarma I have had in Karachi. Will definitely order again.,Umar S.
+RT0004789,ORD0212658,CUS045148,M0106,R016,4,2025-11-20,,Hira N.
+RT0031274,ORD0050014,CUS010576,M0152,R002,3,2025-02-26,"The Brownie with Ice Cream was okay, nothing special.",Faisal A.
+RT0012086,ORD0181806,CUS038373,M0067,R011,4,2025-02-02,,Laiba J.
+RT0000805,ORD0009330,CUS001954,M0110,R020,3,2025-06-05,,Laiba C.
+RT0098841,ORD0200816,CUS042549,M0095,R004,4,2025-01-25,Chicken Burger had amazing flavour. Will definitely order again.,Laiba S.
+RT0001863,ORD0123397,CUS025840,M0153,R009,4,2025-07-04,The Chai was fresh and piping hot.,Ayesha J.
+RT0084639,ORD0127748,CUS026806,M0076,R016,2,2025-10-17,The Karhi Pakora was undercooked. The staff was rude.,Waleed H.
+RT0002742,ORD0033300,CUS007013,M0123,R021,4,2025-02-03,,Shoaib B.
+RT0074469,ORD0029556,CUS006228,M0042,R004,4,2025-01-09,,Ahmed S.
+RT0069788,ORD0075871,CUS015771,M0098,R005,3,2025-04-18,"The Chicken Wrap was okay, nothing special. Service was acceptable.",Mehwish H.
+RT0012540,ORD0033671,CUS007114,M0067,R015,4,2025-08-13,,Waleed C.
+RT0030627,ORD0095006,CUS019835,M0176,R006,3,2025-07-16,Grilled Fish was decent but a bit oily.,Asad M.
+RT0072480,ORD0121929,CUS025546,M0185,R001,4,2025-11-19,,Khadija R.
+RT0093830,ORD0009667,CUS002008,M0177,R012,5,2025-09-26,"Really enjoyed the Fish and Chips, great taste. The rider arrived on time.",Owais H.
+RT0092657,ORD0207368,CUS043941,M0091,R009,2,2025-05-13,,Talha K.
+RT0005905,ORD0157716,CUS033340,M0142,R010,4,2025-05-31,Best Kulfi I have had in Karachi.,Zara H.
+RT0067269,ORD0186672,CUS039477,M0152,R004,3,2025-09-12,Brownie with Ice Cream was decent but a bit oily. Prices are fair but not cheap.,Aliza A.
+RT0037304,ORD0091406,CUS019040,M0126,R018,2,2025-12-19,The French Fries was cold and bland. The staff was rude.,Bilal S.
+RT0094501,ORD0129251,CUS027138,M0132,R015,4,2025-09-13,,Talha N.
+RT0088757,ORD0176549,CUS037340,M0069,R008,3,2025-08-12,,Kamran J.
+RT0009732,ORD0250050,CUS053049,M0031,R001,5,2025-06-28,"Really enjoyed the Mutton Pulao, great taste.",Umar K.
+RT0087263,ORD0075929,CUS015786,M0052,R012,5,2025-10-28,,Fahad N.
+RT0009680,ORD0170526,CUS036013,M0052,R004,5,2025-10-04,,Komal M.
+RT0005429,ORD0146239,CUS030777,M0126,R008,4,2025-10-08,"Loved the French Fries, cooked perfectly. Portion size is great for the price.",Hussain S.
+RT0073935,ORD0013797,CUS002862,M0043,R008,4,2025-06-05,Chicken Tikka Boneless had amazing flavour. The branch was spotless.,Zain A.
+RT0047236,ORD0170604,CUS036031,M0032,R004,4,2025-06-02,,Anam Y.
+RT0066740,ORD0258695,CUS054730,M0127,R010,4,2025-06-30,,Khadija S.
+RT0040009,ORD0041411,CUS008754,M0042,R019,5,2025-07-01,,Sadia H.
+RT0090539,ORD0031432,CUS006583,M0018,R007,5,2025-07-28,Chicken Masala had amazing flavour. Portion size is great for the price.,Dua J.
+RT0001257,ORD0152892,CUS032247,M0025,R012,5,2025-08-03,,Waleed N.
+RT0087293,ORD0138340,CUS029094,M0111,R018,5,2025-01-05,,Imran L.
+RT0033926,ORD0125883,CUS026421,M0084,R004,4,2025-03-05,,Amna N.
+RT0060014,ORD0124060,CUS025977,M0136,R011,4,2025-02-22,"Really enjoyed the Loaded Fries, great taste.",Hira D.
+RT0101258,ORD0169671,CUS035877,M0020,R020,2,2025-04-20,The Mutton Nihari was cold and bland. Our order was incomplete.,Sana S.
+RT0104904,ORD0070215,CUS014662,M0042,R004,4,2025-01-29,,Umar N.
+RT0101394,ORD0219998,CUS046704,M0126,R008,3,2025-02-08,,Anam M.
+RT0001371,ORD0008805,CUS001859,M0107,R003,5,2025-06-15,,Anam A.
+RT0091399,ORD0047273,CUS010018,M0109,R002,4,2025-07-01,Best Chicken Manchurian I have had in Karachi. Portion size is great for the price.,Owais R.
+RT0082579,ORD0024067,CUS005124,M0067,R004,5,2025-07-20,,Rida B.
+RT0101789,ORD0047816,CUS010134,M0082,R010,4,2025-01-29,The Garlic Naan was absolutely delicious. Good value for money.,Muhammad J.
+RT0032534,ORD0203442,CUS043118,M0096,R004,4,2025-09-05,"Loved the Chicken Zinger Burger, cooked perfectly.",Adeel C.
+RT0012725,ORD0171190,CUS036156,M0082,R010,3,2025-04-17,Garlic Naan was decent but a bit oily. Service was acceptable.,Kinza N.
+RT0094619,ORD0241663,CUS051220,M0107,R007,5,2025-04-10,The Zinger Paratha Roll was fresh and piping hot. The rider arrived on time.,Sumaiya R.
+RT0041340,ORD0073415,CUS015222,M0126,R007,5,2025-01-23,Best French Fries I have had in Karachi. Good value for money.,Saad A.
+RT0002661,ORD0062789,CUS013210,M0027,R020,4,2025-01-20,,Zeeshan J.
+RT0028584,ORD0257556,CUS054562,M0035,R001,3,2025-08-13,"The Chicken Fried Rice was okay, nothing special. Wait time was a little long.",Usman K.
+RT0072990,ORD0018491,CUS003835,M0083,R007,4,2025-11-12,Best Roghni Naan I have had in Karachi. Service was quick and friendly.,Zeeshan L.
+RT0024606,ORD0234041,CUS049621,M0155,R013,5,2025-06-02,,Tariq A.
+RT0060384,ORD0252633,CUS053523,M0003,R009,4,2025-06-12,Best Beef Karahi I have had in Karachi. Portion size is great for the price.,Junaid D.
+RT0068522,ORD0107615,CUS022401,M0016,R007,4,2025-10-11,,Farah Z.
+RT0097593,ORD0244952,CUS051911,M0157,R015,2,2025-09-09,,Junaid B.
+RT0039685,ORD0214534,CUS045531,M0096,R006,2,2025-10-27,The Chicken Zinger Burger was oily and tasted stale. The staff was rude.,Farhan K.
+RT0058992,ORD0182274,CUS038469,M0002,R003,4,2025-08-03,,Hafsa S.
+RT0092035,ORD0116752,CUS024403,M0037,R014,4,2025-04-23,Best Sindhi Biryani I have had in Karachi.,Kinza M.
+RT0102965,ORD0144436,CUS030444,M0095,R022,4,2025-05-05,,Noor M.
+RT0081102,ORD0246161,CUS052202,M0043,R019,5,2025-03-30,Best Chicken Tikka Boneless I have had in Karachi. The branch was spotless.,Bilal B.
+RT0032270,ORD0217597,CUS046220,M0097,R014,5,2025-05-31,Chicken Sandwich had amazing flavour. Delivery was fast and the food stayed hot.,Hassan A.
+RT0095552,ORD0154078,CUS032510,M0030,R012,4,2025-07-04,,Hassan I.
+RT0052487,ORD0156186,CUS032989,M0040,R012,5,2025-11-16,,Khadija I.
+RT0068585,ORD0085814,CUS017851,M0081,R001,5,2025-01-12,The Plain Naan was fresh and piping hot. The rider arrived on time.,Kamran Z.
+RT0041729,ORD0215394,CUS045756,M0057,R010,3,2025-03-23,,Areeba S.
+RT0056107,ORD0099507,CUS020815,M0110,R009,4,2025-08-29,,Zain S.
+RT0058550,ORD0195123,CUS041262,M0067,R009,5,2025-10-18,The Daal Mash was absolutely delicious. Staff was very courteous.,Dua A.
+RT0035203,ORD0076299,CUS015868,M0045,R016,4,2025-03-31,Best Seekh Kebab I have had in Karachi.,Fahad B.
+RT0045828,ORD0139951,CUS029392,M0002,R013,2,2025-06-26,The Mutton Karahi was undercooked.,Junaid A.
+RT0027018,ORD0038773,CUS008157,M0041,R005,4,2025-01-27,The Karahi Rice Bowl was absolutely delicious.,Murtaza L.
+RT0100049,ORD0036736,CUS007734,M0153,R008,3,2025-01-11,,Amna K.
+RT0039202,ORD0129866,CUS027244,M0152,R007,2,2025-07-30,The Brownie with Ice Cream was cold and bland.,Maryam N.
+RT0073867,ORD0022941,CUS004872,M0094,R008,3,2025-02-23,"The Puri was okay, nothing special. Service was acceptable.",Salman B.
+RT0060056,ORD0217615,CUS046223,M0030,R009,4,2025-10-19,The Chicken Pulao was fresh and piping hot.,Laiba B.
+RT0039383,ORD0058274,CUS012229,M0082,R008,4,2025-01-02,,Arslan M.
+RT0019285,ORD0211194,CUS044803,M0077,R008,5,2025-12-10,,Shoaib A.
+RT0090672,ORD0200302,CUS042422,M0026,R008,4,2025-11-16,The Keema Matar was absolutely delicious.,Sadia B.
+RT0102683,ORD0101009,CUS021120,M0118,R017,5,2025-12-21,The Chicken Wings was fresh and piping hot. The branch was spotless.,Adeel A.
+RT0008664,ORD0020619,CUS004361,M0157,R008,3,2025-07-19,,Adeel J.
+RT0093485,ORD0199626,CUS042249,M0099,R013,4,2025-01-30,,Shahid N.
+RT0097881,ORD0247468,CUS052470,M0142,R021,3,2025-06-23,,Zain N.
+RT0069139,ORD0045927,CUS009717,M0155,R007,4,2025-07-24,Sweet Lassi had amazing flavour. Our table was ready on time.,Daniyal M.
+RT0078320,ORD0028227,CUS005953,M0142,R003,5,2025-06-20,The Kulfi was fresh and piping hot. Delivery was fast and the food stayed hot.,Mahnoor A.
+RT0023928,ORD0241966,CUS051269,M0126,R008,4,2025-03-02,The French Fries was fresh and piping hot. Portion size is great for the price.,Shahid B.
+RT0015554,ORD0140699,CUS029579,M0080,R013,5,2025-05-18,,Anam A.
+RT0082272,ORD0017562,CUS003608,M0004,R013,3,2025-10-11,,Areeba U.
+RT0088203,ORD0055008,CUS011559,M0142,R003,4,2025-05-11,,Talha R.
+RT0077907,ORD0183434,CUS038776,M0020,R003,3,2025-04-04,,Hassan H.
+RT0101886,ORD0131032,CUS027503,M0052,R001,2,2025-02-05,Chicken Boti was far too salty.,Samina J.
+RT0068111,ORD0214458,CUS045520,M0013,R006,4,2025-12-08,,Nimra N.
+RT0068565,ORD0054595,CUS011480,M0059,R012,3,2025-11-20,,Kamran R.
+RT0071759,ORD0256906,CUS054412,M0126,R003,3,2025-08-13,"The French Fries was okay, nothing special. Wait time was a little long.",Tariq B.
+RT0066783,ORD0004940,CUS001068,M0126,R007,4,2025-12-24,,Maham L.
+RT0075602,ORD0041367,CUS008745,M0010,R010,5,2025-02-15,,Daniyal R.
+RT0097123,ORD0113897,CUS023748,M0044,R017,4,2025-03-15,The Malai Boti was absolutely delicious. Good value for money.,Ayesha S.
+RT0101155,ORD0044348,CUS009437,M0067,R021,4,2025-08-15,,Faisal B.
+RT0088487,ORD0134282,CUS028234,M0075,R003,5,2025-05-11,Best Baingan Bharta I have had in Karachi. Portion size is great for the price.,Ayesha B.
+RT0023818,ORD0125998,CUS026446,M0156,R010,4,2025-06-17,The Salted Lassi was absolutely delicious.,Junaid Q.
+RT0102169,ORD0200904,CUS042565,M0037,R006,3,2025-11-12,Sindhi Biryani was decent but a bit oily. Wait time was a little long.,Saad Y.
+RT0019859,ORD0113998,CUS023763,M0153,R014,6,2025-02-27,"The Chai was okay, nothing special. Wait time was a little long.",Fatima S.
+RT0035274,ORD0061175,CUS012853,M0159,R013,3,2025-05-19,Bottled Water was decent but a bit oily.,Sadia B.
+RT0104973,ORD0210036,CUS044523,M0155,R008,4,2025-08-13,,Sumaiya H.
+RT0018665,ORD0027726,CUS005841,M0176,R013,3,2025-08-30,"The Grilled Fish was okay, nothing special.",Faisal A.
+RT0071988,ORD0094433,CUS019708,M0084,R015,3,2025-12-19,"Average Roti, expected more flavour. Wait time was a little long.",Rabia A.
+RT0046868,ORD0037380,CUS007880,M0159,R015,3,2025-10-20,Bottled Water was decent but a bit oily.,Laiba L.
+RT0096822,ORD0212381,CUS045086,M0127,R001,3,2025-08-01,,Hina S.
+RT0015618,ORD0065372,CUS013714,M0095,R003,4,2025-03-22,,Farah N.
+RT0051730,ORD0217730,CUS046243,M0043,R005,3,2025-07-05,,Mahnoor M.
+RT0064393,ORD0252997,CUS053577,M0044,R015,4,2025-06-05,The Malai Boti was fresh and piping hot.,Tariq C.
+RT0071278,ORD0066595,CUS013977,M0082,R014,4,2025-10-23,"Loved the Garlic Naan, cooked perfectly. Our table was ready on time.",Areeba J.
+RT0081691,ORD0170306,CUS035983,M0044,R002,2,2025-01-10,,Naveed S.
+RT0066231,ORD0010999,CUS002254,M0002,R002,5,2025-06-01,"Loved the Mutton Karahi, cooked perfectly. Service was quick and friendly.",Fatima A.
+RT0076609,ORD0079874,CUS016679,M0030,R001,3,2025-11-11,Chicken Pulao was decent but a bit oily. Wait time was a little long.,Zeeshan I.
+RT0095908,ORD0071402,CUS014924,M0126,R003,5,2025-10-29,,Mehwish U.
+RT0037518,ORD0143497,CUS030208,M0164,R007,4,2025-04-20,Best Rooh Afza Sharbat I have had in Karachi. Good value for money.,Farhan C.
+RT0050266,ORD0228433,CUS048438,M0065,R018,5,2025-05-08,The Chana was absolutely delicious.,Dua B.
+RT0008694,ORD0212746,CUS045167,M0077,R003,4,2025-11-18,Daal Palak had amazing flavour. Good value for money.,Zainab S.
+RT0101936,ORD0202091,CUS042845,M0127,R013,5,2025-11-04,,Laiba B.
+RT0039650,ORD0039955,CUS008416,M0016,R004,3,2025-07-30,,Aliza H.
+RT0055294,ORD0234972,CUS049857,M0122,R010,2,2025-08-08,,Noman R.
+RT0095416,ORD0117364,CUS024523,M0016,R015,4,2025-04-27,"Loved the Chicken Qorma, cooked perfectly.",Mehwish K.
+RT0063034,ORD0068853,CUS014421,M0004,R002,3,2025-05-05,"The Chicken Handi was okay, nothing special. Prices are fair but not cheap.",Tariq A.
+RT0103875,ORD0073550,CUS015237,M0157,R007,5,2025-04-03,Best Fresh Lemonade I have had in Karachi.,Hafsa N.
+RT0045845,ORD0129420,CUS027168,M0155,R014,5,2025-06-16,,Sumaiya B.
+RT0097056,ORD0167299,CUS035374,M0094,R018,3,2025-09-20,Puri was decent but a bit oily. Prices are fair but not cheap.,Faisal N.
+RT0100288,ORD0130433,CUS027368,M0157,R003,4,2025-06-14,Best Fresh Lemonade I have had in Karachi.,Talha M.
+RT0037377,ORD0179224,CUS037866,M0067,R017,4,2025-10-15,"Really enjoyed the Daal Mash, great taste. Portion size is great for the price.",Usman A.
+RT0012402,ORD0231228,CUS049078,M0016,R013,4,2025-07-12,,Muhammad J.
+RT0017010,ORD0172624,CUS036462,M0082,R003,2,2025-04-29,The Garlic Naan was oily and tasted stale. Overpriced for the portion.,Arslan A.
+RT0068648,ORD0116798,CUS024418,M0007,R008,4,2025-07-07,Chicken White Karahi had amazing flavour.,Sadia Y.
+RT0054628,ORD0220396,CUS046790,M0003,R008,5,2025-11-11,Beef Karahi had amazing flavour.,Anam C.
+RT0044967,ORD0222615,CUS047294,M0042,R002,4,2025-04-23,The Chicken Tikka was absolutely delicious.,Owais M.
+RT0042209,ORD0060840,CUS012775,M0042,R002,4,2025-01-18,The Chicken Tikka was absolutely delicious. Service was quick and friendly.,Rizwan Q.
+RT0084388,ORD0066781,CUS014026,M0028,R008,4,2025-08-05,The Mutton Biryani was absolutely delicious. The branch was spotless.,Khadija H.
+RT0034202,ORD0240861,CUS051049,M0125,R001,4,2025-11-03,"Loved the Chicken Fingers, cooked perfectly. Our table was ready on time.",Noor J.
+RT0098407,ORD0119101,CUS024929,M0139,R001,3,2025-05-21,"Average Gulab Jamun, expected more flavour.",Zara A.
+RT0016441,ORD0093601,CUS019518,M0006,R012,4,2025-09-01,,Junaid B.
+RT0024081,ORD0118200,CUS024718,M0095,R010,2,2025-10-01,,Arslan J.
+RT0006371,ORD0116935,CUS024446,M0177,R009,4,2025-01-14,Best Fish and Chips I have had in Karachi. Delivery was fast and the food stayed hot.,Saad J.
+RT0073535,ORD0088049,CUS018347,M0011,R011,3,2025-05-12,"The Chicken Jalfrezi was okay, nothing special. Wait time was a little long.",Zain B.
+RT0078020,ORD0187731,CUS039687,M0067,R003,4,2025-03-04,,Mahnoor N.
+RT0087467,ORD0190132,CUS040207,M0067,R016,2,2025-09-22,The Daal Mash was undercooked. Our order was incomplete.,Farah I.
+RT0009409,ORD0049709,CUS010495,M0102,R011,5,2025-01-23,,Mehwish S.
+RT0000950,ORD0258147,CUS054666,M0024,R022,5,2025-06-11,"Really enjoyed the Beef Pasanda, great taste. Our table was ready on time.",Shahid A.
+RT0015356,ORD0224043,CUS047638,M0118,R004,5,2025-12-07,The Chicken Wings was absolutely delicious. Good value for money.,Waqas R.
+RT0058834,ORD0191960,CUS040596,M0155,R001,5,2025-05-28,Best Sweet Lassi I have had in Karachi. Our table was ready on time.,Hussain M.
+RT0028285,ORD0017650,CUS003635,M0020,R004,4,2025-03-12,Mutton Nihari had amazing flavour. Our table was ready on time.,Murtaza L.
+RT0057412,ORD0069511,CUS014552,M0162,R017,3,2025-01-26,,Bushra H.
+RT0058784,ORD0164590,CUS034807,M0033,R005,4,2025-07-07,"Really enjoyed the Zeera Rice, great taste.",Danish M.
+RT0076862,ORD0047889,CUS010149,M0054,R004,5,2025-10-11,"Loved the Afghani Chicken Tikka, cooked perfectly. The branch was spotless.",Waqas R.
+RT0055118,ORD0259495,,M0029,R009,4,2025-11-06,"Really enjoyed the Beef Biryani, great taste.",Aiman Z.
+RT0032820,ORD0175809,CUS037208,M0178,R003,4,2025-08-14,,Rabia S.
+RT0077347,ORD0110696,CUS023014,M0099,R001,2,2025-07-20,,Farah M.
+RT0092700,ORD0202596,CUS042932,M0084,R002,5,2025-02-16,,Saad Q.
+RT0090142,ORD0175156,CUS037030,M0094,R005,3,2025-05-22,"The Puri was okay, nothing special. Prices are fair but not cheap.",Maham M.
+RT0082729,ORD0049579,CUS010473,M0143,R014,3,2025-09-28,Ras Malai was decent but a bit oily. Prices are fair but not cheap.,Asad N.
+RT0051769,ORD0178348,CUS037700,M0026,R010,5,2025-10-11,,Saad L.
+RT0019207,ORD0117487,CUS024558,M0004,R008,1,2025-02-03,,Noor H.
+RT0045260,ORD0157918,CUS033391,M0002,R008,5,2025-01-16,,Farah B.
+RT0060413,ORD0016166,CUS003338,M0130,R003,4,2025-01-12,"Really enjoyed the Russian Salad, great taste.",Mariam N.
+RT0033899,ORD0060548,CUS012711,M0097,R001,5,2025-12-31,"Really enjoyed the Chicken Sandwich, great taste. Our table was ready on time.",Khadija L.
+RT0048384,ORD0015867,CUS003265,M0082,R011,4,2025-04-05,,Atif R.
+RT0098996,ORD0046052,CUS009752,M0145,R019,3,2025-08-09,"Average Falooda, expected more flavour.",Samina N.
+RT0054004,ORD0119557,CUS025016,M0068,R014,5,2025-11-26,,Nimra S.
+RT0000831,ORD0171295,CUS036169,M0164,R002,5,2025-04-29,,Amna K.
+RT0019664,ORD0166742,CUS035249,M0044,R009,3,2025-01-18,Malai Boti was decent but a bit oily. Prices are fair but not cheap.,Ali M.
+RT0067138,ORD0100587,CUS021035,M0140,R004,5,2025-09-15,,Kashif B.
+RT0028915,ORD0221458,CUS047034,M0143,R015,4,2025-05-25,,Haris R.
+RT0088377,ORD0227859,CUS048355,M0139,R011,4,2025-08-20,Best Gulab Jamun I have had in Karachi. Portion size is great for the price.,Shahid Y.
+RT0094081,ORD0205143,CUS043483,M0104,R017,3,2025-07-22,Chicken Fajita Wrap was decent but a bit oily. Service was acceptable.,Mehwish D.
+RT0002938,ORD0235244,CUS049928,M0145,R007,4,2025-03-24,"Really enjoyed the Falooda, great taste.",Shoaib A.
+RT0026323,ORD0236013,CUS050093,M0095,R005,4,2025-07-11,Chicken Burger had amazing flavour. Will definitely order again.,Nadeem J.
+RT0094346,ORD0094828,CUS019794,M0159,R003,4,2025-09-14,,Kinza H.
+RT0068748,ORD0087751,CUS018284,M0153,R018,1,2025-11-08,Very disappointed with the Chai. Rider was late and the food arrived cold.,Nimra H.
+RT0051382,ORD0025217,CUS005332,M0037,R007,3,2025-04-26,,Hussain N.
+RT0031525,ORD0180113,CUS038040,M0074,R004,5,2025-03-05,Best Aloo Matar I have had in Karachi. Service was quick and friendly.,Aiman B.
+RT0084975,ORD0182917,CUS038649,M0112,R009,3,2025-08-03,,Arslan H.
+RT0081233,ORD0140735,CUS029584,M0081,R014,3,2025-08-11,"Average Plain Naan, expected more flavour.",Hina Y.
+RT0050798,ORD0254007,CUS053802,M0042,R013,5,2025-06-01,"Loved the Chicken Tikka, cooked perfectly. Portion size is great for the price.",Bilal J.
+RT0032376,ORD0160107,CUS033827,M0137,R021,4,2025-08-09,,Zeeshan C.
+RT0019032,ORD0190860,CUS040371,M0153,R003,2,2025-02-06,,Farah Z.
+RT0098667,ORD0163475,CUS034542,M0001,R009,5,2025-05-14,The Chicken Karahi was absolutely delicious. Service was quick and friendly.,Waleed H.
+RT0090183,ORD0110534,CUS022987,M0052,R020,4,2025-11-26,Best Chicken Boti I have had in Karachi. The branch was spotless.,Faisal U.
+RT0009661,ORD0153941,CUS032476,M0163,R018,5,2025-03-06,,Areeba L.
+RT0037180,ORD0150980,CUS031844,M0030,R003,4,2025-07-20,,Shoaib B.
+RT0056776,ORD0048201,CUS010187,M0145,R014,3,2025-05-18,,Hamza U.
+RT0019687,ORD0156377,CUS033040,M0001,R001,3,2025-12-21,,Hassan M.
+RT0091706,ORD0146320,CUS030803,M0157,R019,4,2025-04-15,,Ahmed S.
+RT0034716,ORD0006521,CUS001389,M0126,R015,4,2025-07-28,"Really enjoyed the French Fries, great taste. Will definitely order again.",Muhammad B.
+RT0066701,ORD0037582,CUS007917,M0040,R007,4,2025-11-11,"Loved the Beef Pulao, cooked perfectly. Staff was very courteous.",Faisal Y.
+RT0070687,ORD0001938,CUS000427,M0148,R002,5,2025-09-15,,Komal I.
+RT0090652,ORD0148275,CUS031213,M0158,R010,4,2025-08-18,"Loved the Soft Drinks, cooked perfectly. Service was quick and friendly.",Danish M.
+RT0005780,ORD0093420,CUS019481,M0139,R008,5,2025-09-13,"Loved the Gulab Jamun, cooked perfectly.",Owais I.
+RT0045012,ORD0219633,CUS046628,M0143,R021,3,2025-02-05,,Ahmed Q.
+RT0091890,ORD0048964,CUS010328,M0027,R022,1,2025-05-27,Very disappointed with the Chicken Biryani.,Aliza H.
+RT0102613,ORD0245480,CUS052037,M0077,R014,4,2025-02-06,Best Daal Palak I have had in Karachi. The branch was spotless.,Hamza A.
+RT0062532,ORD0055782,CUS011704,M0087,R018,4,2025-12-03,,Saima K.
+RT0080434,ORD0027796,CUS005852,M0127,R007,4,2025-02-12,,Ayesha S.
+RT0067738,ORD0104876,CUS021886,M0096,R008,3,2025-01-19,"The Chicken Zinger Burger was okay, nothing special. Service was acceptable.",Samina U.
+RT0050368,ORD0020096,CUS004235,M0066,R013,4,2025-12-10,The Mixed Vegetable Sabzi was absolutely delicious. Portion size is great for the price.,Abdullah B.
+RT0096926,ORD0173570,CUS036685,M0127,R006,3,2025-02-20,,Asad H.
+RT0103838,ORD0161887,CUS034225,M0027,R019,4,2025-02-05,Best Chicken Biryani I have had in Karachi. Staff was very courteous.,Hira J.
+RT0033932,ORD0242937,CUS051467,M0067,R017,3,2025-03-14,"The Daal Mash was okay, nothing special. Wait time was a little long.",Nadeem Z.
+RT0041306,ORD0193953,CUS040999,M0033,R006,4,2025-07-05,Zeera Rice had amazing flavour. Will definitely order again.,Adeel B.
+RT0104898,ORD0141741,CUS029836,M0173,R017,3,2025-11-17,,Ali A.
+RT0001762,ORD0028711,CUS006017,M0098,R010,3,2025-06-11,,Kashif H.
+RT0026240,ORD0031760,CUS006640,M0158,R001,3,2025-02-09,,Anam S.
+RT0070984,ORD0145246,CUS030587,M0018,R001,3,2025-12-17,"Average Chicken Masala, expected more flavour. Service was acceptable.",Tariq S.
+RT0070671,ORD0246422,CUS052252,M0029,R010,2,2025-02-01,,Kamran S.
+RT0066734,ORD0150334,CUS031669,M0159,R014,5,2025-11-14,"Loved the Bottled Water, cooked perfectly. The branch was spotless.",Khadija D.
+RT0036083,ORD0067821,CUS014238,M0010,R004,3,2025-05-21,"The Chicken Achari Handi was okay, nothing special. Service was acceptable.",Bushra Q.
+RT0056105,ORD0204599,CUS043353,M0024,R003,4,2025-08-11,"Loved the Beef Pasanda, cooked perfectly. Staff was very courteous.",Kinza B.
+RT0101425,ORD0194079,CUS041033,M0110,R003,5,2025-05-02,"Loved the Chicken Chilli Dry, cooked perfectly. Portion size is great for the price.",Junaid L.
+RT0048378,ORD0027196,CUS005750,M0109,R003,5,2025-09-08,"Loved the Chicken Manchurian, cooked perfectly. Delivery was fast and the food stayed hot.",Daniyal S.
+RT0099781,ORD0016169,CUS003340,M0030,R014,4,2025-01-10,Best Chicken Pulao I have had in Karachi.,Rida U.
+RT0010551,ORD0096500,CUS020142,M0037,R008,5,2025-11-29,"Loved the Sindhi Biryani, cooked perfectly. Packaging was neat and secure.",Laiba S.
+RT0099211,ORD0206434,CUS043736,M0139,R019,5,2025-03-24,"Loved the Gulab Jamun, cooked perfectly. Portion size is great for the price.",Kinza J.
+RT0041469,ORD0190044,CUS040191,M0140,R012,4,2025-11-23,,Sadia S.
+RT0096099,ORD0040539,CUS008551,M0044,R008,5,2025-12-14,Best Malai Boti I have had in Karachi.,Asad A.
+RT0072212,ORD0169569,CUS035858,M0177,R012,3,2025-08-17,,Samina H.
+RT0000128,ORD0094164,CUS019651,M0102,R009,3,2025-12-12,"The Chicken Shawarma was okay, nothing special. Service was acceptable.",Salman S.
+RT0044475,ORD0079384,CUS016594,M0009,R018,4,2025-08-09,,Zeeshan B.
+RT0013849,ORD0216819,CUS046035,M0176,R004,3,2025-02-17,,Rabia S.
+RT0051397,ORD0159664,CUS033733,M0071,R015,5,2025-11-06,The Aloo Gobi was absolutely delicious.,Komal J.
+RT0103718,ORD0177964,CUS037629,M0177,R008,5,2025-07-15,,Owais N.
+RT0082442,ORD0015664,CUS003229,M0022,R019,4,2025-12-23,Best Chicken Lemon Karahi I have had in Karachi. Service was quick and friendly.,Salman B.
+RT0014968,ORD0024595,CUS005208,M0001,R007,5,2025-04-16,,Ayesha A.
+RT0055392,ORD0243498,CUS051583,M0042,R012,5,2025-05-02,,Ali H.
+RT0013619,ORD0124363,CUS026031,M0132,R017,4,2025-12-21,,Zeeshan I.
+RT0063609,ORD0099051,CUS020697,M0134,R007,5,2025-04-10,Mint Raita had amazing flavour. The branch was spotless.,Owais K.
+RT0057813,ORD0016977,CUS003497,M0158,R016,5,2025-11-15,,Hafsa B.
+RT0090573,ORD0091058,CUS018965,M0159,R001,5,2025-06-10,Bottled Water had amazing flavour.,Sadia U.
+RT0078522,ORD0230706,CUS048928,M0046,R001,5,2025-12-10,,Hussain A.
+RT0012251,ORD0178664,CUS037754,M0049,R013,5,2025-09-28,Chicken BBQ Full had amazing flavour.,Hafsa L.
+RT0053606,ORD0180645,CUS038136,M0004,R008,5,2025-10-16,,Sadia A.
+RT0069835,ORD0256544,CUS054342,M0018,R003,3,2025-05-17,"Average Chicken Masala, expected more flavour.",Kinza H.
+RT0030588,ORD0074280,CUS015444,M0100,R018,4,2025-04-14,,Faisal K.
+RT0032825,ORD0170377,CUS035996,M0151,R003,3,2025-06-17,"The Sohan Halwa was okay, nothing special.",Nadeem K.
+RT0093105,ORD0129850,CUS027244,M0018,R007,3,2025-02-02,"Average Chicken Masala, expected more flavour.",Maryam N.
+RT0083770,ORD0094354,CUS019695,M0030,R014,4,2025-04-30,,Saima J.
+RT0020950,ORD0025282,CUS005349,M0040,R017,5,2025-12-04,,Kinza Z.
+RT0058386,ORD0100768,CUS021077,M0067,R014,3,2025-06-15,"The Daal Mash was okay, nothing special. Prices are fair but not cheap.",Hamza S.
+RT0038323,ORD0213495,CUS045293,M0165,R004,4,2025-10-26,The Mango Lassi was absolutely delicious. Staff was very courteous.,Shahid A.
+RT0052526,ORD0061305,CUS012877,M0163,R015,4,2025-08-02,Doodh Soda had amazing flavour. The branch was spotless.,Zara H.
+RT0031975,ORD0056728,CUS011903,M0052,R007,4,2025-01-19,The Chicken Boti was absolutely delicious. Will definitely order again.,Hina B.
+RT0046438,ORD0046631,CUS009865,M0012,R019,3,2025-02-06,,Junaid A.
+RT0070227,ORD0094635,CUS019751,M0075,R010,3,2025-09-08,"The Baingan Bharta was okay, nothing special. Service was acceptable.",Fatima A.
+RT0052518,ORD0210684,CUS044685,M0155,R008,3,2025-03-10,"The Sweet Lassi was okay, nothing special. Prices are fair but not cheap.",Waleed A.
+RT0100614,ORD0159883,CUS033784,M0010,R013,4,2025-10-30,"Really enjoyed the Chicken Achari Handi, great taste.",Bushra Z.
+RT0030283,ORD0072370,CUS015033,M0018,R013,3,2025-08-02,"Average Chicken Masala, expected more flavour. Wait time was a little long.",Rukhsar A.
+RT0074931,ORD0000354,CUS000087,M0004,R020,5,2025-10-11,,Talha A.
+RT0009999,ORD0215084,CUS045657,M0139,R021,5,2025-01-30,Gulab Jamun had amazing flavour.,Waleed J.
+RT0102346,ORD0059171,CUS012428,M0063,R006,4,2025-08-05,The BBQ Family Platter was absolutely delicious. Staff was very courteous.,Murtaza D.
+RT0044653,ORD0209707,CUS044443,M0020,R020,1,2025-11-19,,Khadija N.
+RT0051916,ORD0067923,CUS014251,M0127,R013,5,2025-09-04,The Raita was absolutely delicious. Delivery was fast and the food stayed hot.,Ayesha S.
+RT0071099,ORD0131881,CUS027668,M0045,R022,3,2025-10-31,"The Seekh Kebab was okay, nothing special. Wait time was a little long.",Samina Q.
+RT0058234,ORD0200655,CUS042494,M0081,R001,5,2025-02-18,The Plain Naan was fresh and piping hot. The branch was spotless.,Maryam Y.
+RT0054836,ORD0188304,CUS039813,M0155,R019,5,2025-12-25,The Sweet Lassi was absolutely delicious. Service was quick and friendly.,Imran N.
+RT0030657,ORD0076442,CUS015907,M0162,R003,4,2025-02-15,,Fatima J.
+RT0013798,ORD0064986,CUS013638,M0030,R007,3,2025-11-13,,Rabia I.
+RT0057799,ORD0039072,CUS008231,M0032,R022,2,2025-08-04,Very disappointed with the Plain Rice.,Hina B.
+RT0079983,ORD0181258,CUS038267,M0177,R013,5,2025-11-01,Best Fish and Chips I have had in Karachi. Delivery was fast and the food stayed hot.,Laiba I.
+RT0034828,ORD0152874,CUS032247,M0130,R011,4,2025-03-23,Russian Salad had amazing flavour. Portion size is great for the price.,Waleed N.
+RT0076896,ORD0126410,CUS026506,M0001,R007,5,2025-03-03,The Chicken Karahi was absolutely delicious. Will definitely order again.,Junaid Z.
+RT0026895,ORD0103716,CUS021704,M0081,R020,5,2025-07-30,Plain Naan had amazing flavour. Staff was very courteous.,Imran M.
+RT0031241,ORD0194590,CUS041162,M0075,R002,4,2025-07-23,,Saad J.
+RT0065807,ORD0236557,CUS050210,M0113,R013,3,2025-08-10,"The Zinger Burger Meal Deal was okay, nothing special. Prices are fair but not cheap.",Daniyal H.
+RT0099021,ORD0083703,CUS017459,M0052,R013,4,2025-09-04,The Chicken Boti was absolutely delicious.,Maryam B.
+RT0071381,ORD0020180,CUS004249,M0002,R016,5,2025-01-20,"Really enjoyed the Mutton Karahi, great taste. Staff was very courteous.",Zain A.
+RT0079439,ORD0038963,CUS008207,M0138,R001,4,2025-05-11,Best Kheer I have had in Karachi. Service was quick and friendly.,Anam D.
+RT0032063,ORD0209510,CUS044388,M0069,R012,4,2025-08-03,The Daal Makhni was fresh and piping hot. Our table was ready on time.,Atif Q.
+RT0052224,ORD0133279,CUS027999,M0178,R007,2,2025-11-12,Very disappointed with the Prawn Masala.,Zainab A.
+RT0016823,ORD0134072,CUS028185,M0158,R003,5,2025-07-08,The Soft Drinks was absolutely delicious. Portion size is great for the price.,Umar R.
+RT0075491,ORD0239653,CUS050773,M0149,R007,3,2025-12-16,"Average Rabri Falooda, expected more flavour. Service was acceptable.",Rizwan N.
+RT0035485,ORD0184362,CUS038974,M0027,R014,5,2025-05-18,,Saima B.
+RT0007384,ORD0059607,CUS012492,M0083,R013,4,2025-12-08,Roghni Naan had amazing flavour. Packaging was neat and secure.,Sidra K.
+RT0064355,ORD0044400,CUS009452,M0083,R010,2,2025-08-27,,Imran A.
+RT0004476,ORD0071640,CUS014953,M0062,R012,4,2025-01-12,The BBQ Platter for Two was fresh and piping hot. Staff was very courteous.,Talha H.
+RT0070147,ORD0219612,CUS046624,M0009,R013,5,2025-02-25,Chicken Kali Mirch Karahi had amazing flavour. The rider arrived on time.,Hussain M.
+RT0011082,ORD0209002,CUS044263,M0024,R007,5,2025-02-25,,Laiba K.
+RT0078760,ORD0131095,CUS027513,M0137,R017,3,2025-07-06,,Bilal H.
+RT0063181,ORD0241210,CUS051122,M0135,R006,2,2025-11-08,The Kachumber Salad was oily and tasted stale. The staff was rude.,Shoaib J.
+RT0079281,ORD0035110,CUS007399,M0002,R009,4,2025-10-05,,Junaid D.
+RT0063404,ORD0085326,CUS017759,M0037,R020,4,2025-04-03,Sindhi Biryani had amazing flavour. Portion size is great for the price.,Ali Q.
+RT0103458,ORD0065599,CUS013770,M0059,R022,1,2025-04-27,,Iqra N.
+RT0024376,ORD0256133,CUS054229,M0007,R009,3,2025-05-11,,Samina B.
+RT0093870,ORD0071185,CUS014897,M0157,R009,3,2025-06-19,"The Fresh Lemonade was okay, nothing special. Wait time was a little long.",Umar I.
+RT0052436,ORD0143254,CUS030178,M0041,R015,4,2025-02-13,,Aliza L.
+RT0054445,ORD0022780,CUS004818,M0007,R015,2,2025-04-09,,Rabia B.
+RT0053114,ORD0176427,CUS037310,M0009,R019,3,2025-11-27,"Average Chicken Kali Mirch Karahi, expected more flavour.",Waleed A.
+RT0066844,ORD0093216,CUS019427,M0177,R012,3,2025-04-23,"The Fish and Chips was okay, nothing special. Service was acceptable.",Farah M.
+RT0006668,ORD0238715,CUS050593,M0074,R014,3,2025-12-01,Aloo Matar was decent but a bit oily. Wait time was a little long.,Zeeshan M.
+RT0061008,ORD0026740,CUS005650,M0127,R003,3,2025-11-29,"The Raita was okay, nothing special. Prices are fair but not cheap.",Zeeshan B.
+RT0055575,ORD0071999,CUS014988,M0045,R020,3,2025-07-09,"Average Seekh Kebab, expected more flavour. Prices are fair but not cheap.",Khadija H.
+RT0068974,ORD0251497,CUS053317,M0095,R003,3,2025-07-23,"The Chicken Burger was okay, nothing special.",Sidra S.
+RT0078187,ORD0007754,CUS001678,M0071,R015,4,2025-05-06,,Bushra S.
+RT0044021,ORD0063772,CUS013413,M0004,R008,4,2025-07-31,"Loved the Chicken Handi, cooked perfectly. Good value for money.",Haris H.
+RT0061113,ORD0128106,CUS026884,M0009,R004,4,2025-12-30,,Umar K.
+RT0040760,ORD0196246,CUS041492,M0009,R010,4,2025-01-06,,Asad Q.
+RT0030637,ORD0061885,CUS013011,M0140,R002,5,2025-12-01,,Faisal S.
+RT0006579,ORD0131763,CUS027652,M0177,R022,5,2025-04-21,,Kinza J.
+RT0052426,ORD0118341,CUS024758,M0103,R004,3,2025-05-28,Chicken Paratha Roll was decent but a bit oily. Prices are fair but not cheap.,Rizwan B.
+RT0044456,ORD0224144,CUS047688,M0133,R022,3,2025-04-18,,Noman B.
+RT0056503,ORD0237912,CUS050456,M0084,R004,5,2025-08-16,,Maham Y.
+RT0022373,ORD0025202,CUS005328,M0035,R012,5,2025-08-08,The Chicken Fried Rice was fresh and piping hot. The branch was spotless.,Hassan R.
+RT0032087,ORD0088517,CUS018441,M0042,R013,3,2025-05-29,"Average Chicken Tikka, expected more flavour.",Zainab M.
+RT0084448,ORD0233084,CUS049453,M0127,R013,2,2025-07-03,Very disappointed with the Raita.,Rida S.
+RT0028448,ORD0111317,CUS023144,M0066,R001,2,2025-01-29,,Mahnoor A.
+RT0025780,ORD0204122,CUS043243,M0042,R001,3,2025-10-01,,Ahmed B.
+RT0002743,ORD0054705,CUS011506,M0090,R007,5,2025-07-07,The Aloo Paratha was fresh and piping hot. Will definitely order again.,Haris A.
+RT0028082,ORD0111953,CUS023307,M0123,R007,4,2025-05-27,"Loved the Dahi Papri Chaat, cooked perfectly.",Ahmed B.
+RT0064905,ORD0163690,CUS034588,M0082,R003,4,2025-12-30,"Really enjoyed the Garlic Naan, great taste. The rider arrived on time.",Rabia S.
+RT0091448,ORD0201804,CUS042772,M0182,R006,2,2025-11-21,The Omelette was cold and bland. The staff was rude.,Umar R.
+RT0094451,ORD0141563,CUS029783,M0045,R005,3,2025-08-21,,Hafsa B.
+RT0018238,ORD0084824,CUS017645,M0162,R018,5,2025-01-22,The Fresh Orange Juice was fresh and piping hot.,Noman Y.
+RT0096591,ORD0126540,CUS026543,M0067,R002,4,2025-11-22,Best Daal Mash I have had in Karachi.,Zeeshan A.
+RT0023677,ORD0226933,CUS048172,M0152,R007,2,2025-07-02,The Brownie with Ice Cream was undercooked.,Imran U.
+RT0058519,ORD0140139,CUS029441,M0006,R005,5,2025-11-03,,Arslan B.
+RT0035074,ORD0055224,CUS011594,M0004,R016,5,2025-03-24,The Chicken Handi was absolutely delicious. Packaging was neat and secure.,Waqas S.
+RT0024805,ORD0233130,CUS049461,M0041,R013,2,2025-05-08,Very disappointed with the Karahi Rice Bowl. We waited over 40 minutes.,Noor S.
+RT0057926,ORD0173394,CUS036645,M0063,R008,2,2025-12-02,,Aliza N.
+RT0077211,ORD0125114,CUS026223,M0042,R004,4,2025-03-16,,Daniyal U.
+RT0003947,ORD0040351,CUS008497,M0095,R011,4,2025-04-24,The Chicken Burger was fresh and piping hot. Delivery was fast and the food stayed hot.,Kamran R.
+RT0061705,ORD0009336,CUS001955,M0149,R002,4,2025-11-16,,Faisal H.
+RT0075826,ORD0025087,CUS005298,M0142,R011,5,2025-07-28,The Kulfi was fresh and piping hot. Will definitely order again.,Laiba Q.
+RT0048694,ORD0022023,CUS004683,M0143,R005,3,2025-10-03,,Nimra A.
+RT0000884,ORD0055309,CUS011619,M0042,R004,5,2025-08-29,,Saad Q.
+RT0100487,ORD0176150,CUS037271,M0163,R007,5,2025-09-18,"Loved the Doodh Soda, cooked perfectly. Will definitely order again.",Abdullah A.
+RT0055138,ORD0097455,CUS020362,M0027,R010,5,2025-09-09,Chicken Biryani had amazing flavour. Portion size is great for the price.,Hassan Y.
+RT0098280,ORD0163525,CUS034551,M0082,R010,3,2025-06-06,,Aiman L.
+RT0078106,ORD0253989,CUS053795,M0042,R004,4,2025-02-17,The Chicken Tikka was absolutely delicious.,Amna A.
+RT0064789,ORD0080554,CUS016780,M0043,R008,2,2025-09-28,Chicken Tikka Boneless was far too salty. Packaging was leaking.,Zain J.
+RT0051438,ORD0060355,CUS012672,M0088,R022,4,2025-12-29,The Kulcha was fresh and piping hot. Good value for money.,Iqra A.
+RT0068285,ORD0098127,CUS020493,M0053,R004,5,2025-04-17,,Mehwish A.
+RT0058638,ORD0196234,CUS041490,M0158,R015,5,2025-02-21,Soft Drinks had amazing flavour.,Zain U.
+RT0010155,ORD0110821,CUS023036,M0126,R019,3,2025-09-26,"Average French Fries, expected more flavour. Prices are fair but not cheap.",Umar H.
+RT0058669,ORD0058860,CUS012361,M0084,R017,5,2025-11-04,Roti had amazing flavour.,Faisal N.
+RT0095452,ORD0168015,,M0082,R004,3,2025-11-09,Garlic Naan was decent but a bit oily.,Shoaib D.
+RT0098700,ORD0023028,CUS004910,M0117,R012,2,2025-02-10,Very disappointed with the Vegetable Samosa. We waited over 40 minutes.,Zeeshan K.
+RT0015178,ORD0209421,CUS044374,M0081,R002,4,2025-06-01,,Maryam H.
+RT0080534,ORD0072218,CUS014998,M0098,R016,3,2025-07-28,,Aliza S.
+RT0004578,ORD0022541,CUS004789,M0042,R010,4,2025-04-20,Chicken Tikka had amazing flavour. Portion size is great for the price.,Kinza S.
+RT0044284,ORD0021628,CUS004572,M0158,R021,5,2025-05-27,"Really enjoyed the Soft Drinks, great taste. Will definitely order again.",Kamran C.
+RT0030853,ORD0242850,CUS051450,M0099,R003,4,2025-09-15,"Loved the Club Sandwich, cooked perfectly. Staff was very courteous.",Hafsa M.
+RT0044747,ORD0246124,CUS052187,M0003,R004,2,2025-06-08,Very disappointed with the Beef Karahi. Service was very slow.,Nadeem I.
+RT0021528,ORD0079584,CUS016634,M0081,R008,4,2025-12-04,,Muhammad C.
+RT0016972,ORD0125341,CUS026267,M0087,R007,4,2025-03-10,Lachha Paratha had amazing flavour. Good value for money.,Adeel N.
+RT0030096,ORD0215657,CUS045796,M0097,R011,3,2025-03-07,Chicken Sandwich was decent but a bit oily. Prices are fair but not cheap.,Areeba B.
+RT0063025,ORD0151016,CUS031851,M0037,R021,3,2025-08-06,,Komal H.
+RT0037512,ORD0020293,CUS004286,M0089,R020,5,2025-11-25,"Loved the Cheese Naan, cooked perfectly. Portion size is great for the price.",Naveed Z.
+RT0009984,ORD0058170,CUS012211,M0095,R015,3,2025-05-07,"Average Chicken Burger, expected more flavour.",Hassan U.
+RT0053567,ORD0185100,CUS039147,M0044,R007,3,2025-03-01,,Shahid K.
+RT0103537,ORD0108432,CUS022599,M0112,R002,5,2025-11-26,,Saad Q.
+RT0009603,ORD0037028,CUS007796,M0182,R013,4,2025-02-18,The Omelette was fresh and piping hot. Service was quick and friendly.,Noman U.
+RT0047604,ORD0075995,CUS015809,M0090,R006,3,2025-10-18,,Areeba S.
+RT0053157,ORD0198288,CUS041944,M0159,R007,3,2025-01-23,"Average Bottled Water, expected more flavour.",Hina A.
+RT0089691,ORD0221888,CUS047126,M0042,R006,3,2025-05-24,,Adeel S.
+RT0042166,ORD0127933,CUS026839,M0182,R003,5,2025-06-03,,Shoaib S.
+RT0019118,ORD0105093,CUS021926,M0044,R013,3,2025-04-02,"Average Malai Boti, expected more flavour. Service was acceptable.",Salman M.
+RT0005833,ORD0109828,CUS022914,M0138,R012,3,2025-03-17,"The Kheer was okay, nothing special. Prices are fair but not cheap.",Zeeshan S.
+RT0047944,ORD0202035,CUS042839,M0081,R006,3,2025-04-11,"Average Plain Naan, expected more flavour.",Daniyal J.
+RT0056392,ORD0094604,CUS019745,M0157,R010,4,2025-10-06,,Nimra A.
+RT0000190,ORD0133647,CUS028083,M9998,R003,3,2025-03-25,"The Russian Salad was okay, nothing special. Service was acceptable.",Waleed B.
+RT0000246,ORD0074370,CUS015457,M0125,R010,10,2025-06-11,"Terrible, never again.",Farah C.
+RT0000360,ORD0217303,CUS046141,M0157,R016,6,2025-07-23,The Fresh Lemonade was fresh and piping hot. The branch was spotless.,Aiman L.
+RT0000386,ORD0051126,CUS010801,M0088,R005,-1,2025-11-19,,Hassan Z.
+RT0000478,ORD0253557,CUS053700,M0084,R998,4,2025-11-16,,Komal C.
+RT0000480,ORD0128696,CUS027016,M0165,R003,0,2025-08-19,"Loved the Mango Lassi, cooked perfectly. Staff was very courteous.",Noman B.
+RT0000545,ORD0143319,CUS030179,M0045,R004,6,2025-10-09,Seekh Kebab was decent but a bit oily. Service was acceptable.,Murtaza Z.
+RT0000557,ORD0132220,CUS027758,M0083,R003,0,2025-04-08,"The Roghni Naan was okay, nothing special. Prices are fair but not cheap.",Ayesha Z.
+RT0000633,ORD0239838,,M0018,R022,4,2025-07-27,,Sadia M.
+RT0000787,ORD0183951,CUS038878,M0084,R014,10,2025-12-14,,Zainab B.
+RT0000943,ORD0219512,CUS046592,M0178,R008,0,2025-03-23,"The Prawn Masala was okay, nothing special.",Adeel S.
+RT0001055,ORD0116523,CUS024342,M0037,R008,-1,2025-04-05,,Umar K.
+RT0001124,ORD0221272,CUS046967,M0127,R004,10,2025-06-14,,Aiman R.
+RT0001276,ORD0024545,,M0030,R013,3,2025-02-08,,Daniyal R.
+RT0001380,ORD0061789,,M0126,R001,4,2025-08-09,Best French Fries I have had in Karachi. The rider arrived on time.,Zainab C.
+RT0001400,ORD0211027,CUS044758,M0052,R007,10,2025-09-16,The Chicken Boti was fresh and piping hot. Staff was very courteous.,Hafsa A.
+RT0001633,ORD0100474,CUS021013,M0004,R003,10,2025-10-18,,Sana S.
+RT0001637,ORD0040249,CUS008475,M0152,R998,3,2025-04-18,Brownie with Ice Cream was decent but a bit oily.,Mehwish R.
+RT0001718,ORD0171906,CUS036285,M0143,R011,10,2025-07-22,"Really enjoyed the Ras Malai, great taste.",Imran D.
+RT0001730,ORD0116347,,M0082,R011,3,2025-01-21,,Rizwan A.
+RT0001835,ORD0217658,,M0155,R006,5,2025-08-02,The Sweet Lassi was absolutely delicious. Service was quick and friendly.,Fahad N.
+RT0001864,ORD0098283,CUS020535,M0001,R015,0,2025-06-09,"Terrible, never again.",Ali D.
+RT0001867,ORD0050833,CUS010727,M0052,R007,6,2025-12-04,,Mehwish N.
+RT0001890,ORD0064684,CUS013565,M0165,R008,6,2025-07-23,Best Mango Lassi I have had in Karachi. Portion size is great for the price.,Anam J.
+RT0001926,ORD0081878,,M0030,R018,4,2025-06-25,"Loved the Chicken Pulao, cooked perfectly.",Owais I.
+RT0001940,ORD0120536,,M0145,R007,5,2025-05-21,"Really enjoyed the Falooda, great taste.",Faisal R.
+RT0001999,ORD0236907,CUS050263,M0074,R998,5,2025-04-26,,Laiba Y.
+RT0002062,ORD0067551,CUS014183,M0082,R003,10,2025-09-24,,Noman S.
+RT0002189,ORD0223446,,M0009,R015,3,2025-12-13,Chicken Kali Mirch Karahi was decent but a bit oily. Prices are fair but not cheap.,Komal A.
+RT0002281,ORD0124444,CUS026045,M0028,R013,-1,2025-11-15,Mutton Biryani had amazing flavour. Will definitely order again.,Noman A.
+RT0002380,ORD0002538,,M0139,R020,4,2025-04-06,"Loved the Gulab Jamun, cooked perfectly. Staff was very courteous.",Zainab S.
+RT0002407,ORD0223111,CUS047403,M0087,R010,6,2025-01-14,,Laiba N.
+RT0002418,ORD0204202,CUS043267,M9998,R007,3,2025-04-12,"Average Daal Makhni, expected more flavour. Wait time was a little long.",Hira I.
+RT0002709,ORD0033911,CUS007166,M9998,R015,4,2025-02-21,,Mehwish Y.
+RT0002726,ORD0198612,CUS042007,M0027,R002,6,2025-03-10,,Iqra K.
+RT0002770,ORD0256627,CUS054357,M0158,R003,0,2025-03-12,"Loved the Soft Drinks, cooked perfectly. Service was quick and friendly.",Talha L.
+RT0002809,ORD0236384,CUS050182,M0024,R004,10,2025-11-28,Beef Pasanda was decent but a bit oily. Service was acceptable.,Hina M.
+RT0003088,ORD0074840,CUS015554,M0123,R006,6,2025-07-28,The Dahi Papri Chaat was cold and bland.,Zara S.
+RT0003342,ORD0245822,,M0001,R004,5,2025-03-08,The Chicken Karahi was absolutely delicious. Will definitely order again.,Fatima M.
+RT0003368,ORD0122226,CUS025589,M0142,R010,0,2025-03-24,,Bushra B.
+RT0003547,ORD0060305,CUS012664,M0027,R015,10,2025-11-17,Chicken Biryani had amazing flavour.,Usman L.
+RT0003594,ORD0059325,CUS012455,M0027,R998,5,2025-01-08,"Really enjoyed the Chicken Biryani, great taste. Will definitely order again.",Rizwan S.
+RT0003669,ORD0183945,,M0084,R002,5,2025-10-27,,Khadija H.
+RT0003790,ORD0047090,CUS009999,M0033,R009,0,2025-08-30,"Loved the Zeera Rice, cooked perfectly. Good value for money.",Owais A.
+RT0003795,ORD0232088,CUS049248,M0177,R013,-1,2025-08-06,Best Fish and Chips I have had in Karachi. Will definitely order again.,Waqas I.
+RT0003830,ORD0250578,,M0159,R007,4,2025-11-17,Best Bottled Water I have had in Karachi.,Farah B.
+RT0003849,ORD0093330,CUS019457,M9998,R003,3,2025-12-03,,Kinza K.
+RT0003927,ORD0102978,CUS021562,M0096,R003,-1,2025-07-30,Chicken Zinger Burger was decent but a bit oily. Prices are fair but not cheap.,Hamza A.
+RT0003948,ORD0121697,CUS025509,M0097,R006,0,2025-09-09,"Loved the Chicken Sandwich, cooked perfectly.",Imran M.
+RT0004317,ORD0240360,,M0136,R016,5,2025-01-14,,Hamza B.
+RT0004488,ORD0084320,CUS017577,M0063,R003,0,2025-12-10,BBQ Family Platter had amazing flavour. Our table was ready on time.,Ayesha J.
+RT0004659,ORD0072422,CUS015034,M0044,R012,10,2025-05-12,,Samina K.
+RT0004782,ORD0110483,,M0060,R001,3,2025-12-03,"Average Beef Tikka, expected more flavour.",Atif L.
+RT0004904,ORD0210609,,M0067,R020,4,2025-12-19,The Daal Mash was absolutely delicious. Service was quick and friendly.,Zeeshan S.
+RT0004997,ORD0197081,,M0127,R013,3,2025-10-20,,Hussain R.
+RT0005004,ORD0069570,,M0126,R003,3,2025-02-14,French Fries was decent but a bit oily.,Kashif Y.
+RT0005089,ORD0143759,CUS030260,M0177,R006,-1,2025-12-25,The Fish and Chips was fresh and piping hot. The branch was spotless.,Zain S.
+RT0005206,ORD0077218,CUS016088,M0004,R998,4,2025-05-06,,Atif C.
+RT0005399,ORD0047847,CUS010143,M9998,R015,4,2025-04-23,Malai Boti had amazing flavour. The rider arrived on time.,Sumaiya B.
+RT0005456,ORD0163339,CUS034510,M0035,R012,6,2025-07-28,"Average Chicken Fried Rice, expected more flavour. Prices are fair but not cheap.",Hira J.
+RT0005516,ORD0128655,CUS027002,M0040,R010,10,2025-11-10,,Sana R.
+RT0005524,ORD0023560,,M0095,R006,4,2025-11-04,"Loved the Chicken Burger, cooked perfectly. Packaging was neat and secure.",Saima S.
+RT0005568,ORD0160097,CUS033823,M0020,R016,10,2025-11-25,,Ahmed B.
+RT0005648,ORD0074738,CUS015531,M0021,R998,4,2025-05-08,Best Chicken Ginger Karahi I have had in Karachi.,Farhan N.
+RT0005736,ORD0064402,,M0090,R011,5,2025-09-03,,Adeel L.
+RT0005746,ORD0063180,,M0098,R009,4,2025-04-20,,Atif S.
+RT0006119,ORD0237907,,M0130,R004,4,2025-02-05,Russian Salad had amazing flavour. Service was quick and friendly.,Maham Y.
+RT0006146,ORD0178929,,M0141,R001,4,2025-11-01,,Rida A.
+RT0006248,ORD0242896,CUS051463,M0083,R998,5,2025-04-09,Roghni Naan had amazing flavour. Service was quick and friendly.,Kashif J.
+RT0006521,ORD0004037,,M0028,R022,4,2025-09-06,The Mutton Biryani was absolutely delicious. Will definitely order again.,Rizwan A.
+RT0006597,ORD0077077,CUS016046,M0097,R998,5,2025-07-14,"Really enjoyed the Chicken Sandwich, great taste. The branch was spotless.",Saima K.
+RT0006696,ORD0177116,,M0033,R005,3,2025-01-03,"Average Zeera Rice, expected more flavour. Wait time was a little long.",Zara S.
+RT0006915,ORD0223646,,M0156,R006,5,2025-06-27,"Really enjoyed the Salted Lassi, great taste. Staff was very courteous.",Aiman I.
+RT0007145,ORD0145877,CUS030716,M0014,R002,10,2025-04-04,,Saad S.
+RT0007176,ORD0255740,CUS054161,M0153,R998,3,2025-07-23,"The Chai was okay, nothing special.",Adeel L.
+RT0007180,ORD0213453,,M0102,R015,4,2025-06-21,,Imran B.
+RT0007286,ORD0166635,,M0156,R018,4,2025-07-05,,Hafsa L.
+RT0007306,ORD0015079,,M0140,R019,4,2025-02-03,The Gajar Halwa was fresh and piping hot.,Nadeem S.
+RT0007330,ORD0006745,,M0137,R007,3,2025-02-02,,Anam H.
+RT0007578,ORD0040155,,M0159,R010,5,2025-06-15,"Loved the Bottled Water, cooked perfectly.",Hafsa B.
+RT0007626,ORD0000150,,M0066,R011,5,2025-10-04,"Loved the Mixed Vegetable Sabzi, cooked perfectly. Portion size is great for the price.",Sana N.
+RT0007655,ORD0141932,CUS029844,M0003,R004,-1,2025-07-27,,Aliza H.
+RT0007770,ORD0096407,,M0081,R014,3,2025-06-29,"Average Plain Naan, expected more flavour. Prices are fair but not cheap.",Rukhsar J.
+RT0007792,ORD0007665,,M0176,R014,4,2025-08-15,,Shahid B.
+RT0007800,ORD0094902,CUS019800,M0052,R998,3,2025-09-05,,Rabia B.
+RT0007832,ORD0053018,CUS011218,M0142,R016,6,2025-02-09,,Abdullah S.
+RT0007871,ORD0085623,CUS017811,M0077,R014,0,2025-02-09,Daal Palak had amazing flavour. Portion size is great for the price.,Shoaib B.
+RT0008398,ORD0044765,,M0183,R001,4,2025-04-19,,Hussain C.
+RT0008400,ORD0221651,,M0122,R003,5,2025-08-18,The Chicken Spring Rolls was absolutely delicious.,Zain B.
+RT0008416,ORD0000746,,M0073,R017,5,2025-08-11,The Bhindi Masala was fresh and piping hot.,Areeba I.
+RT0008466,ORD0053115,CUS011241,M9998,R012,3,2025-07-07,,Saad A.
+RT0008581,ORD0213581,,M0149,R009,4,2025-12-02,,Hafsa K.
+RT0008666,ORD0145210,CUS030580,M0145,R012,0,2025-05-03,The Falooda was fresh and piping hot. Good value for money.,Daniyal U.
+RT0008753,ORD0059717,CUS012517,M0145,R003,6,2025-05-21,,Waleed C.
+RT0008762,ORD0072233,CUS015001,M0033,R998,5,2025-11-28,Best Zeera Rice I have had in Karachi. Service was quick and friendly.,Mahnoor A.
+RT0008881,ORD0008801,,M0027,R005,4,2025-03-13,Best Chicken Biryani I have had in Karachi.,Khadija C.
+RT0009069,ORD0004001,,M0082,R004,4,2025-09-16,"Loved the Garlic Naan, cooked perfectly. Will definitely order again.",Usman M.
+RT0009139,ORD0150855,CUS031805,M0163,R005,10,2025-06-21,Doodh Soda had amazing flavour.,Owais D.
+RT0009309,ORD0224892,,M0152,R017,4,2025-10-02,The Brownie with Ice Cream was fresh and piping hot. Staff was very courteous.,Saima N.
+RT0009316,ORD0218960,CUS046491,M0155,R005,6,2025-04-22,The Sweet Lassi was absolutely delicious. Good value for money.,Samina Z.

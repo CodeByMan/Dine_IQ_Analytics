@@ -1,0 +1,193 @@
+# ============================================================
+# DineIQ Analytics - Git Ignore Rules
+# ============================================================
+
+# -------------------------
+# Python cache and bytecode
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+dineiq_analytics_env/
+*.env
+!.env.example
+!.env.template
+
+# -------------------------
+# Secrets and local settings
+# -------------------------
+.streamlit/secrets.toml
+secrets.toml
+*.secret
+*.secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# -------------------------
+# Operating-system files
+# -------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# -------------------------
+# Editors and IDEs
+# -------------------------
+.idea/
+.vscode/*
+!.vscode/settings.example.json
+!.vscode/launch.example.json
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# -------------------------
+# Test, coverage, and tooling cache
+# -------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+pytestdebug.log
+
+# -------------------------
+# Build and packaging output
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.whl
+*.tar.gz
+
+# -------------------------
+# Logs and local runtime output
+# -------------------------
+*.log
+logs/
+reports/spark/logs/
+*.pid
+*.pid.lock
+*.tmp
+*.temp
+tmp/
+temp/
+
+# -------------------------
+# Local Streamlit/runtime files
+# -------------------------
+.streamlit/config.toml
+streamlit.log
+
+# -------------------------
+# SQLite runtime files
+# Keep database/schema.sql and migration files tracked.
+# -------------------------
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite-shm
+*.sqlite-wal
+*.db-journal
+*.sqlite3.backup.*
+database/*.backup*
+
+# -------------------------
+# Spark and Hadoop temporary files
+# Keep final Spark model artifacts and required Parquet outputs tracked.
+# -------------------------
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_temporary/
+_SUCCESS
+
+# -------------------------
+# Generated local verification folders
+# -------------------------
+reports/execution_*/
+reports/verify_*/
+reports/retrain_verification_*/
+reports/dataset_validation_*/
+reports/*_XXXXXX/
+rebuild_backup_*/
+DineIQ_retrain_backup_*/
+
+# -------------------------
+# Temporary generated files
+# -------------------------
+*.bak
+*.backup
+*.orig
+*.rej
+*.patch
+*.zip
+*.7z
+*.rar
+
+# Temporary transaction/build files created during data processing.
+*.iQpRED
+*.part
+*.partial
+
+# -------------------------
+# Notebook-generated files
+# Keep notebooks tracked; ignore checkpoint copies and local exports.
+# -------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -------------------------
+# Local generated archives and QA renders
+# -------------------------
+docx_qa/
+docx_qa_final/
+docx_render/
+docx_render2/
+library_save_*/
+
+# -------------------------
+# Optional large local datasets
+#
+# These are intentionally NOT ignored by default because the SRS may require
+# data, samples, Parquet files, and model artifacts in the submission.
+# If GitHub rejects large files, enable Git LFS or use the optional rules below.
+# -------------------------
+# raw_data/*.csv
+# processed_data/*.csv
+# parquet_data/**/*.parquet
+# models/**/*.parquet
+
+# -------------------------
+# Local-only scratch folders
+# -------------------------
+scratch/
+workspace/
+upload/
+
